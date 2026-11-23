@@ -19,7 +19,7 @@ blocks:
           Ich kann natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen.
       - type: definition
         term: Stellenwert
-        explanation: Der Stellenwert einer Ziffer sagt, wie viel sie in der Zahl wert ist. Er hängt von ihrer Stelle ab. In 3 482 steht die 4 an der Hunderterstelle, sie ist also 400 wert.
+        explanation: Der Stellenwert einer Ziffer sagt, wie viel sie in der Zahl wert ist. Er hängt von ihrer Stelle ab. Von rechts nach links stehen Einer, Zehner, Hunderter, Tausender. In 3 482 steht die 4 an der Hunderterstelle, sie ist also 400 wert.
       - type: vue-component
         id: kurztest-stellenwert
         component: Kurztest
@@ -33,9 +33,30 @@ blocks:
           wrong: Nicht richtig.
         nojs: |
           Kurztest: Welchen Wert hat die 7 in der Zahl 5 720? Zur Wahl stehen 7, 70 und 700. Antwort: 700, denn die 7 steht an der Hunderterstelle und ist 7 · 100 = 700 wert.
+      - type: vue-component
+        id: kurztest-stellenwert-zwei
+        component: Kurztest
+        props:
+          question: Wie schreibst du „zweitausendsiebenhundertvier“ mit Ziffern?
+          options:
+            - { text: "2 704", correct: true, info: "2 Tausender, 7 Hunderter, 0 Zehner, 4 Einer." }
+            - {
+                text: "2 740",
+                correct: false,
+                info: "Das sind 4 Zehner und 0 Einer. Gesprochen ist es aber 4 Einer, also ohne Zehner.",
+              }
+            - {
+                text: "27 004",
+                correct: false,
+                info: "Das wäre siebenundzwanzigtausendvier. Hier gibt es nur 2 Tausender.",
+              }
+          right: Richtig.
+          wrong: Nicht richtig.
+        nojs: |
+          Kurztest: Wie schreibst du zweitausendsiebenhundertvier mit Ziffern? Zur Wahl stehen 2 704, 2 740 und 27 004. Antwort: 2 704, denn es sind 2 Tausender, 7 Hunderter, 0 Zehner und 4 Einer.
       - type: text
         text: |
-          Wenn du das nicht sicher kannst, übe den Baustein „Natürliche Zahlen im Stellenwertsystem“. Seine Karte: [Natürliche Zahlen im Stellenwertsystem](https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/).
+          Hattest du den Kurztest nicht richtig oder bist du unsicher? Auf der Lernlandkarte von lernapps.net ist das Können in Bausteine geordnet. Übe den Baustein „Natürliche Zahlen im Stellenwertsystem“, seine Kartenseite: [Natürliche Zahlen im Stellenwertsystem](https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/).
   - type: section
     id: brueche
     title: Bruchrechnung, Multiplikation und Division
@@ -60,11 +81,14 @@ blocks:
           - type: formula
             formula: '\frac{1}{2} : \frac{1}{4} = \frac{1}{2} \cdot \frac{4}{1} = 2'
       - type: definition
+        term: Kehrbruch
+        explanation: Der Kehrbruch entsteht, wenn du Zähler und Nenner vertauschst. Der Kehrbruch von $\frac{1}{4}$ ist $\frac{4}{1} = 4$, denn durch $\frac{1}{4}$ zu teilen heißt, zu fragen, wie oft ein Viertel hineinpasst.
+      - type: definition
         term: Gleichnamig machen
-        explanation: Brüche gleichnamig machen heißt, sie auf denselben Nenner zu bringen, ohne ihren Wert zu ändern. Beispiel $\frac{1}{2} = \frac{3}{6}$ und $\frac{1}{3} = \frac{2}{6}$, beide haben jetzt den Nenner 6.
+        explanation: Brüche gleichnamig machen heißt, sie auf denselben Nenner zu bringen, ohne ihren Wert zu ändern. Dazu erweiterst du. Das heißt, Zähler und Nenner mit derselben Zahl zu multiplizieren. Beispiel $\frac{1}{2} = \frac{3}{6}$ (mit 3 erweitert) und $\frac{1}{3} = \frac{2}{6}$ (mit 2 erweitert), beide haben jetzt den Nenner 6.
       - type: definition
         term: Dezimalzahl
-        explanation: Eine Dezimalzahl schreibt Brüche mit dem Nenner 10, 100, … mit Komma. Beispiel $\frac{3}{4} = 0{,}75$, denn $\frac{75}{100} = 0{,}75$. Die Stellen nach dem Komma sind Zehntel, Hundertstel, …
+        explanation: Eine Dezimalzahl schreibt einen Bruch mit dem Nenner 10, 100, … mit Komma. Beispiel $\frac{3}{4}$ hat noch keinen solchen Nenner, mit 25 erweitert wird daraus $\frac{75}{100} = 0{,}75$. Die Stellen nach dem Komma sind Zehntel, Hundertstel, …
       - type: vue-component
         id: kurztest-brueche
         component: Kurztest
@@ -82,9 +106,30 @@ blocks:
           wrong: Nicht richtig.
         nojs: |
           Kurztest: Was ergibt drei Viertel mal zwei Drittel, ganz gekürzt? Zur Wahl stehen ein Halb, fünf Siebtel und sechs Zwölftel. Antwort: ein Halb. 3 · 2 = 6 und 4 · 3 = 12, also sechs Zwölftel, gekürzt ein Halb.
+      - type: vue-component
+        id: kurztest-dividieren
+        component: Kurztest
+        props:
+          question: "Was ergibt 1/2 : 1/4?"
+          options:
+            - { text: "2", correct: true, info: "Durch 1/4 teilen heißt mit 4/1 malnehmen: 1/2 · 4 = 4/2 = 2." }
+            - {
+                text: "1/8",
+                correct: false,
+                info: "Das wäre 1/2 · 1/4. Beim Teilen musst du den zweiten Bruch umkehren.",
+              }
+            - {
+                text: "1/2",
+                correct: false,
+                info: "Das ist der erste Bruch unverändert. Rechne 1/2 mal Kehrbruch von 1/4.",
+              }
+          right: Richtig.
+          wrong: Nicht richtig.
+        nojs: |
+          Kurztest: Was ergibt ein Halb geteilt durch ein Viertel? Zur Wahl stehen 2, ein Achtel und ein Halb. Antwort: 2, denn Teilen durch ein Viertel heißt Malnehmen mit 4, also ein Halb mal 4 gleich 2.
       - type: text
         text: |
-          Wenn du das nicht sicher kannst, übe den Baustein „Bruchrechnung: Multiplikation und Division“. Seine Karte: [Bruchrechnung: Multiplikation und Division](https://lernapps.net/apps/map/mathematik/c/brueche-multiplizieren-dividieren/).
+          Hattest du den Kurztest nicht richtig oder bist du unsicher? Übe den Baustein „Bruchrechnung: Multiplikation und Division“, seine Kartenseite: [Bruchrechnung: Multiplikation und Division](https://lernapps.net/apps/map/mathematik/c/brueche-multiplizieren-dividieren/).
   - type: section
     id: checkliste
     title: Du bist bereit, wenn du …

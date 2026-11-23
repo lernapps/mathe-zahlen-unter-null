@@ -61,7 +61,7 @@ blocks:
         licence: CC0-1.0
       - type: definition
         term: Negative Zahl
-        explanation: Eine negative Zahl liegt auf der Zahlengerade links der Null. Sie hat ein Minus als Vorzeichen, zum Beispiel −3.
+        explanation: Eine negative Zahl liegt auf der Zahlengerade links der Null. Sie hat ein Minus davor, zum Beispiel −3.
   - type: section
     id: merke
     title: Merke
@@ -71,7 +71,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              In −3 sagt das Minus, auf welcher Seite der Null die Zahl liegt. Es ist noch kein Rechenzeichen. Die Zahl −3 liegt drei Abschnitte links der Null.
+              In −3 sagt das Minus, auf welcher Seite der Null die Zahl liegt. Ein Minus an dieser Stelle heißt **Vorzeichen**. Ein Rechenzeichen wäre es zwischen zwei Zahlen, wie in 5 − 3. Die Zahl −3 liegt drei Abschnitte links der Null.
   - type: section
     id: uebung
     title: Aufgaben
@@ -94,6 +94,10 @@ blocks:
             message: Das ist eine positive Zahl. A liegt links der Null, also gehört ein Minus davor.
           - answer: -2
             message: Zähle noch einmal von der Null aus nach links, Strich für Strich.
+          - answer: -5
+            message: Das ist die Zahl von Punkt C. A liegt näher an der Null, zähle die Abschnitte von der Null aus.
+          - answer: 0
+            message: 0 ist die Null selbst. A liegt links von ihr.
         explanation: A liegt drei Abschnitte links der Null, also bei −3.
         links:
           - title: Kartenseite Negative Zahlen und Betrag

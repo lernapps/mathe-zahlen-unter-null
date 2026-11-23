@@ -67,9 +67,11 @@ Lernende der Klassen 7-8 verstehen, dass die Zahlengerade über die Null nach li
 **Lernenden-Prüfer (Unteragent, Klasse 7), Musterseite `negative-zahlen`, vor der Meldung:**
 - Umgesetzt: Balken am Thermometer benannt; falsche Zahl im Feedback „−6 °C“ korrigiert; „Vorzeichen“ erst nach seiner Einführung; „Abschnitt“ erklärt; `mistakes` für die Zahlaufgabe (3, −2); Punkt C jetzt in einer Mehrfachauswahl; einleitender Satz vor dem Bild der Aufgaben; Feedback der generierten Aufgabe passt zu „im Minus“ und „unter dem Meeresspiegel“; Bildunterschrift „weiter links = kleiner“ entfernt (gehört auf `ordnen`, ein Schritt je Seite); Verlängerung des Zahlenstrahls nach links im Text benannt.
 - Nach dem Prüferlauf geändert (inhaltlich, also noch einmal zu prüfen): genau diese Stellen, plus die Recap-Seite (neu, noch nie von einem Prüfer gesehen).
+- Zweiter Lauf (Recap und Musterseite): Recap: Einer/Zehner/Hunderter, Erweitern, Kehrbruch und der Sprung 3/4 → 75/100 ergänzt, zweiter Kurztest je Baustein, Satz „Hattest du den Kurztest nicht richtig …“ gekoppelt; Musterseite: „Vorzeichen“/„Rechenzeichen“ im Merke erklärt, `mistakes` für −5 und 0. Nach diesem Lauf nur diese Änderungen; sie sind nicht noch einmal von einem Prüfer gesehen (offen).
+- Zusätzliche Laufzeit-Funde: Kasten „Wiederholung“ und Titel doppelt, Link-Text der Recap-Verknüpfung zeigt Rohbezeichner (`mathematik/natuerliche-zahlen`), unvollständige Mehrfachauswahl meldet nicht, ob die gewählten stimmen.
 - Offen / Laufzeit (nicht von mir behoben, Funde): Antwort wird mit „-“ statt „−“ angezeigt; Meldung bei ungültiger Eingabe nennt „ordne zu“ und sagt nichts zur Zahleneingabe; `true-false` und `number` melden allgemein „Lies dazu noch einmal den Text“; Aufgabennummer beginnt zufällig; „Neue Aufgabe“ nur als Symbol; Link „Mehr dazu“ führt auf die Kartenseite (gewollt) mit der Beschriftung der Frage.
 - `lernapps check`: Hinweise `explainer-repetition` und `explainer-text-load` auf der Recap-Seite bleiben bewusst (Ich-kann-Sätze in Kopf und Checkliste nach regeln.md §7; Begriffe als Definitionen).
-- Zählung `a/b` in Komponenten-Rückmeldungen (regeln.md §2): Recap, Kurztest Brüche, 1 Frage und 3 Optionen mit Infos (7 Stellen).
+- Zählung `a/b` in Komponenten-Rückmeldungen (regeln.md §2): Kurztests Brüche und Dividieren im Recap, je Frage und Optionen mit Infos (ca. 14 Stellen).
 
 ## Explore
 
