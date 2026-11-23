@@ -1,0 +1,133 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Negative Zahlen auf der Zahlengerade
+description: Zahlen links der Null ablesen und einordnen. Der Zahlenstrahl bekommt ein linkes Ende.
+competencies: [rationale-zahlen]
+blocks:
+  - type: section
+    id: einstieg
+    title: Wie kalt ist es?
+    blocks:
+      - type: text
+        text: |
+          **Jule:** Die Klasse 7b betreut eine Messstation. Heute Morgen habe ich das Thermometer abgelesen.
+
+          **Karim:** Es war unter null. Welche Zahl schreiben wir ins Messbuch?
+
+          In diesem Kapitel lernst du, wie du solche Zahlen schreibst, ordnest und später mit ihnen rechnest. Zuerst: Lies das Thermometer ab.
+      - type: figure
+        image: images/thermometer.svg
+        alt: Thermometer mit Skala von minus 10 bis 10 Grad Celsius in Zweierschritten. Die Säule endet unterhalb der Null.
+        caption: Die Striche stehen im Abstand von 2 Grad. Die Null ist fett.
+        source: eigene Zeichnung
+        licence: CC0-1.0
+      - type: single-choice
+        id: thermometer-ablesen
+        text: Welche Temperatur zeigt das Thermometer?
+        options:
+          - text: "4 °C"
+            correct: false
+            info: Die Säule endet unterhalb der Null. Ohne Vorzeichen wäre das eine Temperatur über null.
+          - text: "−4 °C"
+            correct: true
+            info: Die Säule endet vier Grad unter der Null, also bei −4 °C.
+          - text: "−6 °C"
+            correct: false
+            info: Das ist der Strich, der zwei Striche tiefer liegt. Zähle von der Null aus nach unten.
+        explanation: Zahlen unter null schreibst du mit einem Minus davor. Das Minus heißt hier Vorzeichen.
+        links:
+          - title: Kartenseite Negative Zahlen und Betrag
+            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
+  - type: section
+    id: beispiel
+    title: Der Zahlenstrahl bekommt ein linkes Ende
+    blocks:
+      - type: text
+        text: |
+          Den **Zahlenstrahl** kennst du: Er beginnt bei der Null und geht nach rechts immer weiter. Auf ihm stehen nur Zahlen ab 0.
+      - type: figure
+        image: images/zahlenstrahl.svg
+        alt: Zahlenstrahl mit gleichen Abschnitten von 0 bis 6. Er beginnt links bei der Null, nach rechts geht er mit einem Pfeil weiter.
+        caption: Links endet der Zahlenstrahl bei der Null.
+        source: eigene Zeichnung
+        licence: CC0-1.0
+      - type: text
+        text: |
+          Jetzt geht er auch links über die Null hinaus weiter. Das Ganze heißt ab jetzt **Zahlengerade**. Die Abschnitte bleiben gleich lang. Links der Null stehen die **negativen Zahlen**, rechts die positiven.
+      - type: figure
+        image: images/zahlengerade.svg
+        alt: Zahlengerade mit gleichen Abschnitten von minus 6 bis 6. Die Null ist fett. Links der Null stehen die negativen Zahlen, rechts die positiven. An beiden Enden steht ein Pfeil.
+        caption: Je weiter links eine Zahl steht, desto kleiner ist sie.
+        source: eigene Zeichnung
+        licence: CC0-1.0
+      - type: definition
+        term: Negative Zahl
+        explanation: Eine negative Zahl liegt auf der Zahlengerade links der Null. Sie hat ein Minus als Vorzeichen, zum Beispiel −3.
+  - type: section
+    id: merke
+    title: Merke
+    blocks:
+      - type: note
+        title: Minus ist hier ein Vorzeichen
+        blocks:
+          - type: text
+            text: |
+              In −3 sagt das Minus, auf welcher Seite der Null die Zahl liegt. Es ist noch kein Rechenzeichen. Die Zahl −3 liegt drei Abschnitte links der Null.
+  - type: section
+    id: uebung
+    title: Aufgaben
+    blocks:
+      - type: figure
+        image: images/punkte.svg
+        alt: Zahlengerade von minus 6 bis 6 mit den Punkten A, B und C. Zwei Punkte liegen links der Null, einer rechts.
+        caption: Die Abschnitte sind gleich lang, jeder Strich ist beschriftet.
+        source: eigene Zeichnung
+        licence: CC0-1.0
+      - type: number
+        id: punkt-a
+        text: Welche Zahl gehört zum Punkt A?
+        answer: -3
+        tolerance: 0
+        explanation: A liegt drei Abschnitte links der Null, also bei −3.
+        links:
+          - title: Kartenseite Negative Zahlen und Betrag
+            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
+      - type: true-false
+        id: b-negativ
+        text: Der Punkt B gehört zu einer negativen Zahl.
+        answer: false
+        explanation: B liegt rechts der Null, bei 2. Negative Zahlen liegen links der Null.
+        links:
+          - title: Kartenseite Negative Zahlen und Betrag
+            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
+      - type: single-choice
+        id: kontostand
+        text: Der Kontostand der Materialkasse ist 15 Euro im Minus. Welche Zahl gehört dazu?
+        options:
+          - text: "15"
+            correct: false
+            info: Das wäre ein Guthaben von 15 Euro.
+          - text: "−15"
+            correct: true
+            info: Schulden schreibst du mit dem Vorzeichen Minus, also −15.
+          - text: "−150"
+            correct: false
+            info: Das sind 150 Euro im Minus, also zehnmal so viel.
+        explanation: Im Minus bedeutet unter null, also eine negative Zahl.
+        links:
+          - title: Kartenseite Negative Zahlen und Betrag
+            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
+      - type: generated
+        id: zahl-zum-text
+        given:
+          a: { int: [2, 15] }
+          k: { pick: 1, from: { data: kontexte } }
+        task:
+          text: "{{k.vorher}} {{a}} {{k.nachher}} Welche Zahl gehört dazu?"
+        answer: { value: "0 - a", compare: { number: { format: integer } } }
+        mistakes:
+          - value: "a"
+            message: "Das ist eine positive Zahl. „Unter null“ heißt: links der Null, also mit Minus davor."
+        hint: "Liegt die Zahl links oder rechts der Null? Links heißt negativ."
+        steps:
+          - "Die Zahl liegt unter null, also links der Null auf der Zahlengerade."
+          - "Sie ist negativ: {{answer}}."

@@ -38,6 +38,7 @@ Lernende der Klassen 7-8 verstehen, dass die Zahlengerade über die Null nach li
 - „Zahlengerade“ (nicht „Zahlenstrahl“) auf allen Seiten; Skala mit gleichen Abschnitten, Hauptstriche beschriftet (Konvention aus #385). Minus immer `−` (U+2212), negative Zahlen in Rechnungen in Klammern.
 - Sprache: nur Deutsch (guess: das Issue nennt keine zweite Sprache).
 - Geschichte (guess): leicht, als kurze Nachrichten einer Klasse in einem Wetter-/Höhenprojekt; Namen erfunden. Entscheidung fällt im Plan.
+- `scope`: nicht nötig (keine `open-task`, kein Material des Auftraggebers).
 - Look: vom Archetyp festgelegt (ruhig wie ein Arbeitsblatt, Dunkelmodus folgt dem Gerät).
 
 
@@ -229,12 +230,12 @@ page, which a link. -->
       `npx --no -- lernapps create --archetype explainer`.
 - [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
-- [ ] Load skill `lernapps-explainer`.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer`.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [ ] Musterseite negative-zahlen: Zahlengerade-SVG (Zahlenstrahl bekommt ein linkes Ende), Chat-Einstieg, Thermometer-Ablese-Aufgabe, Merke, mindestens vier Aufgaben mit diagnostizierten Fehlern; als Lernender (Klasse 7) durchspielen
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
