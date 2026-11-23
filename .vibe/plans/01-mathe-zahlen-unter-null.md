@@ -94,6 +94,12 @@ Lernende der Klassen 7-8 verstehen, dass die Zahlengerade über die Null nach li
 
 **CI (Vorschau-PR, erster Lauf):** `usable-at-360px` Fehler auf der Recap-Seite: `fieldset.kurztest` 382 px breit bei 360 px (lokal nicht aufgefallen). Behoben im CSS der kopierten Komponente `Kurztest.vue` (`min-width: 0`, `max-width: 100%`, Umbruch langer Wörter, Optionszeile mit `min-height` statt fester `line-height`). Fund für die gemeinsame Vorlage in `/tmp/epic/docs/mathe-epic/components/`: dieselbe Korrektur gehört in jede Kopie.
 
+**Rückmeldungen des Menschen aus #385 (Regeln Abschnitt 9), gezielter Durchgang:**
+- (1) Einstiegsüberschrift „Was du hier lernst“: keine Seite hat eine Überschrift „Was du hier kannst“; nichts zu ändern. (2) Sichtbares: Verweise geprüft; „Thermometer“ auf der Seite `ordnen` und „im Bild“ korrigiert. (3) Vorgänge: neues Bild `zahlengerade-neu.svg` (gestrichelter neuer Teil, Pfeil, „vorher/neu“) für die Verlängerung des Zahlenstrahls, neues Bild `gegenzahl-spiegel.svg` (Spiegellinie, Bogen von 4 nach −4); Pfeile beim Addieren/Subtrahieren waren schon Vorgang. (4) Kurztests schwerer: 470 583 (Zehntausender), 30 207, 12/35 · 14/9, 2/3 : 4/9, 7/8 als Dezimalzahl. (5) Neue Operation vor der ersten Aufgabe in Worten mit Modell: Minus-Schreibweise (Seite 3), Addieren als Gehen (Seite 6), Multiplizieren als wiederholtes Addieren (Seite 7), Dividieren als Umkehrung (Seite 8). (6) Alle 28 `links:` an Aufgaben entfernt, Build und `lernapps check` bestehen.
+- Geänderte Seiten: 8 von 8 (links), davon inhaltlich 7 (Recap, negative-zahlen, gegenzahl-betrag, addieren-subtrahieren, multiplizieren, dividieren, ordnen); `bruch-dezimal` nur Links.
+- Lernenden-Prüfer (Klasse 7) auf den inhaltlich geänderten Seiten: keine Rechenfehler, keine Verweise auf Unsichtbares, Vorgänge erkennbar. Umgesetzt danach: Zehntausender/Hunderttausender und „1000“ in den Begriffen, schwerer Bruch-Kurztest, Name „Gerade“ erklärt, Abstand vor der ersten Aufgabe erklärt, Tabellen-Wortlaut („nach unten“), Warum beim Subtrahieren/Multiplizieren, Faktoren vorab, `0 : Zahl`. Diese letzten Wortlaut-Änderungen sind nicht erneut geprüft.
+- Offen: Recap enthält die Kartenseiten des Bausteins als Links (regeln.md §7.3, nicht an Aufgaben).
+
 ## Explore
 
 <!--

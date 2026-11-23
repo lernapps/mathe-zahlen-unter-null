@@ -11,7 +11,7 @@ blocks:
         text: |
           **Karim:** Der Kontostand der Materialkasse sinkt jeden Tag um 3 €. Das ist eine Änderung um −3 € pro Tag.
 
-          **Jule:** Nach 4 Tagen ist er 4 · (−3) Euro anders als am Anfang. Multiplizieren heißt wiederholt addieren: 4 · (−3) bedeutet, viermal −3 zu addieren.
+          **Jule:** Nach 4 Tagen ist er 4 · (−3) Euro anders als am Anfang. Die Zahlen, die du multiplizierst, heißen Faktoren. Multiplizieren heißt wiederholt addieren: 4 · (−3) bedeutet, viermal −3 zu addieren.
       - type: single-choice
         id: vier-mal-minus-drei
         text: Was ergibt 4 · (−3)?
@@ -35,7 +35,7 @@ blocks:
         explanation: Bei 3 · 4 = 12 sind 3 und 4 die Faktoren, 12 ist das Produkt.
       - type: text
         text: |
-          Wenn der zweite Faktor um 1 kleiner wird, wird das Ergebnis jedes Mal um 3 kleiner. Das Muster läuft über die Null nach links weiter.
+          Wenn der zweite Faktor um 1 kleiner wird, wird das Ergebnis jedes Mal um 3 kleiner. Das Muster geht nach unten über die Null in den negativen Bereich weiter.
       - type: table
         caption: Muster mit 3 als erstem Faktor
         header: ["Aufgabe", "Ergebnis"]
@@ -47,7 +47,7 @@ blocks:
           - ["3 · (−2)", "−6"]
       - type: text
         text: |
-          Was passiert, wenn auch der erste Faktor negativ ist? Mit −3 als erstem Faktor wächst das Ergebnis bei jedem Schritt um 3.
+          Was passiert, wenn auch der erste Faktor negativ ist? Mit −3 als erstem Faktor wächst das Ergebnis bei jedem Schritt um 3: Der zweite Faktor wird kleiner, es wird also einmal weniger −3 addiert, und das macht 3 mehr.
       - type: table
         caption: Muster mit −3 als erstem Faktor
         header: ["Aufgabe", "Ergebnis"]

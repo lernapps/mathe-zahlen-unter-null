@@ -51,7 +51,7 @@ blocks:
         licence: CC0-1.0
       - type: text
         text: |
-          Jetzt wird der Zahlenstrahl links über die Null hinaus verlängert. Im Bild unten ist der neue Teil gestrichelt, der Pfeil zeigt die Richtung. Rechts bleibt alles gleich, links kommen neue Zahlen dazu, und die Abschnitte zwischen zwei Strichen bleiben gleich lang. Das Ganze heißt ab jetzt **Zahlengerade**. Links der Null stehen die **negativen Zahlen**, rechts die positiven.
+          Jetzt wird der Zahlenstrahl links über die Null hinaus verlängert. Im Bild unten ist der neue Teil gestrichelt, der Pfeil zeigt die Richtung. Rechts bleibt alles gleich, links kommen neue Zahlen dazu, und die Abschnitte zwischen zwei Strichen bleiben gleich lang. Das Ganze heißt ab jetzt **Zahlengerade**: eine Gerade hat in beide Richtungen kein Ende. Links der Null stehen die **negativen Zahlen**, rechts die positiven.
       - type: figure
         image: images/zahlengerade-neu.svg
         alt: Eine Linie mit gleichen Abschnitten. Von 0 bis 6 ist sie durchgezogen. Links der Null ist sie gestrichelt mit den Zahlen minus 1 bis minus 6 verlängert, ein Pfeil zeigt nach links.

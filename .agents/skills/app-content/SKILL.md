@@ -46,7 +46,7 @@ Aufgaben-ids stehen in den Seitendateien `src/zahlen-unter-null/<seite>.yaml`.
 - **Mistakes**: je Aufgabe der häufigste Fehler mit Meldung; `where` schließt Werte aus, bei denen ein Fehler der Antwort gleicht (Beispiel `a != b`).
 - Seiten: `negative-zahlen` (Muster), `ordnen` (`ordering`, `generated` mit `sortBy`), `gegenzahl-betrag` (`matching`, zwei `generated`), `addieren-subtrahieren` (Zahlenmuster-Tabelle, Pfeil-Bilder, drei `generated`), `multiplizieren` (zwei Muster-Tabellen, zwei `generated`), `dividieren` (Probe-Tabelle, drei `generated` aus `teiler`), `bruch-dezimal` (Formeln, Dezimal-/Bruch-`generated`, Punkt vor Strich, Rückblick).
 - Beispiel: `src/zahlen-unter-null/negative-zahlen.yaml` (Musterseite).
-- Jede Frage verlangt `links`: wir verlinken nur die Kartenseite des Bausteins (`https://lernapps.net/apps/map/mathematik/c/<id>/`), keine externen Seiten (Regel des Epics).
+- Keine `links:` an Aufgaben (Regeln des Epics, Abschnitt 9): der Link auf die Kartenseite hilft Lernenden nicht; das Schema besteht ohne.
 - Der Selbsttest im Recap ist die Komponente `Kurztest` (Kopie der gemeinsamen Vorlage, `src/components/Kurztest.*`): eine Frage, eine Auswahl, Rückmeldung mit Grund, nichts gezählt; genau eine Option richtig; `nojs` nennt Frage, Optionen und Antwort.
 
 ## Figures

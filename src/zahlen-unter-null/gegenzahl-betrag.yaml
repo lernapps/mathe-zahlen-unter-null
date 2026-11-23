@@ -11,7 +11,7 @@ blocks:
         text: |
           **Jule:** Auf der Karte liegt der Schulhof 3 m über dem Meeresspiegel, der Pegel im Hafen auf −3 m.
 
-          **Karim:** Und wie weit ist der Hafenpegel vom Meeresspiegel entfernt?
+          **Karim:** Und wie weit ist der Hafenpegel vom Meeresspiegel entfernt? Der Abstand zählt, wie viele Meter es bis zum Meeresspiegel sind, egal in welche Richtung.
       - type: single-choice
         id: abstand
         text: Wie viele Meter sind es vom Meeresspiegel (0 m) bis zum Pegel bei −3 m?

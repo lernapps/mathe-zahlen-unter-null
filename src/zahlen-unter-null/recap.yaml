@@ -22,7 +22,7 @@ blocks:
         explanation: Der Zahlenstrahl beginnt bei der Null und geht nach rechts weiter. Auf ihm stehen nur Zahlen ab 0, zum Beispiel 0, 1, 2, 3, mit gleichen Abschnitten.
       - type: definition
         term: Stellenwert
-        explanation: Der Stellenwert einer Ziffer sagt, wie viel sie in der Zahl wert ist. Er hängt von ihrer Stelle ab. Von rechts nach links stehen Einer, Zehner, Hunderter, Tausender. In 3482 steht die 4 an der Hunderterstelle, sie ist also 400 wert.
+        explanation: Der Stellenwert einer Ziffer sagt, wie viel sie in der Zahl wert ist. Er hängt von ihrer Stelle ab. Von rechts nach links stehen Einer, Zehner, Hunderter, Tausender, Zehntausender, Hunderttausender. In 3482 steht die 4 an der Hunderterstelle, sie ist also 400 wert.
       - type: vue-component
         id: kurztest-stellenwert
         component: Kurztest
@@ -99,28 +99,32 @@ blocks:
         explanation: Brüche gleichnamig machen heißt, sie auf denselben Nenner zu bringen, ohne ihren Wert zu ändern. Dazu erweiterst du. Das heißt, Zähler und Nenner mit derselben Zahl zu multiplizieren. Beispiel $\frac{1}{2} = \frac{3}{6}$ (mit 3 erweitert) und $\frac{1}{3} = \frac{2}{6}$ (mit 2 erweitert), beide haben jetzt den Nenner 6.
       - type: definition
         term: Dezimalzahl
-        explanation: Eine Dezimalzahl schreibt einen Bruch mit dem Nenner 10, 100, … mit Komma. Beispiel $\frac{3}{4}$ hat noch keinen solchen Nenner, mit 25 erweitert wird daraus $\frac{75}{100} = 0{,}75$. Die Stellen nach dem Komma sind Zehntel, Hundertstel, …
+        explanation: Eine Dezimalzahl schreibt einen Bruch mit dem Nenner 10, 100, 1000, … mit Komma. Beispiel $\frac{3}{4}$ hat noch keinen solchen Nenner, mit 25 erweitert wird daraus $\frac{75}{100} = 0{,}75$. Die Stellen nach dem Komma sind Zehntel, Hundertstel, …
       - type: vue-component
         id: kurztest-brueche
         component: Kurztest
         props:
-          question: "Was ergibt 5/6 · 3/10, ganz gekürzt?"
+          question: "Was ergibt 12/35 · 14/9, ganz gekürzt?"
           options:
             - {
-                text: "1/4",
+                text: "8/15",
                 correct: true,
-                info: "5 · 3 = 15 und 6 · 10 = 60, also 15/60. Gekürzt durch 15 ist das 1/4.",
+                info: "12 · 14 = 168 und 35 · 9 = 315, also 168/315. Gekürzt durch 21 ist das 8/15.",
               }
             - {
-                text: "8/16",
+                text: "13/22",
                 correct: false,
-                info: "Du hast Zähler und Nenner addiert (5 + 3 und 6 + 10). Beim Multiplizieren rechnest du mal.",
+                info: "Du hast Zähler und Nenner addiert (12 + 14 und 35 + 9) und gekürzt. Beim Multiplizieren rechnest du mal.",
               }
-            - { text: "15/60", correct: false, info: "Der Wert stimmt, aber der Bruch ist noch nicht ganz gekürzt." }
+            - {
+                text: "168/315",
+                correct: false,
+                info: "Der Wert stimmt, aber der Bruch ist noch nicht ganz gekürzt. Teile Zähler und Nenner durch dieselbe Zahl, bis es nicht mehr geht.",
+              }
           right: Richtig.
           wrong: Nicht richtig.
         nojs: |
-          Kurztest: Was ergibt fünf Sechstel mal drei Zehntel, ganz gekürzt? Zur Wahl stehen ein Viertel, acht Sechzehntel und fünfzehn Sechzigstel. Antwort: ein Viertel. 5 · 3 = 15 und 6 · 10 = 60, also fünfzehn Sechzigstel, gekürzt ein Viertel.
+          Kurztest: Was ergibt zwölf Fünfunddreißigstel mal vierzehn Neuntel, ganz gekürzt? Zur Wahl stehen acht Fünfzehntel, dreizehn Zweiundzwanzigstel und 168 Dreihundertfünfzehntel. Antwort: acht Fünfzehntel. 12 · 14 = 168 und 35 · 9 = 315, also 168 Dreihundertfünfzehntel, gekürzt durch 21 acht Fünfzehntel.
       - type: vue-component
         id: kurztest-dividieren
         component: Kurztest
