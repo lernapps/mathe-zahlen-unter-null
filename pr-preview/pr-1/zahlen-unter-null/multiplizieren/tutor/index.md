@@ -45,7 +45,7 @@ Das Vorzeichen eines Produkts aus Zahlenmustern herleiten, die über die Null la
 
 **Karim:** Der Kontostand der Materialkasse sinkt jeden Tag um 3 €. Das ist eine Änderung um −3 € pro Tag.
 
-**Jule:** Nach 4 Tagen ist er 4 · (−3) Euro anders als am Anfang.
+**Jule:** Nach 4 Tagen ist er 4 · (−3) Euro anders als am Anfang. Multiplizieren heißt wiederholt addieren: 4 · (−3) bedeutet, viermal −3 zu addieren.
 
 - Aufgabe `vier-mal-minus-drei` (unten)
 
@@ -119,7 +119,7 @@ Haben beide Faktoren dasselbe Vorzeichen, ist das Produkt positiv. Haben sie ver
 - Aufgabe: Was ergibt (−5) · (−3)?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✗ −15 – Beide Faktoren sind negativ, also ist das Produkt positiv. Das Muster der Tabelle zeigt es.
+  - ✗ −15 – Beide Faktoren sind negativ, also ist das Produkt positiv. Das Zahlenmuster der Tabelle zeigt es.
   - ✓ 15 – Gleiche Vorzeichen, also positiv. 5 · 3 = 15.
   - ✗ −8 – Du hast addiert. Hier wird multipliziert.
 - Lösung: 15

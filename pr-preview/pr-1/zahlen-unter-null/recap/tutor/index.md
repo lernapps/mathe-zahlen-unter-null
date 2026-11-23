@@ -53,9 +53,9 @@ Ich kann natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen
 
 - **Stellenwert**: Der Stellenwert einer Ziffer sagt, wie viel sie in der Zahl wert ist. Er hängt von ihrer Stelle ab. Von rechts nach links stehen Einer, Zehner, Hunderter, Tausender. In 3482 steht die 4 an der Hunderterstelle, sie ist also 400 wert.
 
-Interaktiv: Kurztest: Welchen Wert hat die 7 in der Zahl 5720? Zur Wahl stehen 7, 70 und 700. Antwort: 700, denn die 7 steht an der Hunderterstelle und ist 7 · 100 = 700 wert.
+Interaktiv: Kurztest: Welchen Wert hat die 7 in der Zahl 470 583? Zur Wahl stehen 7 000, 70 000 und 700 000. Antwort: 70 000, denn die 7 steht an der Zehntausenderstelle.
 
-Interaktiv: Kurztest: Wie schreibst du zweitausendsiebenhundertvier mit Ziffern? Zur Wahl stehen 2704, 2740 und 27 004. Antwort: 2704, denn es sind 2 Tausender, 7 Hunderter, 0 Zehner und 4 Einer.
+Interaktiv: Kurztest: Wie schreibst du dreißigtausendzweihundertsieben mit Ziffern? Zur Wahl stehen 30 207, 30 270 und 3207. Antwort: 30 207, denn es sind 3 Zehntausender, 0 Tausender, 2 Hunderter, 0 Zehner und 7 Einer.
 
 Hattest du den Kurztest nicht richtig oder bist du unsicher? Auf der Lernlandkarte von lernapps.net ist das Können in Bausteine geordnet. Übe den Baustein „Natürliche Zahlen im Stellenwertsystem“, seine Kartenseite: [Natürliche Zahlen im Stellenwertsystem](https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/).
 
@@ -81,11 +81,11 @@ $\frac{1}{2} : \frac{1}{4} = \frac{1}{2} \cdot \frac{4}{1} = 2$
 
 - **Dezimalzahl**: Eine Dezimalzahl schreibt einen Bruch mit dem Nenner 10, 100, … mit Komma. Beispiel $\frac{3}{4}$ hat noch keinen solchen Nenner, mit 25 erweitert wird daraus $\frac{75}{100} = 0{,}75$. Die Stellen nach dem Komma sind Zehntel, Hundertstel, …
 
-Interaktiv: Kurztest: Was ergibt drei Viertel mal zwei Drittel, ganz gekürzt? Zur Wahl stehen ein Halb, fünf Siebtel und sechs Zwölftel. Antwort: ein Halb. 3 · 2 = 6 und 4 · 3 = 12, also sechs Zwölftel, gekürzt ein Halb.
+Interaktiv: Kurztest: Was ergibt fünf Sechstel mal drei Zehntel, ganz gekürzt? Zur Wahl stehen ein Viertel, acht Sechzehntel und fünfzehn Sechzigstel. Antwort: ein Viertel. 5 · 3 = 15 und 6 · 10 = 60, also fünfzehn Sechzigstel, gekürzt ein Viertel.
 
-Interaktiv: Kurztest: Was ergibt ein Halb geteilt durch ein Viertel? Zur Wahl stehen 2, ein Achtel und ein Halb. Antwort: 2, denn Teilen durch ein Viertel heißt Malnehmen mit 4, also ein Halb mal 4 gleich 2.
+Interaktiv: Kurztest: Was ergibt zwei Drittel geteilt durch vier Neuntel? Zur Wahl stehen drei Halbe, acht Siebenundzwanzigstel und zwei Drittel. Antwort: drei Halbe. Teilen durch vier Neuntel heißt Malnehmen mit neun Viertel: zwei Drittel mal neun Viertel gleich achtzehn Zwölftel, gekürzt drei Halbe.
 
-Interaktiv: Kurztest: Wie schreibst du ein Viertel als Dezimalzahl? Zur Wahl stehen 0,25, 0,14 und 0,4. Antwort: 0,25, denn ein Viertel mit 25 erweitert ist 25 Hundertstel.
+Interaktiv: Kurztest: Wie schreibst du sieben Achtel als Dezimalzahl? Zur Wahl stehen 0,875, 0,78 und 0,7. Antwort: 0,875, denn sieben Achtel mit 125 erweitert sind 875 Tausendstel.
 
 Hattest du den Kurztest nicht richtig oder bist du unsicher? Übe den Baustein „Bruchrechnung: Multiplikation und Division“, seine Kartenseite: [Bruchrechnung: Multiplikation und Division](https://lernapps.net/apps/map/mathematik/c/brueche-multiplizieren-dividieren/).
 
@@ -93,4 +93,4 @@ Hattest du den Kurztest nicht richtig oder bist du unsicher? Übe den Baustein �
 
 - natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen kannst, auch auf dem Zahlenstrahl,
 - Brüche multiplizieren, dividieren und kürzen kannst,
-- einen Bruch wie ein Viertel als Dezimalzahl 0,25 schreiben kannst.
+- einen Bruch wie sieben Achtel als Dezimalzahl 0,875 schreiben kannst.

@@ -83,7 +83,7 @@ Jede negative Zahl ist kleiner als jede positive Zahl und kleiner als 0. Von zwe
   - ✗ Am Montag – −2 °C liegt näher an der Null als −5 °C. Bei Temperaturen unter null ist es kälter, je weiter unten der Wert liegt.
   - ✓ Am Dienstag – −5 °C liegt weiter unter der Null als −2 °C. Darum war es am Dienstag kälter.
 - Lösung: Am Dienstag
-- Erklärung: Auf dem Thermometer ist es kälter, je weiter unten der Wert liegt. Dienstag liegt weiter unten.
+- Erklärung: Auf einem Thermometer ist es kälter, je weiter unten der Wert liegt. Dienstag liegt weiter unten.
 - Link: [../?via=tutor#kaelter](../?via=tutor#kaelter)
 
 ### Aufgabe groesser-als

@@ -45,7 +45,7 @@ Zahlen links der Null ablesen und einordnen. Der Zahlenstrahl wird nach links ve
 
 Die Messstation der Schule hat ein Thermometer, einen Pegel und eine Materialkasse. Vier aus der Klasse 7b betreuen sie: Jule, Karim, Mara und Tomás, alle 12 oder 13 Jahre alt.
 
-**Jule:** Heute Morgen habe ich das Thermometer abgelesen. Es war unter null.
+**Jule:** Heute Morgen habe ich das Thermometer abgelesen. Es war unter null. Zahlen unter null schreibst du mit einem Minus davor: ein Grad unter null ist −1 °C.
 
 **Karim:** Es war unter null. Welche Zahl schreiben wir ins Messbuch?
 
@@ -61,9 +61,9 @@ Den **Zahlenstrahl** kennst du: Er beginnt bei der Null und geht nach rechts imm
 
 Bild: Zahlenstrahl mit gleichen Abschnitten von 0 bis 6. Er beginnt links bei der Null, nach rechts geht er mit einem Pfeil weiter. Bildunterschrift: Links endet der Zahlenstrahl bei der Null, dort ist sein Anfang.
 
-Jetzt geht er auch links über die Null hinaus weiter. Das Ganze heißt ab jetzt **Zahlengerade**. Die Abschnitte zwischen zwei Strichen bleiben gleich lang. Der Strahl von eben wird nach links verlängert: Rechts bleibt alles gleich, links kommen neue Zahlen dazu. Links der Null stehen die **negativen Zahlen**, rechts die positiven.
+Jetzt wird der Zahlenstrahl links über die Null hinaus verlängert. Im Bild unten ist der neue Teil gestrichelt, der Pfeil zeigt die Richtung. Rechts bleibt alles gleich, links kommen neue Zahlen dazu, und die Abschnitte zwischen zwei Strichen bleiben gleich lang. Das Ganze heißt ab jetzt **Zahlengerade**. Links der Null stehen die **negativen Zahlen**, rechts die positiven.
 
-Bild: Zahlengerade mit gleichen Abschnitten von minus 6 bis 6. Die Null ist fett. Links der Null stehen die negativen Zahlen, rechts die positiven. An beiden Enden steht ein Pfeil. Bildunterschrift: Die Null ist fett. Links von ihr stehen die negativen Zahlen.
+Bild: Eine Linie mit gleichen Abschnitten. Von 0 bis 6 ist sie durchgezogen. Links der Null ist sie gestrichelt mit den Zahlen minus 1 bis minus 6 verlängert, ein Pfeil zeigt nach links. Bildunterschrift: Der gestrichelte Teil ist neu. Die Null ist fett, links von ihr stehen die negativen Zahlen.
 
 - **Zahlengerade**: Die Zahlengerade ist der Zahlenstrahl, der auch links über die Null hinaus weitergeht. Auf ihr hat jede Zahl ihren Platz, zum Beispiel −3 links und 3 rechts der Null.
 

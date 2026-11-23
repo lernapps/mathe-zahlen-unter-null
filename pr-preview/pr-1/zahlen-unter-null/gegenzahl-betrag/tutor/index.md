@@ -51,9 +51,9 @@ Die Gegenzahl liegt spiegelbildlich zur Null, der Betrag ist der Abstand von der
 
 ### Spiegelbild und Abstand
 
-Bild: Zahlengerade von minus 6 bis 6. Die Null ist fett. Zahlen mit gleichem Abstand links und rechts der Null liegen einander gegenüber. Bildunterschrift: Die Null ist der Spiegelpunkt. Suche 4 und −4 und vergleiche ihren Abstand zur Null.
+Bild: Zahlengerade von minus 6 bis 6. Bei 0 steht eine gestrichelte senkrechte Linie, der Spiegel. Die Punkte bei 4 und bei minus 4 liegen gleich weit von der Null entfernt, ein gestrichelter Bogen mit Pfeil führt von 4 nach minus 4. Bildunterschrift: Die gestrichelte Linie bei 0 ist der Spiegel. Der Bogen zeigt, wie 4 auf −4 gespiegelt wird.
 
-Spiegelst du eine Zahl an der Null, bekommst du ihre Gegenzahl. Die Gegenzahl von 4 ist −4, die von −4 ist 4. Beide haben den gleichen Abstand von der Null: 4 Abschnitte.
+Im Bild oben wird 4 an der Null gespiegelt. Spiegelst du eine Zahl an der Null, bekommst du ihre Gegenzahl. Die Gegenzahl von 4 ist −4, die von −4 ist 4. Beide haben den gleichen Abstand von der Null: 4 Abschnitte.
 
 - **Gegenzahl**: Die Gegenzahl einer Zahl liegt auf der anderen Seite der Null mit demselben Abstand. Außer bei 0 hat sie das andere Vorzeichen. Die Gegenzahl von 7 ist −7, die von −2 ist 2, die von 0 ist 0.
 

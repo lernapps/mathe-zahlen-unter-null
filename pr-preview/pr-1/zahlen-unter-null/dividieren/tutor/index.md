@@ -45,7 +45,7 @@ Das Dividieren als Umkehrung des Multiplizierens verstehen und das Vorzeichen de
 
 **Mara:** Die Materialkasse hat 12 € Schulden, also −12 €. Wir teilen sie gleich auf vier Personen auf.
 
-**Tomás:** Das rechnen wir (−12) : 4.
+**Tomás:** Das rechnen wir (−12) : 4. Dividieren kehrt das Multiplizieren um: Wir suchen die Zahl, die mit 4 malgenommen −12 ergibt.
 
 - Aufgabe `schulden-teilen` (unten)
 

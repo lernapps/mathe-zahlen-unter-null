@@ -45,7 +45,7 @@ Auf der Zahlengerade nach rechts und links gehen, auch bei negativen Zahlen und 
 
 **Tomás:** In der Materialkasse sind 8 €. Wir kaufen Stifte für 5 €. Das ist eine Änderung um −5 €.
 
-**Mara:** Dann rechnen wir 8 + (−5). Die Klammer zeigt: Das Minus gehört zur Zahl −5, es ist kein Rechenzeichen.
+**Mara:** Dann rechnen wir 8 + (−5). Die Klammer zeigt: Das Minus gehört zur Zahl −5, es ist kein Rechenzeichen. Eine negative Zahl addieren heißt, auf der Zahlengerade so viele Abschnitte nach links zu gehen: Von 8 gehst du 5 Abschnitte nach links.
 
 - Aufgabe `kasse-rechnen` (unten)
 
