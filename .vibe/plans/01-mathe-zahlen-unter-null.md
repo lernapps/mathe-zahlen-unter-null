@@ -172,6 +172,8 @@ Lernende der Klassen 7-8 verstehen, dass die Zahlengerade über die Null nach li
 
 Baustein → Seite: `rationale-zahlen` → 3, 4, 5; `rationale-zahlen-rechnen` → 6, 7, 8, 9. Abschnitts-ids auf jeder Seite gleich: `einstieg`, `beispiel`, `merke`, `uebung`.
 
+**Änderung Recap (Orchestrator, regeln.md §7 Punkt 6).** Der Selbsttest steht als Komponente `Kurztest` direkt in der Recap-Seite (`recap:`), nicht auf einer eigenen Seite: eine Frage, eine Auswahl, Rückmeldung mit Grund, nichts gezählt oder gespeichert, Tastatur und Textalternative für die Version ohne JavaScript. Vorlage: `src/components/Kurztest.*` im Repo `lernapps/mathe-saetze-entdecken`, Branch `work`; Komponente kopieren und anpassen. Damit entfällt Seite 2 „Kurztest“ (8 Seiten, Nummern ab 3 rücken auf); Rückfall nur bei Fehlschlag: Kurztest-Seite direkt hinter dem Recap. Begründung für die Komponente (`prefer-built-in-block`): kein Block zeigt Aufgaben auf einer `recap:`-Seite.
+
 **Zahlengerade.** Seite 3 führt sie ein: der Zahlenstrahl aus der Grundschule und Klasse 5-6 bekommt links ein Ende dazu, ab da heißt alles „Zahlengerade“. Skala mit gleichen Abschnitten, Hauptstriche beschriftet, die Null hervorgehoben, links negativ (Farbe nie allein: Beschriftung und Lage tragen die Information).
 
 **Muster (Mathematik-Referenz).**
