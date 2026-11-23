@@ -41,6 +41,10 @@ Aufgaben-ids stehen in den Seitendateien `src/zahlen-unter-null/<seite>.yaml`.
 - **Gegenzahl/Betrag**: `generated`, Fehlertyp „Minus einfach weggelassen“.
 - **Rechnen** (`generated`): Zahlen gezogen, `where` ohne Nulldivision, Fehlertypen `mistakes` mit Meldung (Vorzeichen vergessen, Beträge statt Zahlen subtrahiert, „minus mal minus gleich minus“, Betrag statt Zahl geteilt). Antwort als Zahl; Brüche als Bruch oder Dezimalzahl, wo die Aufgabe das sagt. Jede Aufgabe mit Rechenprobe (Test der Laufzeit über feste Seeds, plus Stichprobe von Hand).
 - **Zahlenmuster**: `table` mit Zeilen `3 · 2`, `3 · 1`, `3 · 0`, `3 · (−1)`; Regel erst danach in `merke`.
+- **Daten**: `src/data/kontexte.yaml` (Satzteile für Thermometer, Kontostand, Meeresspiegel), `src/data/zahlen.yaml` (`wert`, `betrag`, `gegen` für −15 bis 15 ohne 0), `src/data/teiler.yaml` (`divisor`, `quotient`, `dividend` für 2 bis 9, alle Divisionen ohne Rest).
+- **Negative Zahl im Aufgabentext**: Die Laufzeit schreibt eine gezogene negative Zahl mit Bindestrich. Darum steht das Minus als Zeichen `−` im Text und das Betrag-Feld im Platzhalter: `−{{z.betrag}}`; die Antwort rechnet mit `wert`. Ebenso bei `{{a}}`, `{{b}}`: nur positive Werte ziehen, das Vorzeichen steht im Text (`{{a}} + (−{{b}})`).
+- **Mistakes**: je Aufgabe der häufigste Fehler mit Meldung; `where` schließt Werte aus, bei denen ein Fehler der Antwort gleicht (Beispiel `a != b`).
+- Seiten: `negative-zahlen` (Muster), `ordnen` (`ordering`, `generated` mit `sortBy`), `gegenzahl-betrag` (`matching`, zwei `generated`), `addieren-subtrahieren` (Zahlenmuster-Tabelle, Pfeil-Bilder, drei `generated`), `multiplizieren` (zwei Muster-Tabellen, zwei `generated`), `dividieren` (Probe-Tabelle, drei `generated` aus `teiler`), `bruch-dezimal` (Formeln, Dezimal-/Bruch-`generated`, Punkt vor Strich, Rückblick).
 - Beispiel: `src/zahlen-unter-null/negative-zahlen.yaml` (Musterseite).
 - Jede Frage verlangt `links`: wir verlinken nur die Kartenseite des Bausteins (`https://lernapps.net/apps/map/mathematik/c/<id>/`), keine externen Seiten (Regel des Epics).
 - Der Selbsttest im Recap ist die Komponente `Kurztest` (Kopie der gemeinsamen Vorlage, `src/components/Kurztest.*`): eine Frage, eine Auswahl, Rückmeldung mit Grund, nichts gezählt; genau eine Option richtig; `nojs` nennt Frage, Optionen und Antwort.
@@ -48,7 +52,7 @@ Aufgaben-ids stehen in den Seitendateien `src/zahlen-unter-null/<seite>.yaml`.
 ## Figures
 
 - Zahlengerade als eigene SVG in `src/images/` (`source: eigene Zeichnung`, `licence: CC0-1.0`): gleiche Abschnitte, Hauptstriche beschriftet, die Null hervorgehoben, Pfeilspitzen an beiden Enden, die Beschriftung „negative Zahlen“/„positive Zahlen“ trägt die Information (nie Farbe allein), Textfarbe `currentColor` für den Dunkelmodus. `alt` sagt, was die Zeichnung zeigt; `caption` sagt, worauf man achten soll. Das Bild zeigt nur Gegebenes, nie die gesuchte Zahl.
-- Pfeile für Addieren/Subtrahieren: gleiche Gerade, Pfeil nach rechts für Addieren eines Positiven, nach links für Subtrahieren eines Positiven; Anfang und Ende beschriftet.
+- Pfeile für Addieren/Subtrahieren (`pfeil-plus.svg` für 2 + (−5), `pfeil-minus.svg` für −2 − (−3)): gleiche Gerade, gestrichelter Bogen mit Pfeilspitze, Startpunkt als Punkt, Beschriftung der Rechnung über dem Bogen; nur in Beispielen, nie in Aufgaben. Weitere Bilder: `thermometer.svg`, `zahlenstrahl.svg`, `zahlengerade.svg`, `punkte.svg`.
 - Breite: lesbar bei 360 px (viewBox 640 breit, höchstens 11 beschriftete Striche).
 
 ## Sources
@@ -65,4 +69,6 @@ Lernlandkarte Mathematik (geöffnet und gelesen), eigene Herleitungen und eigene
 
 ## Rules learned from mistakes
 
-None yet.
+- Eine gezogene negative Zahl erscheint mit Bindestrich: nur Beträge ziehen, Minus als `−` in den Text (siehe Exercise patterns).
+- Ein `: ` im Text bricht YAML: Text in Anführungszeichen.
+- Ein Fehlertyp darf der Antwort für keine gezogenen Werte gleichen (Beispiel Produkt und Summe bei 2 und 2): mit `where` ausschließen.
