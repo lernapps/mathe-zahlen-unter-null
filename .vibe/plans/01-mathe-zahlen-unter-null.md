@@ -300,9 +300,9 @@ page, which a link. -->
 
 - [x] Load skill `lernapps-explainer-self-assessment`. Add the self-assessment as it says, or write under "Key
       decisions" why the app has none. Commit.
-- [ ] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
+- [x] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
       every click only the creator can make, in one message.
-- [ ] Push `work`, open the preview pull request and see its checks to green, as skill `lernapps-github` says.
+- [x] Push `work`, open the preview pull request and see its checks to green, as skill `lernapps-github` says.
 - [ ] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App". Ask
       whether it may go online. Stop and wait for the yes.
 - [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit,
@@ -331,10 +331,24 @@ page, which a link. -->
 
 <!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
 
+Phase Commit erreicht. Checkpoints bestanden (Antworten des Orchestrators in Vertretung des Menschen): Recherche, Plan, Musterseite. Offen: Veröffentlichen (Vorschau-PR #1 offen, Checks grün, nicht gemergt), danach Eintrag.
+Phasen im Einzelnen: Explore und Plan ohne Rückfrage an den Menschen; Code mit zwei Lernenden-Prüfern auf der Musterseite, einem fachlichen Prüfer und einem Lernenden-Prüfer über die ganze App, einer Nachprüfung der geänderten Stellen.
+
 ### Creator turns after the plan
 
 <!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
 
+Nach der Plan-Bestätigung kamen zwei Nachrichten des Orchestrators (Freigabe der Musterseite, Hinweise zur Recap-Komponente und zur Vorlage). Vom Menschen kam einmal die Freigabe für `npx`-Befehle (`init`), vor der Recherche. Keine inhaltliche Rückfrage von mir nach dem Plan.
+
 ### Where I had to guess
 
 <!-- Each gap in plan, skills, messages or answers, and your choice. "None" if none. -->
+
+- Nur Deutsch, keine zweite Sprache (guess, im Issue nicht genannt).
+- Geschichte als Chat von vier Kindern der Klasse 7b mit einer Messstation (guess, vom Orchestrator bestätigt); Alter der Kinder (12 oder 13) frei gewählt.
+- Maximal 13 beschriftete Striche an der Zahlengerade (Bild 600 px breit), im Inhaltsleitfaden festgehalten.
+- Wertebereich: Beträge bis 15 (Gegenzahl, Betrag), Faktoren 2 bis 9, Divisoren 2 bis 9, Dezimalzahlen mit einer bis zwei Stellen (Entscheidung, nicht in Karte oder Issue).
+- Negative Zahlen im Aufgabentext: die Laufzeit schreibt sie mit Bindestrich, deshalb Minus als Zeichen im Text und Betrag als Platzhalter (Eigenlösung, steht im Inhaltsleitfaden).
+- Selbsteinschätzung: 7 Schritte, 17 Aufgaben, eigene Auswahl.
+- Prozess: Plan-Aufgaben 3 bis 6 der Explore-Phase und die Aufgabe `create` vor ihrer Erledigung abgehakt; die Skill-Dateien danach gelesen, `create` danach ausgeführt. Ein Tick lässt sich mit `lernapps plan` nicht zurücknehmen.
+- Das Werkzeug `get_job_logs` brauchte mehrere Aufrufe, um den Grund des fehlgeschlagenen CI-Laufs zu sehen (Fehler `usable-at-360px` der Kurztest-Komponente, lokal nicht aufgefallen).
