@@ -61,7 +61,7 @@ Den **Zahlenstrahl** kennst du: Er beginnt bei der Null und geht nach rechts imm
 
 Bild: Zahlenstrahl mit gleichen Abschnitten von 0 bis 6. Er beginnt links bei der Null, nach rechts geht er mit einem Pfeil weiter. Bildunterschrift: Links endet der Zahlenstrahl bei der Null, dort ist sein Anfang.
 
-Jetzt wird der Zahlenstrahl links über die Null hinaus verlängert. Im Bild unten ist der neue Teil gestrichelt, der Pfeil zeigt die Richtung. Rechts bleibt alles gleich, links kommen neue Zahlen dazu, und die Abschnitte zwischen zwei Strichen bleiben gleich lang. Das Ganze heißt ab jetzt **Zahlengerade**. Links der Null stehen die **negativen Zahlen**, rechts die positiven.
+Jetzt wird der Zahlenstrahl links über die Null hinaus verlängert. Im Bild unten ist der neue Teil gestrichelt, der Pfeil zeigt die Richtung. Rechts bleibt alles gleich, links kommen neue Zahlen dazu, und die Abschnitte zwischen zwei Strichen bleiben gleich lang. Das Ganze heißt ab jetzt **Zahlengerade**: eine Gerade hat in beide Richtungen kein Ende. Links der Null stehen die **negativen Zahlen**, rechts die positiven.
 
 Bild: Eine Linie mit gleichen Abschnitten. Von 0 bis 6 ist sie durchgezogen. Links der Null ist sie gestrichelt mit den Zahlen minus 1 bis minus 6 verlängert, ein Pfeil zeigt nach links. Bildunterschrift: Der gestrichelte Teil ist neu. Die Null ist fett, links von ihr stehen die negativen Zahlen.
 

@@ -45,7 +45,7 @@ Die Gegenzahl liegt spiegelbildlich zur Null, der Betrag ist der Abstand von der
 
 **Jule:** Auf der Karte liegt der Schulhof 3 m über dem Meeresspiegel, der Pegel im Hafen auf −3 m.
 
-**Karim:** Und wie weit ist der Hafenpegel vom Meeresspiegel entfernt?
+**Karim:** Und wie weit ist der Hafenpegel vom Meeresspiegel entfernt? Der Abstand zählt, wie viele Meter es bis zum Meeresspiegel sind, egal in welche Richtung.
 
 - Aufgabe `abstand` (unten)
 

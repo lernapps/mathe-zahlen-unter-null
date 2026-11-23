@@ -51,7 +51,7 @@ Ich kann natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen
 
 - **Zahlenstrahl**: Der Zahlenstrahl beginnt bei der Null und geht nach rechts weiter. Auf ihm stehen nur Zahlen ab 0, zum Beispiel 0, 1, 2, 3, mit gleichen Abschnitten.
 
-- **Stellenwert**: Der Stellenwert einer Ziffer sagt, wie viel sie in der Zahl wert ist. Er hängt von ihrer Stelle ab. Von rechts nach links stehen Einer, Zehner, Hunderter, Tausender. In 3482 steht die 4 an der Hunderterstelle, sie ist also 400 wert.
+- **Stellenwert**: Der Stellenwert einer Ziffer sagt, wie viel sie in der Zahl wert ist. Er hängt von ihrer Stelle ab. Von rechts nach links stehen Einer, Zehner, Hunderter, Tausender, Zehntausender, Hunderttausender. In 3482 steht die 4 an der Hunderterstelle, sie ist also 400 wert.
 
 Interaktiv: Kurztest: Welchen Wert hat die 7 in der Zahl 470 583? Zur Wahl stehen 7 000, 70 000 und 700 000. Antwort: 70 000, denn die 7 steht an der Zehntausenderstelle.
 
@@ -79,9 +79,9 @@ $\frac{1}{2} : \frac{1}{4} = \frac{1}{2} \cdot \frac{4}{1} = 2$
 
 - **Gleichnamig machen**: Brüche gleichnamig machen heißt, sie auf denselben Nenner zu bringen, ohne ihren Wert zu ändern. Dazu erweiterst du. Das heißt, Zähler und Nenner mit derselben Zahl zu multiplizieren. Beispiel $\frac{1}{2} = \frac{3}{6}$ (mit 3 erweitert) und $\frac{1}{3} = \frac{2}{6}$ (mit 2 erweitert), beide haben jetzt den Nenner 6.
 
-- **Dezimalzahl**: Eine Dezimalzahl schreibt einen Bruch mit dem Nenner 10, 100, … mit Komma. Beispiel $\frac{3}{4}$ hat noch keinen solchen Nenner, mit 25 erweitert wird daraus $\frac{75}{100} = 0{,}75$. Die Stellen nach dem Komma sind Zehntel, Hundertstel, …
+- **Dezimalzahl**: Eine Dezimalzahl schreibt einen Bruch mit dem Nenner 10, 100, 1000, … mit Komma. Beispiel $\frac{3}{4}$ hat noch keinen solchen Nenner, mit 25 erweitert wird daraus $\frac{75}{100} = 0{,}75$. Die Stellen nach dem Komma sind Zehntel, Hundertstel, …
 
-Interaktiv: Kurztest: Was ergibt fünf Sechstel mal drei Zehntel, ganz gekürzt? Zur Wahl stehen ein Viertel, acht Sechzehntel und fünfzehn Sechzigstel. Antwort: ein Viertel. 5 · 3 = 15 und 6 · 10 = 60, also fünfzehn Sechzigstel, gekürzt ein Viertel.
+Interaktiv: Kurztest: Was ergibt zwölf Fünfunddreißigstel mal vierzehn Neuntel, ganz gekürzt? Zur Wahl stehen acht Fünfzehntel, dreizehn Zweiundzwanzigstel und 168 Dreihundertfünfzehntel. Antwort: acht Fünfzehntel. 12 · 14 = 168 und 35 · 9 = 315, also 168 Dreihundertfünfzehntel, gekürzt durch 21 acht Fünfzehntel.
 
 Interaktiv: Kurztest: Was ergibt zwei Drittel geteilt durch vier Neuntel? Zur Wahl stehen drei Halbe, acht Siebenundzwanzigstel und zwei Drittel. Antwort: drei Halbe. Teilen durch vier Neuntel heißt Malnehmen mit neun Viertel: zwei Drittel mal neun Viertel gleich achtzehn Zwölftel, gekürzt drei Halbe.
 

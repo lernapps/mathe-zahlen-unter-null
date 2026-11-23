@@ -55,7 +55,7 @@ Addierst du eine positive Zahl, gehst du auf der Zahlengerade nach rechts. Addie
 
 Bild: Zahlengerade von minus 6 bis 6. Ein gestrichelter Pfeil startet bei 2 und geht fünf Abschnitte nach links, mit der Beschriftung plus Klammer minus 5. Bildunterschrift: Der Pfeil zeigt die Rechnung 2 + (−5). Wo er endet, steht das Ergebnis.
 
-Beim Subtrahieren zeigt dir ein Zahlenmuster, was passiert. Die Zahl, die du abziehst, wird immer um 1 kleiner. Das Ergebnis wird dann immer um 1 größer. Das Muster läuft über die Null nach links weiter.
+Beim Subtrahieren zeigt dir ein Zahlenmuster, was passiert. Die Zahl, die du abziehst, wird immer um 1 kleiner. Das Ergebnis wird dann immer um 1 größer, denn wer weniger abzieht, behält mehr. Eine negative Zahl abzuziehen heißt, die Zahlengerade nach rechts zu gehen. Das Muster geht nach unten über die Null in den negativen Bereich weiter.
 
 Muster beim Subtrahieren:
 - Aufgabe | Ergebnis

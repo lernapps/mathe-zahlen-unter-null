@@ -65,7 +65,7 @@ Drei Divisionen mit Probe:
 
 **Merke: Vorzeichen beim Quotienten**
 
-Für den Quotienten gelten dieselben Vorzeichenregeln wie beim Produkt: gleiche Vorzeichen ergeben Plus, verschiedene ergeben Minus. Durch 0 teilst du nie. Es gibt keine Zahl, die mit 0 malgenommen zum Beispiel 5 ergibt.
+Für den Quotienten gelten dieselben Vorzeichenregeln wie beim Produkt: gleiche Vorzeichen ergeben Plus, verschiedene ergeben Minus. Teilst du 0 durch eine Zahl, ist das Ergebnis 0, denn 0 mal diese Zahl ist 0. Durch 0 teilst du nie. Es gibt keine Zahl, die mit 0 malgenommen zum Beispiel 5 ergibt.
 
 ### Aufgaben
 
