@@ -144,7 +144,7 @@ blocks:
           - value: "n / b"
             message: "Die Faktoren haben verschiedene Vorzeichen. Das Produkt ist negativ."
           - value: "0 - b / n"
-            message: "Du hast die Zahlen vertauscht: Gesucht ist {{n}} mal ein {{b}}-tel."
+            message: "Du hast die Zahlen vertauscht: Gesucht ist {{n}} mal der Bruch mit dem Nenner {{b}}."
         hint: "Rechne erst $\\frac{1}{{{b}}} \\cdot {{n}}$, dann setze das Vorzeichen."
         steps:
           - "$\\frac{1}{{{b}}} \\cdot {{n}} = \\frac{{{n}}}{{{b}}}$, ohne Vorzeichen."
@@ -165,7 +165,7 @@ blocks:
             message: "Minus vor einer negativen Zahl wird zu Plus. Aus {{c}} − (−{{a}} · {{b}}) wird {{c}} + {{a}} · {{b}}."
         hint: "Rechne zuerst das Produkt (−{{a}}) · {{b}}."
         steps:
-          - "Zuerst das Produkt: (−{{a}}) · {{b}} = −{{a}} mal {{b}}, also negativ."
+          - "Zuerst das Produkt der Beträge, {{a}} mal {{b}}, mit negativem Vorzeichen."
           - "Dann {{c}} − (negative Zahl) = {{c}} + Betrag. Ergebnis {{answer}}."
   - type: section
     id: rueckblick

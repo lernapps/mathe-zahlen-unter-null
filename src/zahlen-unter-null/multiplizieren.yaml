@@ -129,7 +129,7 @@ blocks:
             message: "Du hast addiert. Hier wird multipliziert: {{a}} · {{b}}, dann das Vorzeichen."
         hint: "Rechne erst {{a}} · {{b}}. Welches Vorzeichen hat das Produkt?"
         steps:
-          - "{{a}} · {{b}} = {{a}} mal {{b}}, ohne Vorzeichen."
+          - "Rechne zuerst die Beträge: {{a}} mal {{b}}."
           - "Die Faktoren haben verschiedene Vorzeichen, das Produkt ist negativ: {{answer}}."
       - type: generated
         id: negativ-mal-negativ

@@ -86,6 +86,12 @@ Lernende der Klassen 7-8 verstehen, dass die Zahlengerade über die Null nach li
 - Nach diesem Lauf geändert, nicht erneut geprüft (inhaltlich): alle genannten Stellen von Geschichte, Einstiegen, Recap-Zusatz (Zahlenstrahl, Kurztest Dezimalzahl), Seite Addieren (Erklärung zur Klammer, zweiter Satz), neue Aufgabe `gegenzahl-negativ`, geänderte Aufgabe `gegenzahl-von-zwanzig`. Vor „Veröffentlichen“ noch einmal prüfen lassen (offen).
 - Laufzeit-Funde zusätzlich: „Aufgabe Nr. N“ ohne Erklärung, Lösungsanzeige mit Bindestrich.
 
+**Nachprüfung der geänderten Stellen (Unteragent, fachlich und Lernendensicht):**
+- Prüfte genau die nach den ersten Läufen geänderten Stellen und die Selbsteinschätzung (17 Aufgaben in 7 Schritten, alle ohne ihre Seite verständlich, Auswertung funktioniert).
+- 1 Fehler: Fehlerwert 7 bei „Gegenzahl von 20“ (Rest der alten Aufgabe), behoben (jetzt 20). Zweifel umgesetzt: „Durch 0“ ohne doppelte Verneinung, „Außer bei 0“ bei der Gegenzahl, Jule sagt „Es war unter null“, Schritte nennen die Beträge, Meldung zu `bruch-mal-zahl` ohne „ein 2-tel“.
+- Nach dieser Nachprüfung geändert (nicht erneut geprüft, klein): genau diese Formulierungen und der Fehlerwert.
+- Bewusst belassen: Zahlenstrahl und Zahlengerade auf der Seite `negative-zahlen` (der Wechsel ist die Einführung); Zählung `a/b` in Kurztest-Props (Recap, Ausnahme W28): 3 Fragen mit Optionen und Infos, etwa 16 Stellen.
+
 ## Explore
 
 <!--

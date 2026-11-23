@@ -55,7 +55,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Für den Quotienten gelten dieselben Vorzeichenregeln wie beim Produkt: gleiche Vorzeichen ergeben Plus, verschiedene ergeben Minus. Durch 0 teilst du nie, denn keine Zahl mit 0 malgenommen ergibt etwas anderes als 0.
+              Für den Quotienten gelten dieselben Vorzeichenregeln wie beim Produkt: gleiche Vorzeichen ergeben Plus, verschiedene ergeben Minus. Durch 0 teilst du nie. Es gibt keine Zahl, die mit 0 malgenommen zum Beispiel 5 ergibt.
   - type: section
     id: uebung
     title: Aufgaben
