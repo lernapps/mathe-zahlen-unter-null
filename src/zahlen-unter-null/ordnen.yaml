@@ -11,7 +11,7 @@ blocks:
         text: |
           **Mara:** Montag waren es −2 °C, Dienstag −5 °C.
 
-          **Tomás:** Dienstag war kälter. Aber 5 ist doch mehr als 2. Wie passt das zusammen?
+          **Tomás:** Ich bin nicht sicher, welcher Tag kälter war. 5 ist doch mehr als 2.
       - type: single-choice
         id: kaelter
         text: An welchem Tag war es kälter, am Montag mit −2 °C oder am Dienstag mit −5 °C?
@@ -33,7 +33,7 @@ blocks:
       - type: figure
         image: images/zahlengerade.svg
         alt: Zahlengerade von minus 6 bis 6 mit gleichen Abschnitten. Die Null ist fett. Links der Null stehen die negativen Zahlen, rechts die positiven.
-        caption: Die Zahl, die weiter links steht, ist kleiner. Vergleiche −5 und −2.
+        caption: Suche −5 und −2 auf der Zahlengerade. Die Zahl, die weiter links steht, ist kleiner.
         source: eigene Zeichnung
         licence: CC0-1.0
       - type: text
@@ -77,7 +77,7 @@ blocks:
             url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
       - type: single-choice
         id: meerestiefe
-        text: Ein Tauchroboter ist auf −40 m, ein anderer auf −25 m (Höhe zum Meeresspiegel). Welcher ist tiefer?
+        text: Ein Tauchroboter ist auf −40 m, ein anderer auf −25 m (Höhe über oder unter dem Meeresspiegel). Welcher ist tiefer?
         options:
           - text: Der bei −25 m
             correct: false

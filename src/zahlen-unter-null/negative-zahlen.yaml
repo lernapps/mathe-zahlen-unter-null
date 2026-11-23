@@ -9,7 +9,9 @@ blocks:
     blocks:
       - type: text
         text: |
-          **Jule:** Die Klasse 7b betreut eine Messstation. Heute Morgen habe ich das Thermometer abgelesen.
+          Die Messstation der Schule hat ein Thermometer, einen Pegel und eine Materialkasse. Vier aus der Klasse 7b betreuen sie: Jule, Karim, Mara und Tomás, alle 12 oder 13 Jahre alt.
+
+          **Jule:** Heute Morgen habe ich das Thermometer abgelesen.
 
           **Karim:** Es war unter null. Welche Zahl schreiben wir ins Messbuch?
 
@@ -47,7 +49,7 @@ blocks:
       - type: figure
         image: images/zahlenstrahl.svg
         alt: Zahlenstrahl mit gleichen Abschnitten von 0 bis 6. Er beginnt links bei der Null, nach rechts geht er mit einem Pfeil weiter.
-        caption: Links endet der Zahlenstrahl bei der Null.
+        caption: Links endet der Zahlenstrahl bei der Null, dort ist sein Anfang.
         source: eigene Zeichnung
         licence: CC0-1.0
       - type: text
@@ -71,7 +73,7 @@ blocks:
     blocks:
       - type: definition
         term: Vorzeichen
-        explanation: Das Vorzeichen steht vor einer Zahl und sagt, auf welcher Seite der Null sie liegt. − steht für links der Null, + für rechts. In −3 ist das Minus das Vorzeichen.
+        explanation: Das Vorzeichen steht vor einer Zahl und sagt, auf welcher Seite der Null sie liegt. − steht für links der Null, + für rechts. In −3 ist das Minus das Vorzeichen. Ein Rechenzeichen steht dagegen zwischen zwei Zahlen, wie das Minus in 5 − 3.
       - type: note
         title: Minus ist hier ein Vorzeichen
         blocks:

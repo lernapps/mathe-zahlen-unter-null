@@ -9,22 +9,22 @@ blocks:
     blocks:
       - type: text
         text: |
-          **Jule:** Die Messstation liegt auf 3 m über dem Meeresspiegel, die im Hafen auf −3 m.
+          **Jule:** Auf der Karte liegt der Schulhof 3 m über dem Meeresspiegel, der Pegel im Hafen auf −3 m.
 
-          **Karim:** Beide liegen gleich weit vom Meeresspiegel entfernt, nur in andere Richtungen.
+          **Karim:** Und wie weit ist der Hafenpegel vom Meeresspiegel entfernt?
       - type: single-choice
         id: abstand
-        text: Wie viele Meter sind es vom Meeresspiegel (0 m) bis zur Station bei −3 m?
+        text: Wie viele Meter sind es vom Meeresspiegel (0 m) bis zum Pegel bei −3 m?
         options:
           - text: 3 m
             correct: true
-            info: Der Abstand von 0 bis −3 sind 3 Abschnitte. Ein Abstand ist nie negativ.
+            info: Von 0 bis −3 sind es 3 m. Ein Abstand ist nie negativ.
           - text: −3 m
             correct: false
-            info: −3 m ist die Lage der Station. Gefragt war, wie weit sie entfernt ist, und ein Abstand ist nie negativ.
+            info: −3 m ist die Lage des Pegels. Gefragt war, wie weit sie entfernt ist, und ein Abstand ist nie negativ.
           - text: 0 m
             correct: false
-            info: 0 m ist der Meeresspiegel selbst, nicht der Abstand zur Station.
+            info: 0 m ist der Meeresspiegel selbst, nicht der Abstand zum Pegel.
         explanation: Der Abstand von der Null wird in Abschnitten gezählt und ist darum nie negativ.
         links:
           - title: Kartenseite Negative Zahlen und Betrag
@@ -36,7 +36,7 @@ blocks:
       - type: figure
         image: images/zahlengerade.svg
         alt: Zahlengerade von minus 6 bis 6. Die Null ist fett. Zahlen mit gleichem Abstand links und rechts der Null liegen einander gegenüber.
-        caption: Die Null ist der Spiegelpunkt. Vergleiche 4 und −4.
+        caption: Die Null ist der Spiegelpunkt. Suche 4 und −4 und vergleiche ihren Abstand zur Null.
         source: eigene Zeichnung
         licence: CC0-1.0
       - type: text
@@ -64,13 +64,13 @@ blocks:
     blocks:
       - type: number
         id: gegenzahl-von-sieben
-        text: Wie heißt die Gegenzahl von 7?
-        answer: -7
+        text: Wie heißt die Gegenzahl von 20?
+        answer: -20
         tolerance: 0
         mistakes:
           - answer: 7
             message: Das ist die Zahl selbst. Die Gegenzahl liegt auf der anderen Seite der Null.
-        explanation: 7 liegt 7 Abschnitte rechts der Null, die Gegenzahl 7 Abschnitte links, bei −7.
+        explanation: 20 liegt 20 Abschnitte rechts der Null, die Gegenzahl 20 Abschnitte links, bei −20.
         links:
           - title: Kartenseite Negative Zahlen und Betrag
             url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
@@ -109,6 +109,21 @@ blocks:
         steps:
           - "{{z.wert}} liegt {{z.wert}} Abschnitte rechts der Null."
           - "Die Gegenzahl liegt ebenso weit links: {{answer}}."
+      - type: generated
+        id: gegenzahl-negativ
+        given:
+          z: { pick: 1, from: { data: zahlen } }
+        where: ["z.wert < 0"]
+        task:
+          text: "Wie heißt die Gegenzahl von −{{z.betrag}}?"
+        answer: { value: "z.gegen", compare: { number: { format: integer } } }
+        mistakes:
+          - value: "z.wert"
+            message: "Das ist die Zahl selbst. Die Gegenzahl einer negativen Zahl liegt rechts der Null."
+        hint: "Spiegle die Zahl an der Null."
+        steps:
+          - "−{{z.betrag}} liegt {{z.betrag}} Abschnitte links der Null."
+          - "Die Gegenzahl liegt ebenso weit rechts: {{answer}}."
       - type: generated
         id: betrag-ueben
         given:

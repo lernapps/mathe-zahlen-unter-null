@@ -9,7 +9,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          **Karim:** Der Kontostand der Messstation sinkt jeden Tag um 3 €. Das ist eine Änderung um −3 € pro Tag.
+          **Karim:** Der Kontostand der Materialkasse sinkt jeden Tag um 3 €. Das ist eine Änderung um −3 € pro Tag.
 
           **Jule:** Nach 4 Tagen ist er 4 · (−3) Euro anders als am Anfang.
       - type: single-choice

@@ -18,6 +18,9 @@ blocks:
         text: |
           Ich kann natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen.
       - type: definition
+        term: Zahlenstrahl
+        explanation: Der Zahlenstrahl beginnt bei der Null und geht nach rechts weiter. Auf ihm stehen nur Zahlen ab 0, zum Beispiel 0, 1, 2, 3, mit gleichen Abschnitten.
+      - type: definition
         term: Stellenwert
         explanation: Der Stellenwert einer Ziffer sagt, wie viel sie in der Zahl wert ist. Er hängt von ihrer Stelle ab. Von rechts nach links stehen Einer, Zehner, Hunderter, Tausender. In 3482 steht die 4 an der Hunderterstelle, sie ist also 400 wert.
       - type: vue-component
@@ -127,6 +130,23 @@ blocks:
           wrong: Nicht richtig.
         nojs: |
           Kurztest: Was ergibt ein Halb geteilt durch ein Viertel? Zur Wahl stehen 2, ein Achtel und ein Halb. Antwort: 2, denn Teilen durch ein Viertel heißt Malnehmen mit 4, also ein Halb mal 4 gleich 2.
+      - type: vue-component
+        id: kurztest-dezimal
+        component: Kurztest
+        props:
+          question: Wie schreibst du 1/4 als Dezimalzahl?
+          options:
+            - { text: "0,25", correct: true, info: "1/4 mit 25 erweitert ist 25/100, und das ist 0,25." }
+            - {
+                text: "0,14",
+                correct: false,
+                info: "Du hast Zähler und Nenner einfach nebeneinandergeschrieben. Erweitere auf den Nenner 100.",
+              }
+            - { text: "0,4", correct: false, info: "0,4 sind vier Zehntel, das ist 4/10." }
+          right: Richtig.
+          wrong: Nicht richtig.
+        nojs: |
+          Kurztest: Wie schreibst du ein Viertel als Dezimalzahl? Zur Wahl stehen 0,25, 0,14 und 0,4. Antwort: 0,25, denn ein Viertel mit 25 erweitert ist 25 Hundertstel.
       - type: text
         text: |
           Hattest du den Kurztest nicht richtig oder bist du unsicher? Übe den Baustein „Bruchrechnung: Multiplikation und Division“, seine Kartenseite: [Bruchrechnung: Multiplikation und Division](https://lernapps.net/apps/map/mathematik/c/brueche-multiplizieren-dividieren/).
@@ -136,5 +156,6 @@ blocks:
     blocks:
       - type: text
         text: |
-          - natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen kannst,
-          - Brüche multiplizieren und dividieren kannst.
+          - natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen kannst, auch auf dem Zahlenstrahl,
+          - Brüche multiplizieren, dividieren und kürzen kannst,
+          - einen Bruch wie ein Viertel als Dezimalzahl 0,25 schreiben kannst.

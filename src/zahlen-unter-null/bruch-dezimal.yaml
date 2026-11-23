@@ -11,7 +11,7 @@ blocks:
         text: |
           **Jule:** Auf der Zahlengerade haben auch Brüche und Dezimalzahlen links der Null ihr Spiegelbild.
 
-          **Karim:** Dann liegt −0,5 genauso weit links der Null wie 0,5 rechts.
+          **Karim:** Dann liegt die Mitte zwischen 0 und −1 bestimmt auch irgendwo.
       - type: single-choice
         id: mitte
         text: Welche Zahl liegt genau in der Mitte zwischen 0 und −1?
@@ -135,7 +135,7 @@ blocks:
         id: bruch-mal-zahl
         given:
           b: { oneOf: [2, 4, 5, 10] }
-          n: { int: [1, 9] }
+          n: { int: [2, 9] }
         where: ["n != b", "decimals(n / b) <= 2"]
         task:
           text: "Berechne $\\left(-\\frac{1}{{{b}}}\\right) \\cdot {{n}}$. Gib das Ergebnis als Dezimalzahl an, auf zwei Stellen genau."

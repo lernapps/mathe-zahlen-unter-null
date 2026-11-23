@@ -11,7 +11,7 @@ blocks:
         text: |
           **Tomás:** In der Materialkasse sind 8 €. Wir kaufen Stifte für 5 €. Das ist eine Änderung um −5 €.
 
-          **Mara:** Dann rechnen wir 8 + (−5).
+          **Mara:** Dann rechnen wir 8 + (−5). Die Klammer zeigt: Das Minus gehört zur Zahl −5, es ist kein Rechenzeichen.
       - type: single-choice
         id: kasse-rechnen
         text: Wie viel Euro sind danach in der Kasse, wenn du 8 + (−5) rechnest?
@@ -35,7 +35,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Addierst du eine positive Zahl, gehst du auf der Zahlengerade nach rechts. Addierst du eine negative Zahl, gehst du nach links. Bei 2 + (−5) startest du bei 2 und gehst 5 Abschnitte nach links.
+          Addierst du eine positive Zahl, gehst du auf der Zahlengerade nach rechts. Addierst du eine negative Zahl, gehst du nach links. Bei 2 + (−5) startest du bei 2 und gehst 5 Abschnitte nach links. Subtrahierst du eine positive Zahl, gehst du auch nach links, wenn nötig über die Null: 2 − 6 = −4.
       - type: figure
         image: images/pfeil-plus.svg
         alt: Zahlengerade von minus 6 bis 6. Ein gestrichelter Pfeil startet bei 2 und geht fünf Abschnitte nach links, mit der Beschriftung plus Klammer minus 5.
@@ -116,13 +116,13 @@ blocks:
         answer: { value: "a - b", compare: { number: { format: integer } } }
         mistakes:
           - value: "a + b"
-            message: "Du hast {{b}} addiert. Die Klammer (−{{b}}) heißt: {{b}} Abschnitte nach links gehen."
+            message: "Du hast {{b}} addiert. Die Klammer (−{{b}}) heißt: um {{b}} nach links gehen."
           - value: "b - a"
-            message: "Du hast die Zahlen vertauscht. Starte bei {{a}} und gehe {{b}} nach links."
+            message: "Das Vorzeichen stimmt nicht: Du hast {{b}} − {{a}} gerechnet. Starte bei {{a}} und gehe {{b}} nach links."
         hint: "Starte bei der ersten Zahl und gehe so viele Abschnitte nach links, wie die Klammer sagt."
         steps:
           - "{{a}} + (−{{b}}) ist dasselbe wie {{a}} − {{b}}."
-          - "Von {{a}} gehst du {{b}} Abschnitte nach links und landest bei {{answer}}."
+          - "Von {{a}} gehst du um {{b}} nach links und landest bei {{answer}}."
       - type: generated
         id: minus-negativ
         given:
@@ -135,11 +135,11 @@ blocks:
           - value: "a - b"
             message: "Du hast die beiden Minus nicht zusammengefasst. Eine negative Zahl abziehen heißt: ihre Gegenzahl addieren."
           - value: "0 - a - b"
-            message: "Das Ergebnis ist positiv: Du gehst von {{a}} aus {{b}} Abschnitte nach rechts."
+            message: "Das Ergebnis ist positiv: Du gehst von {{a}} aus um {{b}} nach rechts."
         hint: "Subtrahieren von (−{{b}}) ist Addieren von {{b}}."
         steps:
           - "{{a}} − (−{{b}}) ist dasselbe wie {{a}} + {{b}}."
-          - "Von {{a}} gehst du {{b}} Abschnitte nach rechts und landest bei {{answer}}."
+          - "Von {{a}} gehst du um {{b}} nach rechts und landest bei {{answer}}."
       - type: generated
         id: negativ-minus-positiv
         given:
@@ -152,8 +152,8 @@ blocks:
           - value: "a - b"
             message: "Du hast das Minus vor {{a}} vergessen. Starte bei −{{a}}, links der Null."
           - value: "a + b"
-            message: "Das Ergebnis liegt links der Null: Von −{{a}} gehst du {{b}} Abschnitte weiter nach links."
-        hint: "Starte bei −{{a}} und gehe {{b}} Abschnitte nach links."
+            message: "Das Ergebnis liegt links der Null: Von −{{a}} gehst du um {{b}} weiter nach links."
+        hint: "Starte bei −{{a}} und gehe um {{b}} nach links."
         steps:
-          - "Von −{{a}} gehst du {{b}} Abschnitte nach links."
+          - "Von −{{a}} gehst du um {{b}} nach links."
           - "Du landest bei {{answer}}."

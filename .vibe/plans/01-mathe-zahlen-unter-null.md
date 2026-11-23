@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -72,6 +72,19 @@ Lernende der Klassen 7-8 verstehen, dass die Zahlengerade über die Null nach li
 - Offen / Laufzeit (nicht von mir behoben, Funde): Antwort wird mit „-“ statt „−“ angezeigt; Meldung bei ungültiger Eingabe nennt „ordne zu“ und sagt nichts zur Zahleneingabe; `true-false` und `number` melden allgemein „Lies dazu noch einmal den Text“; Aufgabennummer beginnt zufällig; „Neue Aufgabe“ nur als Symbol; Link „Mehr dazu“ führt auf die Kartenseite (gewollt) mit der Beschriftung der Frage.
 - `lernapps check`: Hinweise `explainer-repetition` und `explainer-text-load` auf der Recap-Seite bleiben bewusst (Ich-kann-Sätze in Kopf und Checkliste nach regeln.md §7; Begriffe als Definitionen).
 - Zählung `a/b` in Komponenten-Rückmeldungen (regeln.md §2): Kurztests Brüche und Dividieren im Recap, je Frage und Optionen mit Infos (ca. 14 Stellen).
+
+**Fachlicher Prüfer (Unteragent), alle Seiten, Datendateien, Bilder, Recap:**
+- Alle Aufgaben, Optionen, Fehlerwerte und Beispiele nachgerechnet, `generated` per Skript über den ganzen Bereich: keine Kollision Fehler/Antwort, keine Division durch 0, Datendateien stimmen. Abgrenzung (#393, #392, #389) und Bausteinabdeckung ohne Befund, keine wörtliche Übernahme aufgefallen.
+- 8 Fehler, alle umgesetzt: falsche Begründungen der Distraktoren (Multiplizieren −7, Dividieren −12 und „3“), Vorgriff „Minus mal Minus“ auf der Seite Addieren, Titel „Zahlenstrahl bekommt ein linkes Ende“ (jetzt „wird nach links verlängert“), Zahlenstrahl-Zeichnung ragte links über die Null, Aufgabe `dezimal-summe` gleich dem Beispiel (jetzt −0,7 + 0,3), geschützte Leerzeichen bei Einheiten (U+00A0), vierstellige Zahlen im Recap ohne Lücke, fünfstellige mit schmalem geschütztem Leerzeichen.
+- Zweifel umgesetzt: Meldungen und Texte präzisiert, Begriffe Produkt/Faktor und Quotient/Dividend/Divisor als Glossar-Definitionen, Gegenzahl von 0, Ausblick auf Variablen/Wurzeln gestrichen, Limit „höchstens 13 beschriftete Striche“ im Inhaltsleitfaden.
+- Offen (Laufzeit, Funde): `{{answer}}` und Lösungsanzeige zeigen negative Zahlen mit Bindestrich (betrifft die Schritte von Aufgaben mit negativem Ergebnis, nicht behoben, ein Fund an die Laufzeit); Schritte nennen Zwischenwerte nur, wenn sie als Platzhalter ziehbar sind (z. B. Produkt aus a und b nicht).
+- Nicht geprüft vom Prüfer: Dunkelmodus, 360 px, Glossar, Wortzahl je Seite, Tests unter `e2e/`.
+
+**Lernenden-Prüfer (Unteragent, Klasse 7), ganze App von der Startseite:**
+- Keine Rechenfehler, alle Rückmeldungen inhaltlich richtig, Abbildungen stimmig, kein horizontales Scrollen.
+- Umgesetzt: Geschichte (die vier Kinder werden auf der ersten Seite vorgestellt, Station besteht aus Thermometer, Pegel und Materialkasse; Kontostand der Materialkasse einheitlich), Einstiege verraten die Antwort nicht mehr (Ordnen, Gegenzahl, Brüche), Bildunterschriften passen zu den Bildern, „Anfang“ im Zahlenstrahl erklärt, Rechenzeichen im Vorzeichen-Eintrag, Klammerschreibweise auf der Seite Addieren erklärt, Lücke „Subtrahieren einer positiven Zahl unter null“ geschlossen, Doppelung der Gegenzahl-Aufgabe behoben, Gegenzahl auch einer negativen Zahl geübt, „1 Abschnitte“ vermieden, Aufgabe mit n = 1 entfernt, Recap um Zahlenstrahl und Dezimalzahl erweitert (Kurztest, Checkliste), „Durch 0“ begründet.
+- Nach diesem Lauf geändert, nicht erneut geprüft (inhaltlich): alle genannten Stellen von Geschichte, Einstiegen, Recap-Zusatz (Zahlenstrahl, Kurztest Dezimalzahl), Seite Addieren (Erklärung zur Klammer, zweiter Satz), neue Aufgabe `gegenzahl-negativ`, geänderte Aufgabe `gegenzahl-von-zwanzig`. Vor „Veröffentlichen“ noch einmal prüfen lassen (offen).
+- Laufzeit-Funde zusätzlich: „Aufgabe Nr. N“ ohne Erklärung, Lösungsanzeige mit Bindestrich.
 
 ## Explore
 
@@ -264,7 +277,7 @@ page, which a link. -->
 - [x] Run `npx --no -- lernapps check` until it passes.
 - [x] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
-- [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
+- [x] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
       fixed.
 
 ## Commit
