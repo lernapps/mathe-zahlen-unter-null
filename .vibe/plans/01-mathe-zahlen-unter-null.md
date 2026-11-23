@@ -62,6 +62,15 @@ Lernende der Klassen 7-8 verstehen, dass die Zahlengerade über die Null nach li
 
 <!-- Strand or subject, competencies by chapter (ids), didactic approach, scope, sources and licences, open questions. -->
 
+### Review
+
+**Lernenden-Prüfer (Unteragent, Klasse 7), Musterseite `negative-zahlen`, vor der Meldung:**
+- Umgesetzt: Balken am Thermometer benannt; falsche Zahl im Feedback „−6 °C“ korrigiert; „Vorzeichen“ erst nach seiner Einführung; „Abschnitt“ erklärt; `mistakes` für die Zahlaufgabe (3, −2); Punkt C jetzt in einer Mehrfachauswahl; einleitender Satz vor dem Bild der Aufgaben; Feedback der generierten Aufgabe passt zu „im Minus“ und „unter dem Meeresspiegel“; Bildunterschrift „weiter links = kleiner“ entfernt (gehört auf `ordnen`, ein Schritt je Seite); Verlängerung des Zahlenstrahls nach links im Text benannt.
+- Nach dem Prüferlauf geändert (inhaltlich, also noch einmal zu prüfen): genau diese Stellen, plus die Recap-Seite (neu, noch nie von einem Prüfer gesehen).
+- Offen / Laufzeit (nicht von mir behoben, Funde): Antwort wird mit „-“ statt „−“ angezeigt; Meldung bei ungültiger Eingabe nennt „ordne zu“ und sagt nichts zur Zahleneingabe; `true-false` und `number` melden allgemein „Lies dazu noch einmal den Text“; Aufgabennummer beginnt zufällig; „Neue Aufgabe“ nur als Symbol; Link „Mehr dazu“ führt auf die Kartenseite (gewollt) mit der Beschriftung der Frage.
+- `lernapps check`: Hinweise `explainer-repetition` und `explainer-text-load` auf der Recap-Seite bleiben bewusst (Ich-kann-Sätze in Kopf und Checkliste nach regeln.md §7; Begriffe als Definitionen).
+- Zählung `a/b` in Komponenten-Rückmeldungen (regeln.md §2): Recap, Kurztest Brüche, 1 Frage und 3 Optionen mit Infos (7 Stellen).
+
 ## Explore
 
 <!--
@@ -237,7 +246,7 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Musterseite negative-zahlen: Zahlengerade-SVG (Zahlenstrahl bekommt ein linkes Ende), Chat-Einstieg, Thermometer-Ablese-Aufgabe, Merke, mindestens vier Aufgaben mit diagnostizierten Fehlern; als Lernender (Klasse 7) durchspielen
+- [x] Musterseite negative-zahlen: Zahlengerade-SVG (Zahlenstrahl bekommt ein linkes Ende), Chat-Einstieg, Thermometer-Ablese-Aufgabe, Merke, mindestens vier Aufgaben mit diagnostizierten Fehlern; als Lernender (Klasse 7) durchspielen
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
