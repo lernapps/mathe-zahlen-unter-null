@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -100,9 +100,10 @@ Lernende der Klassen 7-8 verstehen, dass die Zahlengerade über die Null nach li
       off), and which misconception the feedback catches.
 - [x] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
       elements", never a silent "1–20"), the languages.
-- [ ] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
+- [x] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
       approach, the scope, every "(guess)", the sources and what is unchecked, the archetype and its reason. Stop and
       wait. Changes: change them, then ask again.
+      Creator: Orchestrator (in Vertretung des Menschen): Recherche freigegeben, Seitenschnitt, Fehlertypen, Chat-Geschichte, nur Deutsch, nur Karte als Quelle ok. Recap ohne Aufgaben plus eigene Kurztest-Seite; Zahlenstrahl wird auf Seite 1 zur Zahlengerade; Musterseite Negative Zahlen auf der Zahlengerade.
 
 ### Answers
 
@@ -138,22 +139,70 @@ Lernende der Klassen 7-8 verstehen, dass die Zahlengerade über die Null nach li
 
 ### Tasks
 
-- [ ] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
+- [x] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
       "Content method".
-- [ ] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
-- [ ] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
+- [x] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
+- [x] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
       opening task, the change of activity, the reward, the story.
-- [ ] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
+- [x] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
       screen, `npx --no -- lernapps plan add --at pattern "<task>"`. Then the others, one call each:
       `npx --no -- lernapps plan add --at pages "<task>"`. Each task says what it builds and what it shows.
-- [ ] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
+- [x] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
       learners see after each. Keep the files in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
+- [x] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
 
 ### Content method
+
+**Aufbau.** Ein Kapitel `zahlen-unter-null`, Strang `mathematik/arithmetik`, nur Deutsch. Seiten in der Reihenfolge der `requires`:
+
+| Nr | Seite (id) | Kompetenz | Voraussetzung, die die App nicht übt |
+|---|---|---|---|
+| 1 | `recap` „Das brauchst du hier“ (`recap:` beide) | – | `natuerliche-zahlen`, `brueche-multiplizieren-dividieren`: Abschnitt je Baustein, Fachbegriffe fett mit Beispiel (Stellenwert, Bruch, Kürzen, gleichnamig machen, Dezimalzahl), Kopf und Checkliste, keine Aufgaben |
+| 2 | `kurztest` „Das brauchst du hier – Kurztest“ | siehe Offen | wie Seite 1; je Baustein 1-2 Kurzaufgaben, Satz mit Name und Kartenseite des Bausteins |
+| 3 | `negative-zahlen` (Musterseite) | `rationale-zahlen` | `natuerliche-zahlen` (Recap) |
+| 4 | `ordnen` | `rationale-zahlen` | – |
+| 5 | `gegenzahl-betrag` | `rationale-zahlen` | – |
+| 6 | `addieren-subtrahieren` | `rationale-zahlen-rechnen` | – |
+| 7 | `multiplizieren` | `rationale-zahlen-rechnen` | – |
+| 8 | `dividieren` | `rationale-zahlen-rechnen` | `brueche-multiplizieren-dividieren` (Recap) |
+| 9 | `bruch-dezimal` Vorzeichen- und Klammerregeln mit Brüchen und Dezimalzahlen | `rationale-zahlen-rechnen` | `brueche-multiplizieren-dividieren` (Recap) |
+
+Baustein → Seite: `rationale-zahlen` → 3, 4, 5; `rationale-zahlen-rechnen` → 6, 7, 8, 9. Abschnitts-ids auf jeder Seite gleich: `einstieg`, `beispiel`, `merke`, `uebung`.
+
+**Zahlengerade.** Seite 3 führt sie ein: der Zahlenstrahl aus der Grundschule und Klasse 5-6 bekommt links ein Ende dazu, ab da heißt alles „Zahlengerade“. Skala mit gleichen Abschnitten, Hauptstriche beschriftet, die Null hervorgehoben, links negativ (Farbe nie allein: Beschriftung und Lage tragen die Information).
+
+**Muster (Mathematik-Referenz).**
+- Ablesen und Einordnen: SVG-Zahlengerade (`image`, eigene Dateien mit `alt`), dazu `generated` (Zahl ablesen/Temperatur, Kontostand, Höhe zu Meeresspiegel), Zeichnung zeigt nur Gegebenes.
+- Ordnen/Vergleichen: `ordering`, `true-false` mit Begründung im Feedback.
+- Gegenzahl/Betrag: `generated` mit Fehlertyp „Minus einfach weggelassen“ bei Gegenzahl; `matching` Zahl ↔ Betrag.
+- Addieren/Subtrahieren: Pfeile als SVG, `generated` mit Klammerschreibweise `5 + (−3)`; Fehler: Vorzeichen des Ergebnisses, Subtrahieren eines Negativen als Subtrahieren des Betrags.
+- Multiplizieren/Dividieren: Zahlenmuster als `table` (3 · 2, 3 · 1, 3 · 0, 3 · (−1) …), Regel danach in „Merke“; `generated` mit Fehlertyp „minus mal minus gleich minus“. Dividieren als Umkehrung des Malnehmens.
+- Brüche/Dezimalzahlen: `generated` mit gesetzten Brüchen (`formula`), Antwort als Bruch oder Dezimalzahl, Rechenprobe im Selbsttest der Seite.
+- Eine Komponente nur, wenn kein Block reicht (`prefer-built-in-block`): geplant keine; die Zahlengerade zum Anklicken wäre schön, ein `generated` mit Zahleneingabe prüft dasselbe. (guess)
+
+**Datendateien.** `src/data/kontexte.yaml`: Kontexte für Aufgaben (Thermometer, Kontostand, Meeresspiegel) mit Einheit und erlaubtem Wertebereich, je Tatsache einmal.
+
+**Hinweis für spätere Agenten.** Neue Seite: ein Abschnitt je id wie oben, Aufgaben nach Muster der Seite 3, Schreibweisen nach regeln.md Abschnitt 2; Seed-Prüfung der `generated`.
+
+**Engagement je Seite.**
+1. `recap`: erst „Kannst du das?“-Hinweis auf den Kurztest, dann Begriffe mit Beispiel. Wechsel: lesen, Beispielkasten. Ende: Checkliste.
+2. `kurztest`: Einstieg ist schon eine Aufgabe; Rückmeldung nennt die Karte. Belohnung: klare Aussage, was sitzt.
+3. `negative-zahlen`: Opening: Thermometer ablesen („Wie kalt ist es?“) vor der Erklärung; Chat der Klasse (Messstation) als Story; Gerade bekommt ein linkes Ende; Abschluss: Merke und nächste Frage „Was ist kälter?“.
+4. `ordnen`: erst zwei Temperaturen vergleichen, dann Ordnen mit `ordering`; Merke: größerer Betrag ≠ größere Zahl bei negativen.
+5. `gegenzahl-betrag`: Spiegelbild der Gerade um die Null; Betrag als Abstand von der Null; Belohnung: Betrag und Gegenzahl auf einen Blick.
+6. `addieren-subtrahieren`: Opening: Kontostand um 20 € ändern; Pfeile; Regel danach.
+7. `multiplizieren`: Opening: Muster fortsetzen; Regel aus dem Muster; Belohnung: Vorzeichenregel selbst hergeleitet.
+8. `dividieren`: Opening: Umkehrprobe; Teilen als Umkehren des Malnehmens.
+9. `bruch-dezimal`: Opening: Spiegelbild von 1/2 und 0,5; alles zusammen; Kapitelrückblick, nächste Schritte (Terme, Wurzeln, ohne Link).
+Wiederholen nur mit anderer Form: Gerade → Tabelle → Rechnung.
+
+**Geschichte (guess).** Eine siebte Klasse betreut eine kleine Messstation (Thermometer, Höhe, Kasse für Material); jede Seite beginnt mit zwei bis drei Nachrichten, Namen erfunden und gemischt, endet mit dem nächsten Schritt. Kein Kindchenschema.
+
+**Offen.** (a) Der Kurztest übt `natuerliche-zahlen` und `brueche-multiplizieren-dividieren`, die die App nicht trägt; ob `competencies-on-map` und `recap-names-competencies` das erlauben, prüft `lernapps check` in Code (sonst Kurztest ohne Kompetenzeintrag oder `ahead`). (b) `\angle`, geschützte Leerzeichen und gruppierte Zahlen nicht in Überschriften.
+
 
 <!-- One line each: the patterns and where; the figures and how they are made; the data files; each component, what it
 checks and what it cannot; how a later agent adds a chapter. It becomes the content guide in Code. -->
@@ -184,11 +233,17 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: pattern: the one page or screen that is the pattern for the others -->
+- [ ] Musterseite negative-zahlen: Zahlengerade-SVG (Zahlenstrahl bekommt ein linkes Ende), Chat-Einstieg, Thermometer-Ablese-Aufgabe, Merke, mindestens vier Aufgaben mit diagnostizierten Fehlern; als Lernender (Klasse 7) durchspielen
+<!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-<!-- tasks: pages: the other pages or screens, after the pattern -->
+- [ ] Recap (recap: beide Bausteine) und Kurztest: Begriffe fett mit Zahlenbeispiel (Stellenwert, Bruch, Kürzen, gleichnamig machen, Dezimalzahl), Checkliste; Kurztest mit 1-2 Aufgaben je Baustein und Satz mit Kartenseite
+- [ ] Seiten ordnen und gegenzahl-betrag: Ordnen/Vergleichen, Gegenzahl als Spiegelbild, Betrag als Abstand, je mindestens vier Aufgaben
+- [ ] Seiten addieren-subtrahieren und multiplizieren: Pfeile auf der Zahlengerade, Muster über die Null, generated mit Klammerschreibweise und Fehlertypen
+- [ ] Seiten dividieren und bruch-dezimal: Umkehrung des Malnehmens, Vorzeichenregeln mit Brüchen und Dezimalzahlen, Kapitelrückblick
+- [ ] Kontext-Datendatei, Glossar, Startseite und Kapitelbeschreibung; lernapps check ohne Fehler; Schreibweisen nach regeln.md Abschnitt 2 durchgehen
+<!-- tasks: pages (5 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
