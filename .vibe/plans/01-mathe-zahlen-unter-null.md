@@ -250,11 +250,12 @@ page, which a link. -->
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Musterseite negative-zahlen: Zahlengerade-SVG (Zahlenstrahl bekommt ein linkes Ende), Chat-Einstieg, Thermometer-Ablese-Aufgabe, Merke, mindestens vier Aufgaben mit diagnostizierten Fehlern; als Lernender (Klasse 7) durchspielen
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
-- [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
+- [x] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-- [ ] Recap (recap: beide Bausteine) und Kurztest: Begriffe fett mit Zahlenbeispiel (Stellenwert, Bruch, Kürzen, gleichnamig machen, Dezimalzahl), Checkliste; Kurztest mit 1-2 Aufgaben je Baustein und Satz mit Kartenseite
-- [ ] Seiten ordnen und gegenzahl-betrag: Ordnen/Vergleichen, Gegenzahl als Spiegelbild, Betrag als Abstand, je mindestens vier Aufgaben
+      Creator: Orchestrator (in Vertretung): Musterseite angenommen, Seiten 4 bis 9 dürfen nach diesem Muster folgen; Ergänzungen nach dem 2. Lauf als nicht erneut geprüft vermerken; fachlicher Prüfer vor Veröffentlichen besonders Vorzeichenregeln; a/b im Kurztest zählen; nach jedem größeren Schritt pushen.
+- [x] Recap (recap: beide Bausteine) und Kurztest: Begriffe fett mit Zahlenbeispiel (Stellenwert, Bruch, Kürzen, gleichnamig machen, Dezimalzahl), Checkliste; Kurztest mit 1-2 Aufgaben je Baustein und Satz mit Kartenseite
+- [x] Seiten ordnen und gegenzahl-betrag: Ordnen/Vergleichen, Gegenzahl als Spiegelbild, Betrag als Abstand, je mindestens vier Aufgaben
 - [ ] Seiten addieren-subtrahieren und multiplizieren: Pfeile auf der Zahlengerade, Muster über die Null, generated mit Klammerschreibweise und Fehlertypen
 - [ ] Seiten dividieren und bruch-dezimal: Umkehrung des Malnehmens, Vorzeichenregeln mit Brüchen und Dezimalzahlen, Kapitelrückblick
 - [ ] Kontext-Datendatei, Glossar, Startseite und Kapitelbeschreibung; lernapps check ohne Fehler; Schreibweisen nach regeln.md Abschnitt 2 durchgehen
