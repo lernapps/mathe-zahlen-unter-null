@@ -60,12 +60,18 @@ blocks:
         source: eigene Zeichnung
         licence: CC0-1.0
       - type: definition
+        term: Zahlengerade
+        explanation: Die Zahlengerade ist der Zahlenstrahl, der auch links über die Null hinaus weitergeht. Auf ihr hat jede Zahl ihren Platz, zum Beispiel −3 links und 3 rechts der Null.
+      - type: definition
         term: Negative Zahl
         explanation: Eine negative Zahl liegt auf der Zahlengerade links der Null. Sie hat ein Minus davor, zum Beispiel −3.
   - type: section
     id: merke
     title: Merke
     blocks:
+      - type: definition
+        term: Vorzeichen
+        explanation: Das Vorzeichen steht vor einer Zahl und sagt, auf welcher Seite der Null sie liegt. − steht für links der Null, + für rechts. In −3 ist das Minus das Vorzeichen.
       - type: note
         title: Minus ist hier ein Vorzeichen
         blocks:

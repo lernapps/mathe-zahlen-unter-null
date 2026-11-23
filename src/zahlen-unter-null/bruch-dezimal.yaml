@@ -167,3 +167,10 @@ blocks:
         steps:
           - "Zuerst das Produkt: (−{{a}}) · {{b}} = −{{a}} mal {{b}}, also negativ."
           - "Dann {{c}} − (negative Zahl) = {{c}} + Betrag. Ergebnis {{answer}}."
+  - type: section
+    id: rueckblick
+    title: Das kannst du jetzt
+    blocks:
+      - type: text
+        text: |
+          Du kannst negative Zahlen auf der Zahlengerade ablesen und ordnen, ihren Betrag und ihre Gegenzahl angeben und mit ihnen addieren, subtrahieren, multiplizieren und dividieren, auch mit Brüchen und Dezimalzahlen. Als Nächstes kannst du mit Variablen rechnen und mit Wurzeln arbeiten. Beides baut auf diesen Regeln auf.

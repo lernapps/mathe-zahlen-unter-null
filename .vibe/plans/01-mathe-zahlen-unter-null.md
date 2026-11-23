@@ -258,7 +258,7 @@ page, which a link. -->
 - [x] Seiten ordnen und gegenzahl-betrag: Ordnen/Vergleichen, Gegenzahl als Spiegelbild, Betrag als Abstand, je mindestens vier Aufgaben
 - [x] Seiten addieren-subtrahieren und multiplizieren: Pfeile auf der Zahlengerade, Muster über die Null, generated mit Klammerschreibweise und Fehlertypen
 - [x] Seiten dividieren und bruch-dezimal: Umkehrung des Malnehmens, Vorzeichenregeln mit Brüchen und Dezimalzahlen, Kapitelrückblick
-- [ ] Kontext-Datendatei, Glossar, Startseite und Kapitelbeschreibung; lernapps check ohne Fehler; Schreibweisen nach regeln.md Abschnitt 2 durchgehen
+- [x] Kontext-Datendatei, Glossar, Startseite und Kapitelbeschreibung; lernapps check ohne Fehler; Schreibweisen nach regeln.md Abschnitt 2 durchgehen
 <!-- tasks: pages (5 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
