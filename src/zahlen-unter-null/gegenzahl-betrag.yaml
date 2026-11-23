@@ -63,7 +63,7 @@ blocks:
     title: Aufgaben
     blocks:
       - type: number
-        id: gegenzahl-von-sieben
+        id: gegenzahl-von-zwanzig
         text: Wie heißt die Gegenzahl von 20?
         answer: -20
         tolerance: 0

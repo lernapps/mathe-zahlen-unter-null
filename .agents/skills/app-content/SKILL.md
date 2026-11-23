@@ -64,8 +64,9 @@ Lernlandkarte Mathematik (geöffnet und gelesen), eigene Herleitungen und eigene
 1. Kompetenz-id und „Ich kann …“-Satz aus der Karte nehmen, Seite in `src/zahlen-unter-null/<id>.yaml` mit `competencies: [id]`.
 2. Abschnitte `einstieg`, `beispiel`, `merke`, `uebung` wie oben, Aufgaben nach den Mustern.
 3. Seite in `pages` der `chapter.yaml` eintragen (Lesereihenfolge); neues Kapitel in `chapters` der `src/app.yaml`.
-4. Schreibweisen gegen den Abschnitt „Terminology“ prüfen.
-5. `npx vp check --fix`, `npx --no -- lernapps check`, committen.
+4. 2 bis 3 ihrer Übungen in `selfAssessment` (`src/zahlen-unter-null/chapter.yaml`) aufnehmen, wie Skill `lernapps-explainer-self-assessment` sagt: je Seite ein Schritt, nur Aufgaben, die ohne ihre Seite klar sind (kein Bild auf der Seite nötig), mindestens eine, die sich nicht raten lässt.
+5. Schreibweisen gegen den Abschnitt „Terminology“ prüfen.
+6. `npx vp check --fix`, `npx --no -- lernapps check`, committen.
 
 ## Rules learned from mistakes
 
