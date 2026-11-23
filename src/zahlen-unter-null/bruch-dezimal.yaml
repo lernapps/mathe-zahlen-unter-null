@@ -26,9 +26,6 @@ blocks:
             correct: false
             info: −2 liegt links von −1, nicht dazwischen.
         explanation: Die Mitte zwischen 0 und −1 ist −0,5, das Spiegelbild von 0,5.
-        links:
-          - title: Kartenseite Rechnen mit negativen Zahlen
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
   - type: section
     id: beispiel
     title: Dieselben Regeln, andere Zahlen
@@ -79,9 +76,6 @@ blocks:
           - answer: 0.4
             message: Das Ergebnis liegt links der Null, denn −0,7 hat den größeren Betrag.
         explanation: Von −0,7 gehst du 0,3 nach rechts und landest bei −0,4.
-        links:
-          - title: Kartenseite Rechnen mit negativen Zahlen
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
       - type: single-choice
         id: bruch-produkt
         text: "Was ergibt $\\left(-\\frac{2}{3}\\right) \\cdot \\frac{3}{4}$?"
@@ -96,9 +90,6 @@ blocks:
             correct: false
             info: "Du hast Zähler und Nenner addiert. Beim Multiplizieren rechnest du mal."
         explanation: "Das Produkt ist negativ, der Betrag ist $\\frac{2}{3} \\cdot \\frac{3}{4} = \\frac{1}{2}$."
-        links:
-          - title: Kartenseite Rechnen mit negativen Zahlen
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
       - type: number
         id: dezimal-produkt
         text: Berechne (−0,4) · (−5).
@@ -110,9 +101,6 @@ blocks:
           - answer: 20
             message: "Du hast die Kommastelle vergessen: 4 Zehntel mal 5 sind 20 Zehntel, also 2."
         explanation: 0,4 · 5 = 2. Beide Faktoren sind negativ, also ist das Produkt positiv.
-        links:
-          - title: Kartenseite Rechnen mit negativen Zahlen
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
       - type: generated
         id: dezimal-rechnen
         given:

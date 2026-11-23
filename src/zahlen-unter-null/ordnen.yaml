@@ -22,10 +22,7 @@ blocks:
           - text: Am Dienstag
             correct: true
             info: "−5 °C liegt weiter unter der Null als −2 °C. Darum war es am Dienstag kälter."
-        explanation: Auf dem Thermometer ist es kälter, je weiter unten der Wert liegt. Dienstag liegt weiter unten.
-        links:
-          - title: Kartenseite Negative Zahlen und Betrag
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
+        explanation: Auf einem Thermometer ist es kälter, je weiter unten der Wert liegt. Dienstag liegt weiter unten.
   - type: section
     id: beispiel
     title: Links ist kleiner
@@ -64,17 +61,11 @@ blocks:
         text: "Es gilt −2 > −5."
         answer: true
         explanation: −2 liegt rechts von −5 auf der Zahlengerade, also ist −2 größer.
-        links:
-          - title: Kartenseite Negative Zahlen und Betrag
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
       - type: ordering
         id: zahlen-ordnen
         text: Ordne die Zahlen von der kleinsten zur größten.
         items: ["−7", "−3", "0", "2"]
         explanation: Von links nach rechts auf der Zahlengerade stehen −7, −3, 0 und 2.
-        links:
-          - title: Kartenseite Negative Zahlen und Betrag
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
       - type: single-choice
         id: meerestiefe
         text: Ein Tauchroboter ist auf −40 m, ein anderer auf −25 m (Höhe über oder unter dem Meeresspiegel). Welcher ist tiefer?
@@ -89,9 +80,6 @@ blocks:
             correct: false
             info: Die Zahlen sind verschieden, also liegen die Roboter verschieden tief.
         explanation: Tiefer heißt kleiner. −40 ist kleiner als −25.
-        links:
-          - title: Kartenseite Negative Zahlen und Betrag
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
       - type: generated
         id: kleinere-zahl
         given:

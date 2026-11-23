@@ -11,7 +11,7 @@ blocks:
         text: |
           **Karim:** Der Kontostand der Materialkasse sinkt jeden Tag um 3 €. Das ist eine Änderung um −3 € pro Tag.
 
-          **Jule:** Nach 4 Tagen ist er 4 · (−3) Euro anders als am Anfang.
+          **Jule:** Nach 4 Tagen ist er 4 · (−3) Euro anders als am Anfang. Multiplizieren heißt wiederholt addieren: 4 · (−3) bedeutet, viermal −3 zu addieren.
       - type: single-choice
         id: vier-mal-minus-drei
         text: Was ergibt 4 · (−3)?
@@ -26,9 +26,6 @@ blocks:
             correct: false
             info: "Du hast die Beträge addiert (3 + 4) und das Minus behalten. Hier wird multipliziert: viermal −3."
         explanation: Multiplizieren ist wiederholtes Addieren. Viermal −3 ergibt −12.
-        links:
-          - title: Kartenseite Rechnen mit negativen Zahlen
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
   - type: section
     id: beispiel
     title: Zahlenmuster über die Null
@@ -85,16 +82,13 @@ blocks:
           - answer: -2
             message: Du hast −6 und 4 addiert. Hier wird multipliziert.
         explanation: 6 · 4 = 24. Die Vorzeichen sind verschieden, also ist das Produkt negativ.
-        links:
-          - title: Kartenseite Rechnen mit negativen Zahlen
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
       - type: single-choice
         id: minus-fuenf-mal-minus-drei
         text: Was ergibt (−5) · (−3)?
         options:
           - text: "−15"
             correct: false
-            info: Beide Faktoren sind negativ, also ist das Produkt positiv. Das Muster der Tabelle zeigt es.
+            info: Beide Faktoren sind negativ, also ist das Produkt positiv. Das Zahlenmuster der Tabelle zeigt es.
           - text: "15"
             correct: true
             info: Gleiche Vorzeichen, also positiv. 5 · 3 = 15.
@@ -102,17 +96,11 @@ blocks:
             correct: false
             info: Du hast addiert. Hier wird multipliziert.
         explanation: Minus mal Minus ergibt Plus. Der Betrag ist 5 · 3 = 15.
-        links:
-          - title: Kartenseite Rechnen mit negativen Zahlen
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
       - type: true-false
         id: produkt-zwei-negative
         text: Das Produkt aus zwei negativen Zahlen ist negativ.
         answer: false
         explanation: Zwei negative Faktoren haben dasselbe Vorzeichen, also ist das Produkt positiv, zum Beispiel (−3) · (−2) = 6.
-        links:
-          - title: Kartenseite Rechnen mit negativen Zahlen
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
       - type: generated
         id: negativ-mal-positiv
         given:

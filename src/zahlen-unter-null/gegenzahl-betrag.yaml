@@ -26,22 +26,19 @@ blocks:
             correct: false
             info: 0 m ist der Meeresspiegel selbst, nicht der Abstand zum Pegel.
         explanation: Der Abstand von der Null wird in Abschnitten gezählt und ist darum nie negativ.
-        links:
-          - title: Kartenseite Negative Zahlen und Betrag
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
   - type: section
     id: beispiel
     title: Spiegelbild und Abstand
     blocks:
       - type: figure
-        image: images/zahlengerade.svg
-        alt: Zahlengerade von minus 6 bis 6. Die Null ist fett. Zahlen mit gleichem Abstand links und rechts der Null liegen einander gegenüber.
-        caption: Die Null ist der Spiegelpunkt. Suche 4 und −4 und vergleiche ihren Abstand zur Null.
+        image: images/gegenzahl-spiegel.svg
+        alt: Zahlengerade von minus 6 bis 6. Bei 0 steht eine gestrichelte senkrechte Linie, der Spiegel. Die Punkte bei 4 und bei minus 4 liegen gleich weit von der Null entfernt, ein gestrichelter Bogen mit Pfeil führt von 4 nach minus 4.
+        caption: Die gestrichelte Linie bei 0 ist der Spiegel. Der Bogen zeigt, wie 4 auf −4 gespiegelt wird.
         source: eigene Zeichnung
         licence: CC0-1.0
       - type: text
         text: |
-          Spiegelst du eine Zahl an der Null, bekommst du ihre Gegenzahl. Die Gegenzahl von 4 ist −4, die von −4 ist 4. Beide haben den gleichen Abstand von der Null: 4 Abschnitte.
+          Im Bild oben wird 4 an der Null gespiegelt. Spiegelst du eine Zahl an der Null, bekommst du ihre Gegenzahl. Die Gegenzahl von 4 ist −4, die von −4 ist 4. Beide haben den gleichen Abstand von der Null: 4 Abschnitte.
       - type: definition
         term: Gegenzahl
         explanation: Die Gegenzahl einer Zahl liegt auf der anderen Seite der Null mit demselben Abstand. Außer bei 0 hat sie das andere Vorzeichen. Die Gegenzahl von 7 ist −7, die von −2 ist 2, die von 0 ist 0.
@@ -71,17 +68,11 @@ blocks:
           - answer: 20
             message: Das ist die Zahl selbst. Die Gegenzahl liegt auf der anderen Seite der Null.
         explanation: 20 liegt 20 Abschnitte rechts der Null, die Gegenzahl 20 Abschnitte links, bei −20.
-        links:
-          - title: Kartenseite Negative Zahlen und Betrag
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
       - type: true-false
         id: betrag-negativ
         text: Der Betrag einer Zahl kann negativ sein.
         answer: false
         explanation: Der Betrag ist ein Abstand und damit nie negativ. |−6| ist 6, nicht −6.
-        links:
-          - title: Kartenseite Negative Zahlen und Betrag
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
       - type: matching
         id: zahl-betrag
         text: Ordne jeder Zahl ihren Betrag zu.
@@ -91,9 +82,6 @@ blocks:
           - { left: "Betrag von −1", right: "1" }
           - { left: "Betrag von 0", right: "0" }
         explanation: Der Betrag ist der Abstand von der Null. Er hat nie ein Minus.
-        links:
-          - title: Kartenseite Negative Zahlen und Betrag
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
       - type: generated
         id: gegenzahl-ueben
         given:

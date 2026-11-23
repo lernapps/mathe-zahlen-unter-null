@@ -11,7 +11,7 @@ blocks:
         text: |
           **Tomás:** In der Materialkasse sind 8 €. Wir kaufen Stifte für 5 €. Das ist eine Änderung um −5 €.
 
-          **Mara:** Dann rechnen wir 8 + (−5). Die Klammer zeigt: Das Minus gehört zur Zahl −5, es ist kein Rechenzeichen.
+          **Mara:** Dann rechnen wir 8 + (−5). Die Klammer zeigt: Das Minus gehört zur Zahl −5, es ist kein Rechenzeichen. Eine negative Zahl addieren heißt, auf der Zahlengerade so viele Abschnitte nach links zu gehen: Von 8 gehst du 5 Abschnitte nach links.
       - type: single-choice
         id: kasse-rechnen
         text: Wie viel Euro sind danach in der Kasse, wenn du 8 + (−5) rechnest?
@@ -26,9 +26,6 @@ blocks:
             correct: false
             info: Du hast 8 und 5 vertauscht. Die Kasse hat mehr als sie ausgibt, also bleibt etwas übrig.
         explanation: Plus eine negative Zahl heißt, nach links zu gehen. Von 8 fünf Abschnitte nach links ist 3.
-        links:
-          - title: Kartenseite Rechnen mit negativen Zahlen
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
   - type: section
     id: beispiel
     title: Rechnen heißt gehen
@@ -85,9 +82,6 @@ blocks:
           - answer: 11
             message: Du hast das Minus von −4 ignoriert. Starte bei −4, nicht bei 4.
         explanation: Von −4 sieben Abschnitte nach rechts landest du bei 3.
-        links:
-          - title: Kartenseite Rechnen mit negativen Zahlen
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
       - type: single-choice
         id: sechs-minus-minus-zwei
         text: Was ergibt 6 − (−2)?
@@ -102,9 +96,6 @@ blocks:
             correct: false
             info: Das Ergebnis ist positiv. Von 6 aus gehst du nach rechts, nicht über die Null hinaus nach links.
         explanation: "Minus vor einer negativen Zahl wird zu Plus: 6 − (−2) = 6 + 2."
-        links:
-          - title: Kartenseite Rechnen mit negativen Zahlen
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
       - type: generated
         id: plus-negativ
         given:

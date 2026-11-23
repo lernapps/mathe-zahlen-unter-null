@@ -11,7 +11,7 @@ blocks:
         text: |
           Die Messstation der Schule hat ein Thermometer, einen Pegel und eine Materialkasse. Vier aus der Klasse 7b betreuen sie: Jule, Karim, Mara und Tomás, alle 12 oder 13 Jahre alt.
 
-          **Jule:** Heute Morgen habe ich das Thermometer abgelesen. Es war unter null.
+          **Jule:** Heute Morgen habe ich das Thermometer abgelesen. Es war unter null. Zahlen unter null schreibst du mit einem Minus davor: ein Grad unter null ist −1 °C.
 
           **Karim:** Es war unter null. Welche Zahl schreiben wir ins Messbuch?
 
@@ -36,9 +36,6 @@ blocks:
             correct: false
             info: "Das ist der Strich unter dem Balkenende, also 2 Grad kälter. Zähle von der Null aus nach unten: −2, dann −4."
         explanation: Zahlen unter null schreibst du mit einem Minus davor.
-        links:
-          - title: Kartenseite Negative Zahlen und Betrag
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
   - type: section
     id: beispiel
     title: Der Zahlenstrahl wird nach links verlängert
@@ -54,11 +51,11 @@ blocks:
         licence: CC0-1.0
       - type: text
         text: |
-          Jetzt geht er auch links über die Null hinaus weiter. Das Ganze heißt ab jetzt **Zahlengerade**. Die Abschnitte zwischen zwei Strichen bleiben gleich lang. Der Strahl von eben wird nach links verlängert: Rechts bleibt alles gleich, links kommen neue Zahlen dazu. Links der Null stehen die **negativen Zahlen**, rechts die positiven.
+          Jetzt wird der Zahlenstrahl links über die Null hinaus verlängert. Im Bild unten ist der neue Teil gestrichelt, der Pfeil zeigt die Richtung. Rechts bleibt alles gleich, links kommen neue Zahlen dazu, und die Abschnitte zwischen zwei Strichen bleiben gleich lang. Das Ganze heißt ab jetzt **Zahlengerade**. Links der Null stehen die **negativen Zahlen**, rechts die positiven.
       - type: figure
-        image: images/zahlengerade.svg
-        alt: Zahlengerade mit gleichen Abschnitten von minus 6 bis 6. Die Null ist fett. Links der Null stehen die negativen Zahlen, rechts die positiven. An beiden Enden steht ein Pfeil.
-        caption: Die Null ist fett. Links von ihr stehen die negativen Zahlen.
+        image: images/zahlengerade-neu.svg
+        alt: Eine Linie mit gleichen Abschnitten. Von 0 bis 6 ist sie durchgezogen. Links der Null ist sie gestrichelt mit den Zahlen minus 1 bis minus 6 verlängert, ein Pfeil zeigt nach links.
+        caption: Der gestrichelte Teil ist neu. Die Null ist fett, links von ihr stehen die negativen Zahlen.
         source: eigene Zeichnung
         licence: CC0-1.0
       - type: definition
@@ -107,9 +104,6 @@ blocks:
           - answer: 0
             message: 0 ist die Null selbst. A liegt links von ihr.
         explanation: A liegt drei Abschnitte links der Null, also bei −3.
-        links:
-          - title: Kartenseite Negative Zahlen und Betrag
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
       - type: multiple-choice
         id: negative-punkte
         text: Welche Punkte gehören zu negativen Zahlen?
@@ -124,17 +118,11 @@ blocks:
             correct: true
             info: C liegt fünf Abschnitte links der Null.
         explanation: Negative Zahlen liegen links der Null, das sind A und C.
-        links:
-          - title: Kartenseite Negative Zahlen und Betrag
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
       - type: true-false
         id: b-negativ
         text: Der Punkt B gehört zu einer negativen Zahl.
         answer: false
         explanation: B liegt rechts der Null, bei 2. Negative Zahlen liegen links der Null.
-        links:
-          - title: Kartenseite Negative Zahlen und Betrag
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
       - type: single-choice
         id: kontostand
         text: Der Kontostand der Materialkasse ist 15 Euro im Minus. Welche Zahl gehört dazu?
@@ -149,9 +137,6 @@ blocks:
             correct: false
             info: Das sind 150 Euro im Minus, also zehnmal so viel.
         explanation: Im Minus bedeutet unter null, also eine negative Zahl.
-        links:
-          - title: Kartenseite Negative Zahlen und Betrag
-            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
       - type: generated
         id: zahl-zum-text
         given:

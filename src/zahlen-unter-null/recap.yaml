@@ -27,36 +27,44 @@ blocks:
         id: kurztest-stellenwert
         component: Kurztest
         props:
-          question: Welchen Wert hat die 7 in der Zahl 5720?
+          question: "Welchen Wert hat die 7 in der Zahl 470 583?"
           options:
-            - { text: "7", correct: false, info: "Die 7 steht nicht an der Einerstelle, sondern weiter links." }
-            - { text: "70", correct: false, info: "Das wäre die Zehnerstelle. Die 7 steht eine Stelle weiter links." }
-            - { text: "700", correct: true, info: "Die 7 steht an der Hunderterstelle, sie ist 7 · 100 = 700 wert." }
+            - {
+                text: "7 000",
+                correct: false,
+                info: "Das wäre die Tausenderstelle. Die 7 steht eine Stelle weiter links, an der Zehntausenderstelle.",
+              }
+            - {
+                text: "70 000",
+                correct: true,
+                info: "Von rechts: Einer 3, Zehner 8, Hunderter 5, Tausender 0, Zehntausender 7. Die 7 ist 7 · 10 000 = 70 000 wert.",
+              }
+            - { text: "700 000", correct: false, info: "Das wäre die Hunderttausenderstelle. Dort steht die 4." }
           right: Richtig.
           wrong: Nicht richtig.
         nojs: |
-          Kurztest: Welchen Wert hat die 7 in der Zahl 5720? Zur Wahl stehen 7, 70 und 700. Antwort: 700, denn die 7 steht an der Hunderterstelle und ist 7 · 100 = 700 wert.
+          Kurztest: Welchen Wert hat die 7 in der Zahl 470 583? Zur Wahl stehen 7 000, 70 000 und 700 000. Antwort: 70 000, denn die 7 steht an der Zehntausenderstelle.
       - type: vue-component
         id: kurztest-stellenwert-zwei
         component: Kurztest
         props:
-          question: Wie schreibst du „zweitausendsiebenhundertvier“ mit Ziffern?
+          question: "Wie schreibst du „dreißigtausendzweihundertsieben“ mit Ziffern?"
           options:
-            - { text: "2704", correct: true, info: "2 Tausender, 7 Hunderter, 0 Zehner, 4 Einer." }
+            - { text: "30 207", correct: true, info: "3 Zehntausender, 0 Tausender, 2 Hunderter, 0 Zehner, 7 Einer." }
             - {
-                text: "2740",
+                text: "30 270",
                 correct: false,
-                info: "Das sind 4 Zehner und 0 Einer. Gesprochen ist es aber 4 Einer, also ohne Zehner.",
+                info: "Das sind 7 Zehner und 0 Einer. Gesprochen ist es aber 7 Einer, also ohne Zehner.",
               }
             - {
-                text: "27 004",
+                text: "3207",
                 correct: false,
-                info: "Das wäre siebenundzwanzigtausendvier. Hier gibt es nur 2 Tausender.",
+                info: "Das wäre dreitausendzweihundertsieben. Hier fehlt die Zehntausenderstelle.",
               }
           right: Richtig.
           wrong: Nicht richtig.
         nojs: |
-          Kurztest: Wie schreibst du zweitausendsiebenhundertvier mit Ziffern? Zur Wahl stehen 2704, 2740 und 27 004. Antwort: 2704, denn es sind 2 Tausender, 7 Hunderter, 0 Zehner und 4 Einer.
+          Kurztest: Wie schreibst du dreißigtausendzweihundertsieben mit Ziffern? Zur Wahl stehen 30 207, 30 270 und 3207. Antwort: 30 207, denn es sind 3 Zehntausender, 0 Tausender, 2 Hunderter, 0 Zehner und 7 Einer.
       - type: text
         text: |
           Hattest du den Kurztest nicht richtig oder bist du unsicher? Auf der Lernlandkarte von lernapps.net ist das Können in Bausteine geordnet. Übe den Baustein „Natürliche Zahlen im Stellenwertsystem“, seine Kartenseite: [Natürliche Zahlen im Stellenwertsystem](https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/).
@@ -96,57 +104,69 @@ blocks:
         id: kurztest-brueche
         component: Kurztest
         props:
-          question: Was ergibt 3/4 · 2/3, ganz gekürzt?
+          question: "Was ergibt 5/6 · 3/10, ganz gekürzt?"
           options:
-            - { text: "1/2", correct: true, info: "3 · 2 = 6 und 4 · 3 = 12, also 6/12. Gekürzt durch 6 ist das 1/2." }
             - {
-                text: "5/7",
-                correct: false,
-                info: "Du hast Zähler und Nenner addiert. Beim Multiplizieren rechnest du mal.",
+                text: "1/4",
+                correct: true,
+                info: "5 · 3 = 15 und 6 · 10 = 60, also 15/60. Gekürzt durch 15 ist das 1/4.",
               }
-            - { text: "6/12", correct: false, info: "Der Wert stimmt, aber der Bruch ist noch nicht ganz gekürzt." }
+            - {
+                text: "8/16",
+                correct: false,
+                info: "Du hast Zähler und Nenner addiert (5 + 3 und 6 + 10). Beim Multiplizieren rechnest du mal.",
+              }
+            - { text: "15/60", correct: false, info: "Der Wert stimmt, aber der Bruch ist noch nicht ganz gekürzt." }
           right: Richtig.
           wrong: Nicht richtig.
         nojs: |
-          Kurztest: Was ergibt drei Viertel mal zwei Drittel, ganz gekürzt? Zur Wahl stehen ein Halb, fünf Siebtel und sechs Zwölftel. Antwort: ein Halb. 3 · 2 = 6 und 4 · 3 = 12, also sechs Zwölftel, gekürzt ein Halb.
+          Kurztest: Was ergibt fünf Sechstel mal drei Zehntel, ganz gekürzt? Zur Wahl stehen ein Viertel, acht Sechzehntel und fünfzehn Sechzigstel. Antwort: ein Viertel. 5 · 3 = 15 und 6 · 10 = 60, also fünfzehn Sechzigstel, gekürzt ein Viertel.
       - type: vue-component
         id: kurztest-dividieren
         component: Kurztest
         props:
-          question: "Was ergibt 1/2 : 1/4?"
+          question: "Was ergibt 2/3 : 4/9?"
           options:
-            - { text: "2", correct: true, info: "Durch 1/4 teilen heißt mit 4/1 malnehmen: 1/2 · 4 = 4/2 = 2." }
             - {
-                text: "1/8",
-                correct: false,
-                info: "Das wäre 1/2 · 1/4. Beim Teilen musst du den zweiten Bruch umkehren.",
+                text: "3/2",
+                correct: true,
+                info: "Durch 4/9 teilen heißt mit 9/4 malnehmen: 2/3 · 9/4 = 18/12, gekürzt 3/2.",
               }
             - {
-                text: "1/2",
+                text: "8/27",
                 correct: false,
-                info: "Das ist der erste Bruch unverändert. Rechne 1/2 mal Kehrbruch von 1/4.",
+                info: "Das wäre 2/3 · 4/9. Beim Teilen musst du den zweiten Bruch umkehren.",
+              }
+            - {
+                text: "2/3",
+                correct: false,
+                info: "Du hast den ersten Bruch umgekehrt statt den zweiten. Umkehren musst du den Bruch, durch den du teilst.",
               }
           right: Richtig.
           wrong: Nicht richtig.
         nojs: |
-          Kurztest: Was ergibt ein Halb geteilt durch ein Viertel? Zur Wahl stehen 2, ein Achtel und ein Halb. Antwort: 2, denn Teilen durch ein Viertel heißt Malnehmen mit 4, also ein Halb mal 4 gleich 2.
+          Kurztest: Was ergibt zwei Drittel geteilt durch vier Neuntel? Zur Wahl stehen drei Halbe, acht Siebenundzwanzigstel und zwei Drittel. Antwort: drei Halbe. Teilen durch vier Neuntel heißt Malnehmen mit neun Viertel: zwei Drittel mal neun Viertel gleich achtzehn Zwölftel, gekürzt drei Halbe.
       - type: vue-component
         id: kurztest-dezimal
         component: Kurztest
         props:
-          question: Wie schreibst du 1/4 als Dezimalzahl?
+          question: "Wie schreibst du 7/8 als Dezimalzahl?"
           options:
-            - { text: "0,25", correct: true, info: "1/4 mit 25 erweitert ist 25/100, und das ist 0,25." }
+            - { text: "0,875", correct: true, info: "7/8 mit 125 erweitert ist 875/1000, und das ist 0,875." }
             - {
-                text: "0,14",
+                text: "0,78",
                 correct: false,
-                info: "Du hast Zähler und Nenner einfach nebeneinandergeschrieben. Erweitere auf den Nenner 100.",
+                info: "Du hast Zähler und Nenner einfach nebeneinandergeschrieben. Erweitere auf den Nenner 1000.",
               }
-            - { text: "0,4", correct: false, info: "0,4 sind vier Zehntel, das ist 4/10." }
+            - {
+                text: "0,7",
+                correct: false,
+                info: "0,7 sind sieben Zehntel, das ist 7/10 und ein bisschen weniger als 7/8.",
+              }
           right: Richtig.
           wrong: Nicht richtig.
         nojs: |
-          Kurztest: Wie schreibst du ein Viertel als Dezimalzahl? Zur Wahl stehen 0,25, 0,14 und 0,4. Antwort: 0,25, denn ein Viertel mit 25 erweitert ist 25 Hundertstel.
+          Kurztest: Wie schreibst du sieben Achtel als Dezimalzahl? Zur Wahl stehen 0,875, 0,78 und 0,7. Antwort: 0,875, denn sieben Achtel mit 125 erweitert sind 875 Tausendstel.
       - type: text
         text: |
           Hattest du den Kurztest nicht richtig oder bist du unsicher? Übe den Baustein „Bruchrechnung: Multiplikation und Division“, seine Kartenseite: [Bruchrechnung: Multiplikation und Division](https://lernapps.net/apps/map/mathematik/c/brueche-multiplizieren-dividieren/).
@@ -158,4 +178,4 @@ blocks:
         text: |
           - natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen kannst, auch auf dem Zahlenstrahl,
           - Brüche multiplizieren, dividieren und kürzen kannst,
-          - einen Bruch wie ein Viertel als Dezimalzahl 0,25 schreiben kannst.
+          - einen Bruch wie sieben Achtel als Dezimalzahl 0,875 schreiben kannst.
