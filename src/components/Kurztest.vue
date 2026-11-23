@@ -42,6 +42,9 @@ const result = computed(() =>
 
 <style scoped>
 .kurztest {
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
   margin: 1rem 0;
   padding: 0.75rem 1rem;
   border: 1px solid var(--page-border);
@@ -49,6 +52,8 @@ const result = computed(() =>
 }
 
 .kurztest legend {
+  max-width: 100%;
+  overflow-wrap: anywhere;
   padding: 0 0.4rem;
   font-weight: 600;
 }
@@ -56,7 +61,9 @@ const result = computed(() =>
 .kurztest-option {
   display: block;
   min-height: 44px;
-  line-height: 44px;
+  padding: 0.6rem 0;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
 }
 
 .kurztest-result {

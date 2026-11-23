@@ -92,6 +92,8 @@ Lernende der Klassen 7-8 verstehen, dass die Zahlengerade über die Null nach li
 - Nach dieser Nachprüfung geändert (nicht erneut geprüft, klein): genau diese Formulierungen und der Fehlerwert.
 - Bewusst belassen: Zahlenstrahl und Zahlengerade auf der Seite `negative-zahlen` (der Wechsel ist die Einführung); Zählung `a/b` in Kurztest-Props (Recap, Ausnahme W28): 3 Fragen mit Optionen und Infos, etwa 16 Stellen.
 
+**CI (Vorschau-PR, erster Lauf):** `usable-at-360px` Fehler auf der Recap-Seite: `fieldset.kurztest` 382 px breit bei 360 px (lokal nicht aufgefallen). Behoben im CSS der kopierten Komponente `Kurztest.vue` (`min-width: 0`, `max-width: 100%`, Umbruch langer Wörter, Optionszeile mit `min-height` statt fester `line-height`). Fund für die gemeinsame Vorlage in `/tmp/epic/docs/mathe-epic/components/`: dieselbe Korrektur gehört in jede Kopie.
+
 ## Explore
 
 <!--
