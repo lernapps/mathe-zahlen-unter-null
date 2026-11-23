@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Negative Zahlen auf der Zahlengerade
-description: Zahlen links der Null ablesen und einordnen. Der Zahlenstrahl bekommt ein linkes Ende.
+description: Zahlen links der Null ablesen und einordnen. Der Zahlenstrahl wird nach links verlängert.
 competencies: [rationale-zahlen]
 blocks:
   - type: section
@@ -13,7 +13,7 @@ blocks:
 
           **Karim:** Es war unter null. Welche Zahl schreiben wir ins Messbuch?
 
-          In diesem Kapitel lernst du, wie du solche Zahlen schreibst, ordnest und später mit ihnen rechnest. Zuerst: Lies das Thermometer ab. Der schwarze Balken ist die Flüssigkeitssäule, ihr oberes Ende zeigt die Temperatur in Grad Celsius (°C).
+          In diesem Kapitel lernst du, wie du solche Zahlen schreibst, ordnest und später mit ihnen rechnest. Zuerst: Lies das Thermometer ab. Der Balken in der Röhre ist die Flüssigkeitssäule, ihr oberes Ende zeigt die Temperatur in Grad Celsius (°C).
       - type: figure
         image: images/thermometer.svg
         alt: Thermometer mit Skala von minus 10 bis 10 Grad Celsius in Zweierschritten. Die Säule endet unterhalb der Null.
@@ -24,13 +24,13 @@ blocks:
         id: thermometer-ablesen
         text: Welche Temperatur zeigt das Thermometer? Gib sie als Zahl mit Einheit an, wie Karim sie ins Messbuch schreiben würde.
         options:
-          - text: "4 °C"
+          - text: "4 °C"
             correct: false
             info: Die Säule endet unterhalb der Null. Ohne Minus wäre das eine Temperatur über null.
-          - text: "−4 °C"
+          - text: "−4 °C"
             correct: true
-            info: Die Säule endet vier Grad unter der Null, also bei −4 °C.
-          - text: "−6 °C"
+            info: Die Säule endet vier Grad unter der Null, also bei −4 °C.
+          - text: "−6 °C"
             correct: false
             info: "Das ist der Strich unter dem Balkenende, also 2 Grad kälter. Zähle von der Null aus nach unten: −2, dann −4."
         explanation: Zahlen unter null schreibst du mit einem Minus davor.
@@ -39,7 +39,7 @@ blocks:
             url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
   - type: section
     id: beispiel
-    title: Der Zahlenstrahl bekommt ein linkes Ende
+    title: Der Zahlenstrahl wird nach links verlängert
     blocks:
       - type: text
         text: |
@@ -135,17 +135,17 @@ blocks:
             url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
       - type: single-choice
         id: kontostand
-        text: Der Kontostand der Materialkasse ist 15 Euro im Minus. Welche Zahl gehört dazu?
+        text: Der Kontostand der Materialkasse ist 15 Euro im Minus. Welche Zahl gehört dazu?
         options:
           - text: "15"
             correct: false
-            info: Das wäre ein Guthaben von 15 Euro.
+            info: Das wäre ein Guthaben von 15 Euro.
           - text: "−15"
             correct: true
             info: Schulden schreibst du mit einem Minus davor, also −15.
           - text: "−150"
             correct: false
-            info: Das sind 150 Euro im Minus, also zehnmal so viel.
+            info: Das sind 150 Euro im Minus, also zehnmal so viel.
         explanation: Im Minus bedeutet unter null, also eine negative Zahl.
         links:
           - title: Kartenseite Negative Zahlen und Betrag

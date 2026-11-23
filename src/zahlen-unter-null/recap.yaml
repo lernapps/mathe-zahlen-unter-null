@@ -19,12 +19,12 @@ blocks:
           Ich kann natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen.
       - type: definition
         term: Stellenwert
-        explanation: Der Stellenwert einer Ziffer sagt, wie viel sie in der Zahl wert ist. Er hängt von ihrer Stelle ab. Von rechts nach links stehen Einer, Zehner, Hunderter, Tausender. In 3 482 steht die 4 an der Hunderterstelle, sie ist also 400 wert.
+        explanation: Der Stellenwert einer Ziffer sagt, wie viel sie in der Zahl wert ist. Er hängt von ihrer Stelle ab. Von rechts nach links stehen Einer, Zehner, Hunderter, Tausender. In 3482 steht die 4 an der Hunderterstelle, sie ist also 400 wert.
       - type: vue-component
         id: kurztest-stellenwert
         component: Kurztest
         props:
-          question: Welchen Wert hat die 7 in der Zahl 5 720?
+          question: Welchen Wert hat die 7 in der Zahl 5720?
           options:
             - { text: "7", correct: false, info: "Die 7 steht nicht an der Einerstelle, sondern weiter links." }
             - { text: "70", correct: false, info: "Das wäre die Zehnerstelle. Die 7 steht eine Stelle weiter links." }
@@ -32,28 +32,28 @@ blocks:
           right: Richtig.
           wrong: Nicht richtig.
         nojs: |
-          Kurztest: Welchen Wert hat die 7 in der Zahl 5 720? Zur Wahl stehen 7, 70 und 700. Antwort: 700, denn die 7 steht an der Hunderterstelle und ist 7 · 100 = 700 wert.
+          Kurztest: Welchen Wert hat die 7 in der Zahl 5720? Zur Wahl stehen 7, 70 und 700. Antwort: 700, denn die 7 steht an der Hunderterstelle und ist 7 · 100 = 700 wert.
       - type: vue-component
         id: kurztest-stellenwert-zwei
         component: Kurztest
         props:
           question: Wie schreibst du „zweitausendsiebenhundertvier“ mit Ziffern?
           options:
-            - { text: "2 704", correct: true, info: "2 Tausender, 7 Hunderter, 0 Zehner, 4 Einer." }
+            - { text: "2704", correct: true, info: "2 Tausender, 7 Hunderter, 0 Zehner, 4 Einer." }
             - {
-                text: "2 740",
+                text: "2740",
                 correct: false,
                 info: "Das sind 4 Zehner und 0 Einer. Gesprochen ist es aber 4 Einer, also ohne Zehner.",
               }
             - {
-                text: "27 004",
+                text: "27 004",
                 correct: false,
                 info: "Das wäre siebenundzwanzigtausendvier. Hier gibt es nur 2 Tausender.",
               }
           right: Richtig.
           wrong: Nicht richtig.
         nojs: |
-          Kurztest: Wie schreibst du zweitausendsiebenhundertvier mit Ziffern? Zur Wahl stehen 2 704, 2 740 und 27 004. Antwort: 2 704, denn es sind 2 Tausender, 7 Hunderter, 0 Zehner und 4 Einer.
+          Kurztest: Wie schreibst du zweitausendsiebenhundertvier mit Ziffern? Zur Wahl stehen 2704, 2740 und 27 004. Antwort: 2704, denn es sind 2 Tausender, 7 Hunderter, 0 Zehner und 4 Einer.
       - type: text
         text: |
           Hattest du den Kurztest nicht richtig oder bist du unsicher? Auf der Lernlandkarte von lernapps.net ist das Können in Bausteine geordnet. Übe den Baustein „Natürliche Zahlen im Stellenwertsystem“, seine Kartenseite: [Natürliche Zahlen im Stellenwertsystem](https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/).

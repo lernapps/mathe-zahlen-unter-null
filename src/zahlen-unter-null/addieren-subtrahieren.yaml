@@ -9,20 +9,20 @@ blocks:
     blocks:
       - type: text
         text: |
-          **Tomás:** In der Materialkasse sind 8 €. Wir kaufen Stifte für 5 €. Das ist eine Änderung um −5 €.
+          **Tomás:** In der Materialkasse sind 8 €. Wir kaufen Stifte für 5 €. Das ist eine Änderung um −5 €.
 
           **Mara:** Dann rechnen wir 8 + (−5).
       - type: single-choice
         id: kasse-rechnen
         text: Wie viel Euro sind danach in der Kasse, wenn du 8 + (−5) rechnest?
         options:
-          - text: 13 €
+          - text: 13 €
             correct: false
-            info: Das wäre 8 + 5. Die Klammer (−5) heißt, dass 5 € weggehen.
-          - text: 3 €
+            info: Das wäre 8 + 5. Die Klammer (−5) heißt, dass 5 € weggehen.
+          - text: 3 €
             correct: true
             info: 8 + (−5) ist dasselbe wie 8 − 5, also 3.
-          - text: −3 €
+          - text: −3 €
             correct: false
             info: Du hast 8 und 5 vertauscht. Die Kasse hat mehr als sie ausgibt, also bleibt etwas übrig.
         explanation: Plus eine negative Zahl heißt, nach links zu gehen. Von 8 fünf Abschnitte nach links ist 3.
@@ -44,7 +44,7 @@ blocks:
         licence: CC0-1.0
       - type: text
         text: |
-          Beim Subtrahieren zeigt dir ein Zahlenmuster, was passiert. Die Zahl, die du abziehst, wird immer um 1 kleiner. Das Ergebnis wird dann immer um 1 größer. Setze das Muster nach links über die Null fort.
+          Beim Subtrahieren zeigt dir ein Zahlenmuster, was passiert. Die Zahl, die du abziehst, wird immer um 1 kleiner. Das Ergebnis wird dann immer um 1 größer. Das Muster läuft über die Null nach links weiter.
       - type: table
         caption: Muster beim Subtrahieren
         header: ["Aufgabe", "Ergebnis"]
@@ -101,7 +101,7 @@ blocks:
           - text: "−8"
             correct: false
             info: Das Ergebnis ist positiv. Von 6 aus gehst du nach rechts, nicht über die Null hinaus nach links.
-        explanation: Minus mal Minus-Klammer wird zu Plus. Aus 6 − (−2) wird 6 + 2.
+        explanation: "Minus vor einer negativen Zahl wird zu Plus: 6 − (−2) = 6 + 2."
         links:
           - title: Kartenseite Rechnen mit negativen Zahlen
             url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"

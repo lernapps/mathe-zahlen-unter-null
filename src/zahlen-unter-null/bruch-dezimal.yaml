@@ -35,7 +35,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Die Vorzeichenregeln gelten für alle rationalen Zahlen. Du rechnest erst mit den Beträgen und bestimmst dann das Vorzeichen.
+          Die Vorzeichenregeln gelten für alle rationalen Zahlen. Beim Multiplizieren und Dividieren rechnest du mit den Beträgen und bestimmst dann das Vorzeichen. Beim Addieren hat das Ergebnis das Vorzeichen der Zahl mit dem größeren Betrag.
       - type: example
         title: Brüche und Dezimalzahlen
         blocks:
@@ -70,15 +70,15 @@ blocks:
     blocks:
       - type: number
         id: dezimal-summe
-        text: Berechne −0,5 + 0,2.
-        answer: -0.3
+        text: Berechne −0,7 + 0,3.
+        answer: -0.4
         tolerance: 0
         mistakes:
-          - answer: -0.7
+          - answer: -1
             message: Du hast die Beträge addiert. Bei verschiedenen Vorzeichen ziehst du den kleineren Betrag vom größeren ab.
-          - answer: 0.3
-            message: Das Ergebnis liegt links der Null, denn −0,5 hat den größeren Betrag.
-        explanation: Von −0,5 gehst du 0,2 nach rechts und landest bei −0,3.
+          - answer: 0.4
+            message: Das Ergebnis liegt links der Null, denn −0,7 hat den größeren Betrag.
+        explanation: Von −0,7 gehst du 0,3 nach rechts und landest bei −0,4.
         links:
           - title: Kartenseite Rechnen mit negativen Zahlen
             url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
@@ -108,7 +108,7 @@ blocks:
           - answer: -2
             message: Minus mal Minus ergibt Plus.
           - answer: 20
-            message: Du hast die Kommastelle vergessen. 0,4 · 5 sind 2 Zehntel mal 10.
+            message: "Du hast die Kommastelle vergessen: 4 Zehntel mal 5 sind 20 Zehntel, also 2."
         explanation: 0,4 · 5 = 2. Beide Faktoren sind negativ, also ist das Produkt positiv.
         links:
           - title: Kartenseite Rechnen mit negativen Zahlen
@@ -144,7 +144,7 @@ blocks:
           - value: "n / b"
             message: "Die Faktoren haben verschiedene Vorzeichen. Das Produkt ist negativ."
           - value: "0 - b / n"
-            message: "Du hast den Bruch mit dem Kehrbruch gerechnet. Hier wird mit {{n}} malgenommen."
+            message: "Du hast die Zahlen vertauscht: Gesucht ist {{n}} mal ein {{b}}-tel."
         hint: "Rechne erst $\\frac{1}{{{b}}} \\cdot {{n}}$, dann setze das Vorzeichen."
         steps:
           - "$\\frac{1}{{{b}}} \\cdot {{n}} = \\frac{{{n}}}{{{b}}}$, ohne Vorzeichen."
@@ -173,4 +173,4 @@ blocks:
     blocks:
       - type: text
         text: |
-          Du kannst negative Zahlen auf der Zahlengerade ablesen und ordnen, ihren Betrag und ihre Gegenzahl angeben und mit ihnen addieren, subtrahieren, multiplizieren und dividieren, auch mit Brüchen und Dezimalzahlen. Als Nächstes kannst du mit Variablen rechnen und mit Wurzeln arbeiten. Beides baut auf diesen Regeln auf.
+          Du kannst negative Zahlen auf der Zahlengerade ablesen und ordnen, ihren Betrag und ihre Gegenzahl angeben und mit ihnen addieren, subtrahieren, multiplizieren und dividieren, auch mit Brüchen und Dezimalzahlen.

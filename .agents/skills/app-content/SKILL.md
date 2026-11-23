@@ -53,7 +53,7 @@ Aufgaben-ids stehen in den Seitendateien `src/zahlen-unter-null/<seite>.yaml`.
 
 - Zahlengerade als eigene SVG in `src/images/` (`source: eigene Zeichnung`, `licence: CC0-1.0`): gleiche Abschnitte, Hauptstriche beschriftet, die Null hervorgehoben, Pfeilspitzen an beiden Enden, die Beschriftung „negative Zahlen“/„positive Zahlen“ trägt die Information (nie Farbe allein), Textfarbe `currentColor` für den Dunkelmodus. `alt` sagt, was die Zeichnung zeigt; `caption` sagt, worauf man achten soll. Das Bild zeigt nur Gegebenes, nie die gesuchte Zahl.
 - Pfeile für Addieren/Subtrahieren (`pfeil-plus.svg` für 2 + (−5), `pfeil-minus.svg` für −2 − (−3)): gleiche Gerade, gestrichelter Bogen mit Pfeilspitze, Startpunkt als Punkt, Beschriftung der Rechnung über dem Bogen; nur in Beispielen, nie in Aufgaben. Weitere Bilder: `thermometer.svg`, `zahlenstrahl.svg`, `zahlengerade.svg`, `punkte.svg`.
-- Breite: lesbar bei 360 px (viewBox 640 breit, höchstens 11 beschriftete Striche).
+- Breite: lesbar bei 360 px (viewBox 640 breit, höchstens 13 beschriftete Striche).
 
 ## Sources
 

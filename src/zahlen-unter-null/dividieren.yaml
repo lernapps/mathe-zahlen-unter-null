@@ -9,7 +9,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          **Mara:** Die Materialkasse hat 12 € Schulden, also −12 €. Wir teilen sie gleich auf vier Personen auf.
+          **Mara:** Die Materialkasse hat 12 € Schulden, also −12 €. Wir teilen sie gleich auf vier Personen auf.
 
           **Tomás:** Das rechnen wir (−12) : 4.
       - type: single-choice
@@ -18,7 +18,7 @@ blocks:
         options:
           - text: "3"
             correct: false
-            info: "Der Quotient ist negativ. Jede Person hat 3 € Schulden, also −3."
+            info: "Der Quotient ist negativ. Jede Person hat 3 € Schulden, also −3."
           - text: "−3"
             correct: true
             info: "Probe: (−3) · 4 = −12. Das stimmt mit der Aufgabe überein."
@@ -33,6 +33,9 @@ blocks:
     id: beispiel
     title: Teilen ist die Umkehrung
     blocks:
+      - type: definition
+        term: Quotient, Dividend und Divisor
+        explanation: "Bei 12 : 4 = 3 ist 12 der Dividend, 4 der Divisor und 3 der Quotient."
       - type: text
         text: |
           Dividieren kehrt das Multiplizieren um. Die Probe zeigt dir jedes Mal, ob das Ergebnis stimmt: Quotient mal Divisor ergibt wieder die erste Zahl.
@@ -77,13 +80,13 @@ blocks:
         options:
           - text: "3"
             correct: false
-            info: Das Vorzeichen fehlt. Der Divisor ist negativ, der Quotient damit auch.
+            info: Das Vorzeichen fehlt. Dividend und Divisor haben verschiedene Vorzeichen, also ist der Quotient negativ.
           - text: "−3"
             correct: true
             info: "Probe: (−3) · (−6) = 18. Das stimmt."
-          - text: "−12"
+          - text: "−24"
             correct: false
-            info: Du hast 18 und −6 addiert. Hier wird geteilt.
+            info: Du hast die Beträge addiert und das Minus behalten. Hier wird geteilt.
         explanation: "18 : 6 = 3, die Vorzeichen sind verschieden, also −3."
         links:
           - title: Kartenseite Rechnen mit negativen Zahlen

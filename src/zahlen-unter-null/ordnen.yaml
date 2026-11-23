@@ -9,19 +9,19 @@ blocks:
     blocks:
       - type: text
         text: |
-          **Mara:** Montag waren es −2 °C, Dienstag −5 °C.
+          **Mara:** Montag waren es −2 °C, Dienstag −5 °C.
 
           **Tomás:** Dienstag war kälter. Aber 5 ist doch mehr als 2. Wie passt das zusammen?
       - type: single-choice
         id: kaelter
-        text: An welchem Tag war es kälter, am Montag mit −2 °C oder am Dienstag mit −5 °C?
+        text: An welchem Tag war es kälter, am Montag mit −2 °C oder am Dienstag mit −5 °C?
         options:
           - text: Am Montag
             correct: false
-            info: "−2 °C liegt näher an der Null als −5 °C. Bei Temperaturen unter null ist es kälter, je weiter unten der Wert liegt."
+            info: "−2 °C liegt näher an der Null als −5 °C. Bei Temperaturen unter null ist es kälter, je weiter unten der Wert liegt."
           - text: Am Dienstag
             correct: true
-            info: "−5 °C liegt weiter unter der Null als −2 °C. Darum war es am Dienstag kälter."
+            info: "−5 °C liegt weiter unter der Null als −2 °C. Darum war es am Dienstag kälter."
         explanation: Auf dem Thermometer ist es kälter, je weiter unten der Wert liegt. Dienstag liegt weiter unten.
         links:
           - title: Kartenseite Negative Zahlen und Betrag
@@ -77,14 +77,14 @@ blocks:
             url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen/"
       - type: single-choice
         id: meerestiefe
-        text: Ein Tauchroboter ist auf −40 m, ein anderer auf −25 m (Höhe zum Meeresspiegel). Welcher ist tiefer?
+        text: Ein Tauchroboter ist auf −40 m, ein anderer auf −25 m (Höhe zum Meeresspiegel). Welcher ist tiefer?
         options:
-          - text: Der bei −25 m
+          - text: Der bei −25 m
             correct: false
-            info: −25 m liegt näher am Meeresspiegel, also höher.
-          - text: Der bei −40 m
+            info: −25 m liegt näher am Meeresspiegel, also höher.
+          - text: Der bei −40 m
             correct: true
-            info: −40 m liegt weiter unter dem Meeresspiegel, also tiefer.
+            info: −40 m liegt weiter unter dem Meeresspiegel, also tiefer.
           - text: Beide gleich tief
             correct: false
             info: Die Zahlen sind verschieden, also liegen die Roboter verschieden tief.

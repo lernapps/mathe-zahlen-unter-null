@@ -9,22 +9,22 @@ blocks:
     blocks:
       - type: text
         text: |
-          **Jule:** Die Messstation liegt auf 3 m über dem Meeresspiegel, die im Hafen auf −3 m.
+          **Jule:** Die Messstation liegt auf 3 m über dem Meeresspiegel, die im Hafen auf −3 m.
 
           **Karim:** Beide liegen gleich weit vom Meeresspiegel entfernt, nur in andere Richtungen.
       - type: single-choice
         id: abstand
-        text: Wie viele Meter sind es vom Meeresspiegel (0 m) bis zur Station bei −3 m?
+        text: Wie viele Meter sind es vom Meeresspiegel (0 m) bis zur Station bei −3 m?
         options:
-          - text: 3 m
+          - text: 3 m
             correct: true
             info: Der Abstand von 0 bis −3 sind 3 Abschnitte. Ein Abstand ist nie negativ.
-          - text: −3 m
+          - text: −3 m
             correct: false
-            info: −3 m ist die Lage der Station. Gefragt war, wie weit sie entfernt ist, und ein Abstand ist nie negativ.
-          - text: 0 m
+            info: −3 m ist die Lage der Station. Gefragt war, wie weit sie entfernt ist, und ein Abstand ist nie negativ.
+          - text: 0 m
             correct: false
-            info: 0 m ist der Meeresspiegel selbst, nicht der Abstand zur Station.
+            info: 0 m ist der Meeresspiegel selbst, nicht der Abstand zur Station.
         explanation: Der Abstand von der Null wird in Abschnitten gezählt und ist darum nie negativ.
         links:
           - title: Kartenseite Negative Zahlen und Betrag
@@ -44,7 +44,7 @@ blocks:
           Spiegelst du eine Zahl an der Null, bekommst du ihre Gegenzahl. Die Gegenzahl von 4 ist −4, die von −4 ist 4. Beide haben den gleichen Abstand von der Null: 4 Abschnitte.
       - type: definition
         term: Gegenzahl
-        explanation: Die Gegenzahl einer Zahl liegt auf der anderen Seite der Null mit demselben Abstand. Sie hat das andere Vorzeichen. Die Gegenzahl von 7 ist −7, die von −2 ist 2.
+        explanation: Die Gegenzahl einer Zahl liegt auf der anderen Seite der Null mit demselben Abstand. Sie hat das andere Vorzeichen. Die Gegenzahl von 7 ist −7, die von −2 ist 2, die von 0 ist 0.
       - type: definition
         term: Betrag
         explanation: Der Betrag einer Zahl ist ihr Abstand von der Null. Er ist nie negativ. Man schreibt |−4| = 4 und |4| = 4.
