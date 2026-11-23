@@ -1,0 +1,148 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Multiplizieren mit negativen Zahlen
+description: Das Vorzeichen eines Produkts aus Zahlenmustern herleiten, die über die Null laufen.
+competencies: [rationale-zahlen-rechnen]
+blocks:
+  - type: section
+    id: einstieg
+    title: Jeden Tag weniger
+    blocks:
+      - type: text
+        text: |
+          **Karim:** Der Kontostand der Messstation sinkt jeden Tag um 3 €. Das ist eine Änderung um −3 € pro Tag.
+
+          **Jule:** Nach 4 Tagen ist er 4 · (−3) Euro anders als am Anfang.
+      - type: single-choice
+        id: vier-mal-minus-drei
+        text: Was ergibt 4 · (−3)?
+        options:
+          - text: "12"
+            correct: false
+            info: "Vier Tage mit je −3 € Änderung machen den Kontostand kleiner, nicht größer."
+          - text: "−12"
+            correct: true
+            info: "4 · (−3) heißt vier Mal −3 addieren: −3 + (−3) + (−3) + (−3) = −12."
+          - text: "−7"
+            correct: false
+            info: "Du hast 4 und −3 addiert. Hier wird multipliziert: viermal −3."
+        explanation: Multiplizieren ist wiederholtes Addieren. Viermal −3 ergibt −12.
+        links:
+          - title: Kartenseite Rechnen mit negativen Zahlen
+            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
+  - type: section
+    id: beispiel
+    title: Zahlenmuster über die Null
+    blocks:
+      - type: text
+        text: |
+          Wenn der zweite Faktor um 1 kleiner wird, wird das Ergebnis jedes Mal um 3 kleiner. Setze das Muster über die Null nach links fort.
+      - type: table
+        caption: Muster mit 3 als erstem Faktor
+        header: ["Aufgabe", "Ergebnis"]
+        rows:
+          - ["3 · 2", "6"]
+          - ["3 · 1", "3"]
+          - ["3 · 0", "0"]
+          - ["3 · (−1)", "−3"]
+          - ["3 · (−2)", "−6"]
+      - type: text
+        text: |
+          Was passiert, wenn auch der erste Faktor negativ ist? Mit −3 als erstem Faktor wächst das Ergebnis bei jedem Schritt um 3.
+      - type: table
+        caption: Muster mit −3 als erstem Faktor
+        header: ["Aufgabe", "Ergebnis"]
+        rows:
+          - ["(−3) · 2", "−6"]
+          - ["(−3) · 1", "−3"]
+          - ["(−3) · 0", "0"]
+          - ["(−3) · (−1)", "3"]
+          - ["(−3) · (−2)", "6"]
+  - type: section
+    id: merke
+    title: Merke
+    blocks:
+      - type: note
+        title: Vorzeichen beim Produkt
+        blocks:
+          - type: text
+            text: |
+              Haben beide Faktoren dasselbe Vorzeichen, ist das Produkt positiv. Haben sie verschiedene Vorzeichen, ist es negativ. Der Betrag des Produkts ist das Produkt der Beträge: (−4) · (−2) = 8.
+  - type: section
+    id: uebung
+    title: Aufgaben
+    blocks:
+      - type: number
+        id: minus-sechs-mal-vier
+        text: Berechne (−6) · 4.
+        answer: -24
+        tolerance: 0
+        mistakes:
+          - answer: 24
+            message: Die Faktoren haben verschiedene Vorzeichen, das Produkt ist darum negativ.
+          - answer: -2
+            message: Du hast −6 und 4 addiert. Hier wird multipliziert.
+        explanation: 6 · 4 = 24. Die Vorzeichen sind verschieden, also ist das Produkt negativ.
+        links:
+          - title: Kartenseite Rechnen mit negativen Zahlen
+            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
+      - type: single-choice
+        id: minus-fuenf-mal-minus-drei
+        text: Was ergibt (−5) · (−3)?
+        options:
+          - text: "−15"
+            correct: false
+            info: Beide Faktoren sind negativ, also ist das Produkt positiv. Das Muster der Tabelle zeigt es.
+          - text: "15"
+            correct: true
+            info: Gleiche Vorzeichen, also positiv. 5 · 3 = 15.
+          - text: "−8"
+            correct: false
+            info: Du hast addiert. Hier wird multipliziert.
+        explanation: Minus mal Minus ergibt Plus. Der Betrag ist 5 · 3 = 15.
+        links:
+          - title: Kartenseite Rechnen mit negativen Zahlen
+            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
+      - type: true-false
+        id: produkt-zwei-negative
+        text: Das Produkt aus zwei negativen Zahlen ist negativ.
+        answer: false
+        explanation: Zwei negative Faktoren haben dasselbe Vorzeichen, also ist das Produkt positiv, zum Beispiel (−3) · (−2) = 6.
+        links:
+          - title: Kartenseite Rechnen mit negativen Zahlen
+            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
+      - type: generated
+        id: negativ-mal-positiv
+        given:
+          a: { int: [2, 9] }
+          b: { int: [2, 9] }
+        where: ["a != b"]
+        task:
+          text: "Berechne (−{{a}}) · {{b}}."
+        answer: { value: "0 - a * b", compare: { number: { format: integer } } }
+        mistakes:
+          - value: "a * b"
+            message: "Die Faktoren haben verschiedene Vorzeichen. Das Produkt ist negativ."
+          - value: "0 - a - b"
+            message: "Du hast addiert. Hier wird multipliziert: {{a}} · {{b}}, dann das Vorzeichen."
+        hint: "Rechne erst {{a}} · {{b}}. Welches Vorzeichen hat das Produkt?"
+        steps:
+          - "{{a}} · {{b}} = {{a}} mal {{b}}, ohne Vorzeichen."
+          - "Die Faktoren haben verschiedene Vorzeichen, das Produkt ist negativ: {{answer}}."
+      - type: generated
+        id: negativ-mal-negativ
+        given:
+          a: { int: [2, 9] }
+          b: { int: [2, 9] }
+        where: ["a != b"]
+        task:
+          text: "Berechne (−{{a}}) · (−{{b}})."
+        answer: { value: "a * b", compare: { number: { format: integer } } }
+        mistakes:
+          - value: "0 - a * b"
+            message: "Minus mal Minus ergibt Plus. Beide Faktoren haben dasselbe Vorzeichen."
+          - value: "a + b"
+            message: "Du hast addiert. Hier wird multipliziert."
+        hint: "Haben beide Faktoren dasselbe Vorzeichen? Dann ist das Produkt positiv."
+        steps:
+          - "Beide Faktoren sind negativ, das Produkt ist positiv."
+          - "{{a}} · {{b}} = {{answer}}."

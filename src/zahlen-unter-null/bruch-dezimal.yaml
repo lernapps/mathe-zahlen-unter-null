@@ -1,0 +1,169 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Brüche und Dezimalzahlen mit Vorzeichen
+description: Mit negativen Brüchen und Dezimalzahlen rechnen und Vorzeichen- und Klammerregeln anwenden.
+competencies: [rationale-zahlen-rechnen]
+blocks:
+  - type: section
+    id: einstieg
+    title: Die Mitte zwischen 0 und −1
+    blocks:
+      - type: text
+        text: |
+          **Jule:** Auf der Zahlengerade haben auch Brüche und Dezimalzahlen links der Null ihr Spiegelbild.
+
+          **Karim:** Dann liegt −0,5 genauso weit links der Null wie 0,5 rechts.
+      - type: single-choice
+        id: mitte
+        text: Welche Zahl liegt genau in der Mitte zwischen 0 und −1?
+        options:
+          - text: "0,5"
+            correct: false
+            info: 0,5 liegt rechts der Null, zwischen 0 und 1.
+          - text: "−0,5"
+            correct: true
+            info: −0,5 liegt halb so weit links der Null wie −1.
+          - text: "−2"
+            correct: false
+            info: −2 liegt links von −1, nicht dazwischen.
+        explanation: Die Mitte zwischen 0 und −1 ist −0,5, das Spiegelbild von 0,5.
+        links:
+          - title: Kartenseite Rechnen mit negativen Zahlen
+            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
+  - type: section
+    id: beispiel
+    title: Dieselben Regeln, andere Zahlen
+    blocks:
+      - type: text
+        text: |
+          Die Vorzeichenregeln gelten für alle rationalen Zahlen. Du rechnest erst mit den Beträgen und bestimmst dann das Vorzeichen.
+      - type: example
+        title: Brüche und Dezimalzahlen
+        blocks:
+          - type: formula
+            formula: '\left(-\frac{1}{2}\right) \cdot \frac{3}{4} = -\frac{3}{8}'
+          - type: formula
+            formula: '\left(-\frac{3}{4}\right) : \frac{1}{2} = -\frac{3}{4} \cdot \frac{2}{1} = -\frac{3}{2}'
+          - type: formula
+            formula: "-0{,}5 + 0{,}2 = -0{,}3"
+      - type: text
+        text: |
+          Bei Klammern gelten diese Regeln: Zuerst rechnest du, was in Klammern steht. Punkt vor Strich gilt auch mit negativen Zahlen. Ein Minus vor einer Klammer mit einer negativen Zahl wird zu Plus.
+      - type: example
+        title: Punkt vor Strich mit Klammer
+        blocks:
+          - type: text
+            text: |
+              5 − (−3) · 2: erst das Produkt, (−3) · 2 = −6. Dann 5 − (−6) = 5 + 6 = 11.
+  - type: section
+    id: merke
+    title: Merke
+    blocks:
+      - type: note
+        title: Reihenfolge und Vorzeichen
+        blocks:
+          - type: text
+            text: |
+              Erst Klammern, dann Punkt vor Strich. Minus vor einer negativen Zahl wird zu Plus: 5 − (−6) = 5 + 6.
+  - type: section
+    id: uebung
+    title: Aufgaben
+    blocks:
+      - type: number
+        id: dezimal-summe
+        text: Berechne −0,5 + 0,2.
+        answer: -0.3
+        tolerance: 0
+        mistakes:
+          - answer: -0.7
+            message: Du hast die Beträge addiert. Bei verschiedenen Vorzeichen ziehst du den kleineren Betrag vom größeren ab.
+          - answer: 0.3
+            message: Das Ergebnis liegt links der Null, denn −0,5 hat den größeren Betrag.
+        explanation: Von −0,5 gehst du 0,2 nach rechts und landest bei −0,3.
+        links:
+          - title: Kartenseite Rechnen mit negativen Zahlen
+            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
+      - type: single-choice
+        id: bruch-produkt
+        text: "Was ergibt $\\left(-\\frac{2}{3}\\right) \\cdot \\frac{3}{4}$?"
+        options:
+          - text: "$-\\frac{1}{2}$"
+            correct: true
+            info: "Zähler mal Zähler 2 · 3 = 6, Nenner mal Nenner 3 · 4 = 12. Gekürzt ist das ein halb, mit Minus."
+          - text: "$\\frac{1}{2}$"
+            correct: false
+            info: "Das Vorzeichen fehlt. Die Faktoren haben verschiedene Vorzeichen."
+          - text: "$-\\frac{5}{7}$"
+            correct: false
+            info: "Du hast Zähler und Nenner addiert. Beim Multiplizieren rechnest du mal."
+        explanation: "Das Produkt ist negativ, der Betrag ist $\\frac{2}{3} \\cdot \\frac{3}{4} = \\frac{1}{2}$."
+        links:
+          - title: Kartenseite Rechnen mit negativen Zahlen
+            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
+      - type: number
+        id: dezimal-produkt
+        text: Berechne (−0,4) · (−5).
+        answer: 2
+        tolerance: 0
+        mistakes:
+          - answer: -2
+            message: Minus mal Minus ergibt Plus.
+          - answer: 20
+            message: Du hast die Kommastelle vergessen. 0,4 · 5 sind 2 Zehntel mal 10.
+        explanation: 0,4 · 5 = 2. Beide Faktoren sind negativ, also ist das Produkt positiv.
+        links:
+          - title: Kartenseite Rechnen mit negativen Zahlen
+            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
+      - type: generated
+        id: dezimal-rechnen
+        given:
+          a: { int: [1, 9] }
+          b: { int: [1, 9] }
+        where: ["a != b"]
+        task:
+          text: "Berechne −0,{{a}} + 0,{{b}}. Gib das Ergebnis als Dezimalzahl an."
+        answer: { value: "(b - a) / 10", compare: { number: { format: decimal, decimals: 1 } } }
+        mistakes:
+          - value: "(0 - a - b) / 10"
+            message: "Du hast die Beträge addiert. Bei verschiedenen Vorzeichen ziehst du den kleineren Betrag vom größeren ab."
+          - value: "(a - b) / 10"
+            message: "Das Vorzeichen stimmt nicht. Es ist das Vorzeichen der Zahl mit dem größeren Betrag."
+        hint: "Rechne in Zehnteln: Von −{{a}} Zehnteln gehst du {{b}} Zehntel nach rechts."
+        steps:
+          - "Von −0,{{a}} gehst du 0,{{b}} nach rechts."
+          - "Du landest bei {{answer}}."
+      - type: generated
+        id: bruch-mal-zahl
+        given:
+          b: { oneOf: [2, 4, 5, 10] }
+          n: { int: [1, 9] }
+        where: ["n != b", "decimals(n / b) <= 2"]
+        task:
+          text: "Berechne $\\left(-\\frac{1}{{{b}}}\\right) \\cdot {{n}}$. Gib das Ergebnis als Dezimalzahl an, auf zwei Stellen genau."
+        answer: { value: "0 - n / b", compare: { number: { format: decimal, decimals: 2 } } }
+        mistakes:
+          - value: "n / b"
+            message: "Die Faktoren haben verschiedene Vorzeichen. Das Produkt ist negativ."
+          - value: "0 - b / n"
+            message: "Du hast den Bruch mit dem Kehrbruch gerechnet. Hier wird mit {{n}} malgenommen."
+        hint: "Rechne erst $\\frac{1}{{{b}}} \\cdot {{n}}$, dann setze das Vorzeichen."
+        steps:
+          - "$\\frac{1}{{{b}}} \\cdot {{n}} = \\frac{{{n}}}{{{b}}}$, ohne Vorzeichen."
+          - "Das Produkt ist negativ: {{answer}}."
+      - type: generated
+        id: punkt-vor-strich
+        given:
+          c: { int: [1, 9] }
+          a: { int: [2, 9] }
+          b: { int: [2, 9] }
+        task:
+          text: "Berechne {{c}} − (−{{a}}) · {{b}}."
+        answer: { value: "c + a * b", compare: { number: { format: integer } } }
+        mistakes:
+          - value: "(c + a) * b"
+            message: "Punkt vor Strich: erst (−{{a}}) · {{b}}, dann {{c}} abziehen."
+          - value: "c - a * b"
+            message: "Minus vor einer negativen Zahl wird zu Plus. Aus {{c}} − (−{{a}} · {{b}}) wird {{c}} + {{a}} · {{b}}."
+        hint: "Rechne zuerst das Produkt (−{{a}}) · {{b}}."
+        steps:
+          - "Zuerst das Produkt: (−{{a}}) · {{b}} = −{{a}} mal {{b}}, also negativ."
+          - "Dann {{c}} − (negative Zahl) = {{c}} + Betrag. Ergebnis {{answer}}."

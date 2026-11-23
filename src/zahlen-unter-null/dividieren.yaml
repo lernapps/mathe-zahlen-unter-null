@@ -1,0 +1,140 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Dividieren mit negativen Zahlen
+description: Das Dividieren als Umkehrung des Multiplizierens verstehen und das Vorzeichen des Quotienten bestimmen.
+competencies: [rationale-zahlen-rechnen]
+blocks:
+  - type: section
+    id: einstieg
+    title: Schulden teilen
+    blocks:
+      - type: text
+        text: |
+          **Mara:** Die Materialkasse hat 12 € Schulden, also −12 €. Wir teilen sie gleich auf vier Personen auf.
+
+          **Tomás:** Das rechnen wir (−12) : 4.
+      - type: single-choice
+        id: schulden-teilen
+        text: "Was ergibt (−12) : 4?"
+        options:
+          - text: "3"
+            correct: false
+            info: "Der Quotient ist negativ. Jede Person hat 3 € Schulden, also −3."
+          - text: "−3"
+            correct: true
+            info: "Probe: (−3) · 4 = −12. Das stimmt mit der Aufgabe überein."
+          - text: "−8"
+            correct: false
+            info: "Du hast −12 und 4 addiert. Hier wird geteilt."
+        explanation: Teilen heißt, die Zahl zu suchen, die mit 4 malgenommen −12 ergibt. Das ist −3.
+        links:
+          - title: Kartenseite Rechnen mit negativen Zahlen
+            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
+  - type: section
+    id: beispiel
+    title: Teilen ist die Umkehrung
+    blocks:
+      - type: text
+        text: |
+          Dividieren kehrt das Multiplizieren um. Die Probe zeigt dir jedes Mal, ob das Ergebnis stimmt: Quotient mal Divisor ergibt wieder die erste Zahl.
+      - type: table
+        caption: Drei Divisionen mit Probe
+        header: ["Aufgabe", "Ergebnis", "Probe"]
+        rows:
+          - ["(−6) : 3", "−2", "(−2) · 3 = −6"]
+          - ["6 : (−3)", "−2", "(−2) · (−3) = 6"]
+          - ["(−6) : (−3)", "2", "2 · (−3) = −6"]
+  - type: section
+    id: merke
+    title: Merke
+    blocks:
+      - type: note
+        title: Vorzeichen beim Quotienten
+        blocks:
+          - type: text
+            text: |
+              Für den Quotienten gelten dieselben Vorzeichenregeln wie beim Produkt: gleiche Vorzeichen ergeben Plus, verschiedene ergeben Minus. Durch 0 teilst du nie.
+  - type: section
+    id: uebung
+    title: Aufgaben
+    blocks:
+      - type: number
+        id: minus-zwanzig-durch-vier
+        text: "Berechne (−20) : 4."
+        answer: -5
+        tolerance: 0
+        mistakes:
+          - answer: 5
+            message: Die Vorzeichen sind verschieden, der Quotient ist darum negativ.
+          - answer: -16
+            message: Du hast −20 und 4 addiert. Hier wird geteilt.
+        explanation: "20 : 4 = 5. Die Vorzeichen sind verschieden, also ist das Ergebnis −5. Probe (−5) · 4 = −20."
+        links:
+          - title: Kartenseite Rechnen mit negativen Zahlen
+            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
+      - type: single-choice
+        id: achtzehn-durch-minus-sechs
+        text: "Was ergibt 18 : (−6)?"
+        options:
+          - text: "3"
+            correct: false
+            info: Das Vorzeichen fehlt. Der Divisor ist negativ, der Quotient damit auch.
+          - text: "−3"
+            correct: true
+            info: "Probe: (−3) · (−6) = 18. Das stimmt."
+          - text: "−12"
+            correct: false
+            info: Du hast 18 und −6 addiert. Hier wird geteilt.
+        explanation: "18 : 6 = 3, die Vorzeichen sind verschieden, also −3."
+        links:
+          - title: Kartenseite Rechnen mit negativen Zahlen
+            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
+      - type: true-false
+        id: null-durch-negativ
+        text: "Es gilt 0 : (−5) = 0."
+        answer: true
+        explanation: Die Probe stimmt, denn 0 · (−5) = 0. Nur das Teilen durch 0 ist verboten, nicht das Teilen von 0.
+        links:
+          - title: Kartenseite Rechnen mit negativen Zahlen
+            url: "https://lernapps.net/apps/map/mathematik/c/rationale-zahlen-rechnen/"
+      - type: generated
+        id: negativ-durch-positiv
+        given:
+          d: { pick: 1, from: { data: teiler } }
+        task:
+          text: "Berechne (−{{d.dividend}}) : {{d.divisor}}."
+        answer: { value: "0 - d.quotient", compare: { number: { format: integer } } }
+        mistakes:
+          - value: "d.quotient"
+            message: "Die Vorzeichen sind verschieden, der Quotient ist darum negativ."
+        hint: "Rechne erst {{d.dividend}} : {{d.divisor}}. Welches Vorzeichen hat der Quotient?"
+        steps:
+          - "{{d.dividend}} : {{d.divisor}} = {{d.quotient}}, ohne Vorzeichen."
+          - "Die Vorzeichen sind verschieden, also ist der Quotient negativ: {{answer}}."
+      - type: generated
+        id: negativ-durch-negativ
+        given:
+          d: { pick: 1, from: { data: teiler } }
+        task:
+          text: "Berechne (−{{d.dividend}}) : (−{{d.divisor}})."
+        answer: { value: "d.quotient", compare: { number: { format: integer } } }
+        mistakes:
+          - value: "0 - d.quotient"
+            message: "Minus durch Minus ergibt Plus. Beide Vorzeichen sind gleich."
+        hint: "Haben Dividend und Divisor dasselbe Vorzeichen? Dann ist der Quotient positiv."
+        steps:
+          - "{{d.dividend}} : {{d.divisor}} = {{d.quotient}}."
+          - "Beide Vorzeichen sind negativ, der Quotient ist positiv: {{answer}}."
+      - type: generated
+        id: positiv-durch-negativ
+        given:
+          d: { pick: 1, from: { data: teiler } }
+        task:
+          text: "Berechne {{d.dividend}} : (−{{d.divisor}})."
+        answer: { value: "0 - d.quotient", compare: { number: { format: integer } } }
+        mistakes:
+          - value: "d.quotient"
+            message: "Der Divisor ist negativ, der Dividend positiv. Verschiedene Vorzeichen ergeben Minus."
+        hint: "Mach die Probe: Quotient mal Divisor muss {{d.dividend}} ergeben."
+        steps:
+          - "{{d.dividend}} : {{d.divisor}} = {{d.quotient}}, ohne Vorzeichen."
+          - "Verschiedene Vorzeichen, also {{answer}}."

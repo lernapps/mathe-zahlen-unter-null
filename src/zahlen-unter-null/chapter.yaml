@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Zahlen unter null
 summary: Negative Zahlen auf der Zahlengerade ordnen, ihren Betrag angeben und mit ihnen rechnen.
-pages: [recap, negative-zahlen, ordnen, gegenzahl-betrag]
+pages:
+  [recap, negative-zahlen, ordnen, gegenzahl-betrag, addieren-subtrahieren, multiplizieren, dividieren, bruch-dezimal]
