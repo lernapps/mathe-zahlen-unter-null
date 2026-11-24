@@ -109,7 +109,7 @@ Bild: Zahlengerade von minus 6 bis 6 mit den Punkten A, B und C. Zwei Punkte lie
 
 - Aufgabe: Welche Zahl gehört zum Punkt A?
 - Antwortformat: eine Zahl eintippen
-- Lösung: -3
+- Lösung: −3
 - Erklärung: A liegt drei Abschnitte links der Null, also bei −3.
 - Typische Fehler und was die App sagt:
   - 3: Das ist eine positive Zahl. A liegt links der Null, also gehört ein Minus davor.
@@ -165,46 +165,46 @@ Bild: Zahlengerade von minus 6 bis 6 mit den Punkten A, B und C. Zwei Punkte lie
 
 ```
 Nr. | k.vorher | a | k.nachher | Lösung | F1
-1 | Der Pegel im Hafen liegt | 2 | Meter unter dem Meeresspiegel. | -2 | 2
-2 | Das Thermometer der Messstation zeigt | 8 | Grad unter null. | -8 | 8
-3 | Der Kontostand der Materialkasse ist | 7 | Euro im Minus. | -7 | 7
-4 | Das Thermometer der Messstation zeigt | 15 | Grad unter null. | -15 | 15
-5 | Der Pegel im Hafen liegt | 14 | Meter unter dem Meeresspiegel. | -14 | 14
-6 | Der Kontostand der Materialkasse ist | 13 | Euro im Minus. | -13 | 13
-7 | Der Kontostand der Materialkasse ist | 12 | Euro im Minus. | -12 | 12
-8 | Der Pegel im Hafen liegt | 5 | Meter unter dem Meeresspiegel. | -5 | 5
-9 | Der Kontostand der Materialkasse ist | 5 | Euro im Minus. | -5 | 5
-10 | Das Thermometer der Messstation zeigt | 9 | Grad unter null. | -9 | 9
-11 | Der Kontostand der Materialkasse ist | 9 | Euro im Minus. | -9 | 9
-12 | Der Kontostand der Materialkasse ist | 10 | Euro im Minus. | -10 | 10
-13 | Der Pegel im Hafen liegt | 3 | Meter unter dem Meeresspiegel. | -3 | 3
-14 | Der Kontostand der Materialkasse ist | 3 | Euro im Minus. | -3 | 3
-15 | Das Thermometer der Messstation zeigt | 3 | Grad unter null. | -3 | 3
-16 | Das Thermometer der Messstation zeigt | 14 | Grad unter null. | -14 | 14
-17 | Das Thermometer der Messstation zeigt | 10 | Grad unter null. | -10 | 10
-18 | Das Thermometer der Messstation zeigt | 4 | Grad unter null. | -4 | 4
-19 | Das Thermometer der Messstation zeigt | 5 | Grad unter null. | -5 | 5
-20 | Das Thermometer der Messstation zeigt | 13 | Grad unter null. | -13 | 13
-21 | Der Kontostand der Materialkasse ist | 11 | Euro im Minus. | -11 | 11
-22 | Der Pegel im Hafen liegt | 8 | Meter unter dem Meeresspiegel. | -8 | 8
-23 | Der Pegel im Hafen liegt | 12 | Meter unter dem Meeresspiegel. | -12 | 12
-24 | Der Pegel im Hafen liegt | 9 | Meter unter dem Meeresspiegel. | -9 | 9
-25 | Der Kontostand der Materialkasse ist | 4 | Euro im Minus. | -4 | 4
-26 | Der Pegel im Hafen liegt | 11 | Meter unter dem Meeresspiegel. | -11 | 11
-27 | Der Pegel im Hafen liegt | 7 | Meter unter dem Meeresspiegel. | -7 | 7
-28 | Der Kontostand der Materialkasse ist | 15 | Euro im Minus. | -15 | 15
-29 | Das Thermometer der Messstation zeigt | 2 | Grad unter null. | -2 | 2
-30 | Der Pegel im Hafen liegt | 15 | Meter unter dem Meeresspiegel. | -15 | 15
-31 | Der Pegel im Hafen liegt | 4 | Meter unter dem Meeresspiegel. | -4 | 4
-32 | Der Kontostand der Materialkasse ist | 2 | Euro im Minus. | -2 | 2
-33 | Der Kontostand der Materialkasse ist | 8 | Euro im Minus. | -8 | 8
-34 | Der Kontostand der Materialkasse ist | 14 | Euro im Minus. | -14 | 14
-35 | Der Pegel im Hafen liegt | 6 | Meter unter dem Meeresspiegel. | -6 | 6
-36 | Das Thermometer der Messstation zeigt | 12 | Grad unter null. | -12 | 12
-37 | Der Pegel im Hafen liegt | 13 | Meter unter dem Meeresspiegel. | -13 | 13
-38 | Das Thermometer der Messstation zeigt | 7 | Grad unter null. | -7 | 7
-39 | Der Pegel im Hafen liegt | 10 | Meter unter dem Meeresspiegel. | -10 | 10
-40 | Das Thermometer der Messstation zeigt | 6 | Grad unter null. | -6 | 6
-41 | Das Thermometer der Messstation zeigt | 11 | Grad unter null. | -11 | 11
-42 | Der Kontostand der Materialkasse ist | 6 | Euro im Minus. | -6 | 6
+1 | Der Pegel im Hafen liegt | 2 | Meter unter dem Meeresspiegel. | −2 | 2
+2 | Das Thermometer der Messstation zeigt | 8 | Grad unter null. | −8 | 8
+3 | Der Kontostand der Materialkasse ist | 7 | Euro im Minus. | −7 | 7
+4 | Das Thermometer der Messstation zeigt | 15 | Grad unter null. | −15 | 15
+5 | Der Pegel im Hafen liegt | 14 | Meter unter dem Meeresspiegel. | −14 | 14
+6 | Der Kontostand der Materialkasse ist | 13 | Euro im Minus. | −13 | 13
+7 | Der Kontostand der Materialkasse ist | 12 | Euro im Minus. | −12 | 12
+8 | Der Pegel im Hafen liegt | 5 | Meter unter dem Meeresspiegel. | −5 | 5
+9 | Der Kontostand der Materialkasse ist | 5 | Euro im Minus. | −5 | 5
+10 | Das Thermometer der Messstation zeigt | 9 | Grad unter null. | −9 | 9
+11 | Der Kontostand der Materialkasse ist | 9 | Euro im Minus. | −9 | 9
+12 | Der Kontostand der Materialkasse ist | 10 | Euro im Minus. | −10 | 10
+13 | Der Pegel im Hafen liegt | 3 | Meter unter dem Meeresspiegel. | −3 | 3
+14 | Der Kontostand der Materialkasse ist | 3 | Euro im Minus. | −3 | 3
+15 | Das Thermometer der Messstation zeigt | 3 | Grad unter null. | −3 | 3
+16 | Das Thermometer der Messstation zeigt | 14 | Grad unter null. | −14 | 14
+17 | Das Thermometer der Messstation zeigt | 10 | Grad unter null. | −10 | 10
+18 | Das Thermometer der Messstation zeigt | 4 | Grad unter null. | −4 | 4
+19 | Das Thermometer der Messstation zeigt | 5 | Grad unter null. | −5 | 5
+20 | Das Thermometer der Messstation zeigt | 13 | Grad unter null. | −13 | 13
+21 | Der Kontostand der Materialkasse ist | 11 | Euro im Minus. | −11 | 11
+22 | Der Pegel im Hafen liegt | 8 | Meter unter dem Meeresspiegel. | −8 | 8
+23 | Der Pegel im Hafen liegt | 12 | Meter unter dem Meeresspiegel. | −12 | 12
+24 | Der Pegel im Hafen liegt | 9 | Meter unter dem Meeresspiegel. | −9 | 9
+25 | Der Kontostand der Materialkasse ist | 4 | Euro im Minus. | −4 | 4
+26 | Der Pegel im Hafen liegt | 11 | Meter unter dem Meeresspiegel. | −11 | 11
+27 | Der Pegel im Hafen liegt | 7 | Meter unter dem Meeresspiegel. | −7 | 7
+28 | Der Kontostand der Materialkasse ist | 15 | Euro im Minus. | −15 | 15
+29 | Das Thermometer der Messstation zeigt | 2 | Grad unter null. | −2 | 2
+30 | Der Pegel im Hafen liegt | 15 | Meter unter dem Meeresspiegel. | −15 | 15
+31 | Der Pegel im Hafen liegt | 4 | Meter unter dem Meeresspiegel. | −4 | 4
+32 | Der Kontostand der Materialkasse ist | 2 | Euro im Minus. | −2 | 2
+33 | Der Kontostand der Materialkasse ist | 8 | Euro im Minus. | −8 | 8
+34 | Der Kontostand der Materialkasse ist | 14 | Euro im Minus. | −14 | 14
+35 | Der Pegel im Hafen liegt | 6 | Meter unter dem Meeresspiegel. | −6 | 6
+36 | Das Thermometer der Messstation zeigt | 12 | Grad unter null. | −12 | 12
+37 | Der Pegel im Hafen liegt | 13 | Meter unter dem Meeresspiegel. | −13 | 13
+38 | Das Thermometer der Messstation zeigt | 7 | Grad unter null. | −7 | 7
+39 | Der Pegel im Hafen liegt | 10 | Meter unter dem Meeresspiegel. | −10 | 10
+40 | Das Thermometer der Messstation zeigt | 6 | Grad unter null. | −6 | 6
+41 | Das Thermometer der Messstation zeigt | 11 | Grad unter null. | −11 | 11
+42 | Der Kontostand der Materialkasse ist | 6 | Euro im Minus. | −6 | 6
 ```
