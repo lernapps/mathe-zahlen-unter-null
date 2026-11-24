@@ -51,11 +51,11 @@ Auf der Zahlengerade nach rechts und links gehen, auch bei negativen Zahlen und 
 
 ### Rechnen heißt gehen
 
-Addierst du eine positive Zahl, gehst du auf der Zahlengerade nach rechts. Addierst du eine negative Zahl, gehst du nach links. Bei 2 + (−5) startest du bei 2 und gehst 5 Abschnitte nach links. Subtrahierst du eine positive Zahl, gehst du auch nach links, wenn nötig über die Null: 2 − 6 = −4.
+Wenn du Einnahmen und Ausgaben verrechnen willst, kannst du auf der Zahlengerade gehen. Addierst du eine positive Zahl, gehst du nach rechts. Addierst du eine negative Zahl, gehst du nach links. Bei 2 + (−5) startest du bei 2 und gehst 5 Abschnitte nach links. Subtrahierst du eine positive Zahl, gehst du auch nach links, wenn nötig über die Null: 2 − 6 = −4.
 
 Bild: Zahlengerade von minus 6 bis 6. Ein gestrichelter Pfeil startet bei 2 und geht fünf Abschnitte nach links, mit der Beschriftung plus Klammer minus 5. Bildunterschrift: Der Pfeil zeigt die Rechnung 2 + (−5). Wo er endet, steht das Ergebnis.
 
-Beim Subtrahieren zeigt dir ein Zahlenmuster, was passiert. Die Zahl, die du abziehst, wird immer um 1 kleiner. Das Ergebnis wird dann immer um 1 größer, denn wer weniger abzieht, behält mehr. Eine negative Zahl abzuziehen heißt, die Zahlengerade nach rechts zu gehen. Das Muster geht nach unten über die Null in den negativen Bereich weiter.
+Wenn du eine negative Zahl abziehen musst, fehlt dir eine Regel dafür. Ein Zahlenmuster zeigt sie dir. Die Zahl, die du abziehst, wird immer um 1 kleiner. Das Ergebnis wird dann immer um 1 größer, denn wer weniger abzieht, behält mehr. Eine negative Zahl abzuziehen heißt, die Zahlengerade nach rechts zu gehen. Das Muster geht nach unten über die Null in den negativen Bereich weiter.
 
 Muster beim Subtrahieren:
 - Aufgabe | Ergebnis

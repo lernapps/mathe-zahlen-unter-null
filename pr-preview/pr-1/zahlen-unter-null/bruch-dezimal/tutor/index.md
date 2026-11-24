@@ -51,7 +51,7 @@ Mit negativen Brüchen und Dezimalzahlen rechnen und Vorzeichen- und Klammerrege
 
 ### Dieselben Regeln, andere Zahlen
 
-Die Vorzeichenregeln gelten für alle rationalen Zahlen. Beim Multiplizieren und Dividieren rechnest du mit den Beträgen und bestimmst dann das Vorzeichen. Beim Addieren hat das Ergebnis das Vorzeichen der Zahl mit dem größeren Betrag.
+Wenn du mit negativen Brüchen und Dezimalzahlen rechnen willst, brauchst du keine neuen Regeln. Die Vorzeichenregeln gelten für alle rationalen Zahlen. Beim Multiplizieren und Dividieren rechnest du mit den Beträgen und bestimmst dann das Vorzeichen. Beim Addieren hat das Ergebnis das Vorzeichen der Zahl mit dem größeren Betrag.
 
 **Beispiel: Brüche und Dezimalzahlen**
 
@@ -61,7 +61,7 @@ $\left(-\frac{3}{4}\right) : \frac{1}{2} = -\frac{3}{4} \cdot \frac{2}{1} = -\fr
 
 $-0{,}5 + 0{,}2 = -0{,}3$
 
-Bei Klammern gelten diese Regeln: Zuerst rechnest du, was in Klammern steht. Punkt vor Strich gilt auch mit negativen Zahlen. Ein Minus vor einer Klammer mit einer negativen Zahl wird zu Plus.
+Wenn eine Rechnung Klammern und mehrere Rechenzeichen hat, musst du die Reihenfolge kennen. Bei Klammern gelten diese Regeln: Zuerst rechnest du, was in Klammern steht. Punkt vor Strich gilt auch mit negativen Zahlen. Ein Minus vor einer Klammer mit einer negativen Zahl wird zu Plus.
 
 **Beispiel: Punkt vor Strich mit Klammer**
 

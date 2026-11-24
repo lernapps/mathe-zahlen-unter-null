@@ -53,7 +53,7 @@ Das Dividieren als Umkehrung des Multiplizierens verstehen und das Vorzeichen de
 
 - **Quotient, Dividend und Divisor**: Bei 12 : 4 = 3 ist 12 der Dividend, 4 der Divisor und 3 der Quotient.
 
-Dividieren kehrt das Multiplizieren um. Die Probe zeigt dir jedes Mal, ob das Ergebnis stimmt: Quotient mal Divisor ergibt wieder die erste Zahl.
+Wenn du wissen willst, ob ein Quotient mit Vorzeichen stimmt, machst du die Probe. Dividieren kehrt das Multiplizieren um. Die Probe zeigt dir jedes Mal, ob das Ergebnis stimmt: Quotient mal Divisor ergibt wieder die erste Zahl.
 
 Drei Divisionen mit Probe:
 - Aufgabe | Ergebnis | Probe

@@ -20,9 +20,11 @@ Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
 ## Wo das Kind gerade ist
 
+- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=stellenwert-pruefen`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Aufgabe, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
+- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/zahlen-unter-null/recap/?via=tutor#stellenwert-pruefen`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -39,29 +41,27 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 Diese Seite ist eine Wiederholung: Sie wiederholt etwas, das das Kind schon können sollte, und hat höchstens zwei Aufgaben zur Kontrolle. Erklär mit dem Inhalt der Seite und frag nach, ob das Kind ihn verstanden hat. Üben kann es das in anderen Apps; welche das sind, steht hier: https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/, https://lernapps.net/apps/map/mathematik/c/brueche-multiplizieren-dividieren/
 
-Was du aus früheren Klassen für dieses Kapitel können musst, mit Begriffen, Beispielen und je einem Kurztest.
+Was du aus früheren Klassen für dieses Kapitel können musst, mit Begriffen, Beispielen und zwei Übungen.
 
 ### Das brauchst du für dieses Kapitel
 
-Für „Zahlen unter null“ brauchst du zwei Dinge aus früheren Klassen. Lies jeden Abschnitt und mach den Kurztest. Nichts wird gezählt oder gespeichert.
+Wenn du mit Zahlen unter null rechnen willst, musst du zwei Dinge aus früheren Klassen sicher können. Lies jeden Abschnitt und löse die zwei Übungen, dann weißt du, ob du bereit bist.
 
 ### Natürliche Zahlen im Stellenwertsystem
 
-Ich kann natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen.
+Wenn du Zahlen vergleichen und ihren Abstand von der Null bestimmen willst, musst du Zahlen sicher lesen können. Ich kann natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen.
 
 - **Zahlenstrahl**: Der Zahlenstrahl beginnt bei der Null und geht nach rechts weiter. Auf ihm stehen nur Zahlen ab 0, zum Beispiel 0, 1, 2, 3, mit gleichen Abschnitten.
 
 - **Stellenwert**: Der Stellenwert einer Ziffer sagt, wie viel sie in der Zahl wert ist. Er hängt von ihrer Stelle ab. Von rechts nach links stehen Einer, Zehner, Hunderter, Tausender, Zehntausender, Hunderttausender. In 3482 steht die 4 an der Hunderterstelle, sie ist also 400 wert.
 
-Interaktiv: Kurztest: Welchen Wert hat die 7 in der Zahl 470 583? Zur Wahl stehen 7 000, 70 000 und 700 000. Antwort: 70 000, denn die 7 steht an der Zehntausenderstelle.
+- Aufgabe `stellenwert-pruefen` (unten)
 
-Interaktiv: Kurztest: Wie schreibst du dreißigtausendzweihundertsieben mit Ziffern? Zur Wahl stehen 30 207, 30 270 und 3207. Antwort: 30 207, denn es sind 3 Zehntausender, 0 Tausender, 2 Hunderter, 0 Zehner und 7 Einer.
-
-Hattest du den Kurztest nicht richtig oder bist du unsicher? Auf der Lernlandkarte von lernapps.net ist das Können in Bausteine geordnet. Übe den Baustein „Natürliche Zahlen im Stellenwertsystem“, seine Kartenseite: [Natürliche Zahlen im Stellenwertsystem](https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/).
+Fällt dir die Übung schwer? Dann übe den Baustein „Natürliche Zahlen im Stellenwertsystem“, seine Kartenseite: [Natürliche Zahlen im Stellenwertsystem](https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/).
 
 ### Bruchrechnung, Multiplikation und Division
 
-Ich kann Brüche multiplizieren und dividieren.
+Wenn du später mit Brüchen unter null rechnest, brauchst du das Multiplizieren und Dividieren von Brüchen. Ich kann Brüche multiplizieren und dividieren.
 
 - **Bruch**: Ein Bruch wie $\frac{3}{4}$ hat einen Zähler (oben) und einen Nenner (unten). Der Nenner sagt, in wie viele gleiche Teile das Ganze geteilt ist, der Zähler, wie viele Teile gemeint sind. $\frac{3}{4}$ sind drei von vier gleichen Teilen.
 
@@ -81,16 +81,35 @@ $\frac{1}{2} : \frac{1}{4} = \frac{1}{2} \cdot \frac{4}{1} = 2$
 
 - **Dezimalzahl**: Eine Dezimalzahl schreibt einen Bruch mit dem Nenner 10, 100, 1000, … mit Komma. Beispiel $\frac{3}{4}$ hat noch keinen solchen Nenner, mit 25 erweitert wird daraus $\frac{75}{100} = 0{,}75$. Die Stellen nach dem Komma sind Zehntel, Hundertstel, …
 
-Interaktiv: Kurztest: Was ergibt zwölf Fünfunddreißigstel mal vierzehn Neuntel, ganz gekürzt? Zur Wahl stehen acht Fünfzehntel, dreizehn Zweiundzwanzigstel und 168 Dreihundertfünfzehntel. Antwort: acht Fünfzehntel. 12 · 14 = 168 und 35 · 9 = 315, also 168 Dreihundertfünfzehntel, gekürzt durch 21 acht Fünfzehntel.
+- Aufgabe `bruch-dividieren` (unten)
 
-Interaktiv: Kurztest: Was ergibt zwei Drittel geteilt durch vier Neuntel? Zur Wahl stehen drei Halbe, acht Siebenundzwanzigstel und zwei Drittel. Antwort: drei Halbe. Teilen durch vier Neuntel heißt Malnehmen mit neun Viertel: zwei Drittel mal neun Viertel gleich achtzehn Zwölftel, gekürzt drei Halbe.
-
-Interaktiv: Kurztest: Wie schreibst du sieben Achtel als Dezimalzahl? Zur Wahl stehen 0,875, 0,78 und 0,7. Antwort: 0,875, denn sieben Achtel mit 125 erweitert sind 875 Tausendstel.
-
-Hattest du den Kurztest nicht richtig oder bist du unsicher? Übe den Baustein „Bruchrechnung: Multiplikation und Division“, seine Kartenseite: [Bruchrechnung: Multiplikation und Division](https://lernapps.net/apps/map/mathematik/c/brueche-multiplizieren-dividieren/).
+Fällt dir die Übung schwer? Dann übe den Baustein „Bruchrechnung: Multiplikation und Division“, seine Kartenseite: [Bruchrechnung: Multiplikation und Division](https://lernapps.net/apps/map/mathematik/c/brueche-multiplizieren-dividieren/).
 
 ### Du bist bereit, wenn du …
 
 - natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen kannst, auch auf dem Zahlenstrahl,
 - Brüche multiplizieren, dividieren und kürzen kannst,
 - einen Bruch wie sieben Achtel als Dezimalzahl 0,875 schreiben kannst.
+
+### Aufgabe stellenwert-pruefen
+
+- Aufgabe: Welchen Wert hat die 7 in der Zahl 470 583?
+- Antwortformat: eine Zahl eintippen
+- Lösung: 70 000
+- Erklärung: Von rechts: Einer 3, Zehner 8, Hunderter 5, Tausender 0, Zehntausender 7. Die 7 ist 7 · 10 000 = 70 000 wert.
+- Typische Fehler und was die App sagt:
+  - 7000: Das wäre die Tausenderstelle. Die 7 steht eine Stelle weiter links, an der Zehntausenderstelle.
+  - 700000: Das wäre die Hunderttausenderstelle. Dort steht die 4.
+- Link: [../?via=tutor#stellenwert-pruefen](../?via=tutor#stellenwert-pruefen)
+
+### Aufgabe bruch-dividieren
+
+- Aufgabe: Was ergibt $\frac{2}{3} : \frac{4}{9}$?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ $\frac{3}{2}$ – Durch $\frac{4}{9}$ teilen heißt mit $\frac{9}{4}$ malnehmen: $\frac{2}{3} \cdot \frac{9}{4} = \frac{18}{12}$, gekürzt $\frac{3}{2}$.
+  - ✗ $\frac{8}{27}$ – Das wäre $\frac{2}{3} \cdot \frac{4}{9}$. Beim Teilen musst du den zweiten Bruch umkehren.
+  - ✗ $\frac{2}{3}$ – Du hast den ersten Bruch umgekehrt statt den zweiten. Umkehren musst du den Bruch, durch den du teilst.
+- Lösung: $\frac{3}{2}$
+- Erklärung: Teilen durch einen Bruch heißt, mit seinem Kehrbruch zu multiplizieren.
+- Link: [../?via=tutor#bruch-dividieren](../?via=tutor#bruch-dividieren)

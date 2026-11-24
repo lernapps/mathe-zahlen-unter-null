@@ -53,11 +53,11 @@ Zahlen auf der Zahlengerade vergleichen und der Größe nach ordnen, auch wenn s
 
 Bild: Zahlengerade von minus 6 bis 6 mit gleichen Abschnitten. Die Null ist fett. Links der Null stehen die negativen Zahlen, rechts die positiven. Bildunterschrift: Suche −5 und −2 auf der Zahlengerade. Die Zahl, die weiter links steht, ist kleiner.
 
-Auf der Zahlengerade steht von zwei Zahlen die **kleinere** weiter links. −5 liegt links von −2, also gilt −5 &lt; −2. Gelesen: „minus 5 ist kleiner als minus 2“.
+Wenn du wissen willst, welche von zwei Zahlen kleiner ist, schaust du auf die Zahlengerade. Dort steht von zwei Zahlen die **kleinere** weiter links. −5 liegt links von −2, also gilt −5 &lt; −2. Gelesen: „minus 5 ist kleiner als minus 2“.
 
 **Beispiel: Drei Zahlen ordnen**
 
-Ordne −1, 3 und −4 von klein nach groß. Von links nach rechts auf der Zahlengerade stehen: −4, −1, 3. Also gilt −4 &lt; −1 &lt; 3.
+Wenn du mehrere Zahlen ordnen musst, legst du sie auf die Zahlengerade. Ordne −1, 3 und −4 von klein nach groß. Von links nach rechts auf der Zahlengerade stehen: −4, −1, 3. Also gilt −4 &lt; −1 &lt; 3.
 
 ### Merke
 

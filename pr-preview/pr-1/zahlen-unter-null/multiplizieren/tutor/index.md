@@ -53,7 +53,7 @@ Das Vorzeichen eines Produkts aus Zahlenmustern herleiten, die über die Null la
 
 - **Produkt und Faktor**: Bei 3 · 4 = 12 sind 3 und 4 die Faktoren, 12 ist das Produkt.
 
-Wenn der zweite Faktor um 1 kleiner wird, wird das Ergebnis jedes Mal um 3 kleiner. Das Muster geht nach unten über die Null in den negativen Bereich weiter.
+Wenn du Produkte mit negativen Zahlen rechnen willst, brauchst du eine Regel für das Vorzeichen. Zahlenmuster zeigen sie dir. Wenn der zweite Faktor um 1 kleiner wird, wird das Ergebnis jedes Mal um 3 kleiner. Das Muster geht nach unten über die Null in den negativen Bereich weiter.
 
 Muster mit 3 als erstem Faktor:
 - Aufgabe | Ergebnis
