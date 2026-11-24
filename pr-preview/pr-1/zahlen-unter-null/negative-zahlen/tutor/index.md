@@ -71,11 +71,11 @@ Bild: Eine Linie mit gleichen Abschnitten. Von 0 bis 6 ist sie durchgezogen. Lin
 
 ### Merke
 
-- **Vorzeichen**: Das Vorzeichen steht vor einer Zahl und sagt, auf welcher Seite der Null sie liegt. − steht für links der Null, + für rechts. In −3 ist das Minus das Vorzeichen. Ein Rechenzeichen steht dagegen zwischen zwei Zahlen, wie das Minus in 5 − 3.
+- **Vorzeichen**: Das Vorzeichen steht vor einer Zahl und sagt, auf welcher Seite der Null sie liegt: − links, + rechts. Ein Rechenzeichen steht dagegen zwischen zwei Zahlen, wie das Minus in 5 − 3.
 
 **Merke: Minus ist hier ein Vorzeichen**
 
-In −3 sagt das Minus, auf welcher Seite der Null die Zahl liegt. Ein Minus an dieser Stelle heißt **Vorzeichen**. Ein Rechenzeichen wäre es zwischen zwei Zahlen, wie in 5 − 3. Die Zahl −3 liegt drei Abschnitte links der Null.
+Wenn du Vorzeichen und Rechenzeichen auseinanderhalten willst, schau auf die Stelle: In −3 sagt das Minus, auf welcher Seite der Null die Zahl liegt, es ist ein Vorzeichen. Die Zahl −3 liegt drei Abschnitte links der Null.
 
 ### Aufgaben
 

@@ -71,7 +71,7 @@ Bild: Zahlengerade von minus 6 bis 6. Ein gestrichelter Pfeil startet bei minus 
 
 **Merke: Zwei Minus nebeneinander**
 
-Eine negative Zahl addieren heißt, ihren Betrag abzuziehen: 8 + (−5) = 8 − 5. Eine negative Zahl subtrahieren heißt, ihre Gegenzahl zu addieren: 4 − (−1) = 4 + 1.
+Wenn zwei Minuszeichen nebeneinanderstehen, vereinfachst du so. Eine negative Zahl addieren heißt, ihren Betrag abzuziehen: 8 + (−5) = 8 − 5. Eine negative Zahl subtrahieren heißt, ihre Gegenzahl zu addieren: 4 − (−1) = 4 + 1.
 
 ### Aufgaben
 

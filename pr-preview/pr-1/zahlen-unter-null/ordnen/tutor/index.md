@@ -63,7 +63,7 @@ Wenn du mehrere Zahlen ordnen musst, legst du sie auf die Zahlengerade. Ordne �
 
 **Merke: Zwei negative Zahlen vergleichen**
 
-Jede negative Zahl ist kleiner als jede positive Zahl und kleiner als 0. Von zwei negativen Zahlen ist die kleiner, die weiter von der Null entfernt liegt. −9 ist also kleiner als −3, obwohl 9 größer als 3 ist.
+Wenn du zwei negative Zahlen vergleichst, hilft dir diese Regel: Jede negative Zahl ist kleiner als jede positive Zahl und kleiner als 0. Von zwei negativen Zahlen ist die kleiner, die weiter von der Null entfernt liegt. −9 ist also kleiner als −3, obwohl 9 größer als 3 ist.
 
 ### Aufgaben
 

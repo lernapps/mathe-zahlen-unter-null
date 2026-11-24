@@ -45,13 +45,11 @@ Das Vorzeichen eines Produkts aus Zahlenmustern herleiten, die über die Null la
 
 **Karim:** Der Kontostand der Materialkasse sinkt jeden Tag um 3 €. Das ist eine Änderung um −3 € pro Tag.
 
-**Jule:** Nach 4 Tagen ist er 4 · (−3) Euro anders als am Anfang. Die Zahlen, die du multiplizierst, heißen Faktoren. Multiplizieren heißt wiederholt addieren: 4 · (−3) bedeutet, viermal −3 zu addieren.
+**Jule:** Nach 4 Tagen hat er sich um 4 · (−3) Euro verändert. Die Zahlen, die du multiplizierst, heißen Faktoren, das Ergebnis heißt Produkt. Multiplizieren heißt wiederholt addieren: 4 · (−3) bedeutet, viermal −3 zu addieren.
 
 - Aufgabe `vier-mal-minus-drei` (unten)
 
 ### Zahlenmuster über die Null
-
-- **Produkt und Faktor**: Bei 3 · 4 = 12 sind 3 und 4 die Faktoren, 12 ist das Produkt.
 
 Wenn du Produkte mit negativen Zahlen rechnen willst, brauchst du eine Regel für das Vorzeichen. Zahlenmuster zeigen sie dir. Wenn der zweite Faktor um 1 kleiner wird, wird das Ergebnis jedes Mal um 3 kleiner. Das Muster geht nach unten über die Null in den negativen Bereich weiter.
 
@@ -77,7 +75,7 @@ Muster mit −3 als erstem Faktor:
 
 **Merke: Vorzeichen beim Produkt**
 
-Haben beide Faktoren dasselbe Vorzeichen, ist das Produkt positiv. Haben sie verschiedene Vorzeichen, ist es negativ. Der Betrag des Produkts ist das Produkt der Beträge: (−4) · (−2) = 8.
+Wenn du das Vorzeichen eines Produkts sofort wissen willst, gilt: Haben beide Faktoren dasselbe Vorzeichen, ist das Produkt positiv. Haben sie verschiedene Vorzeichen, ist es negativ. Der Betrag des Produkts ist das Produkt der Beträge: (−4) · (−2) = 8.
 
 ### Aufgaben
 

@@ -61,7 +61,7 @@ $\left(-\frac{3}{4}\right) : \frac{1}{2} = -\frac{3}{4} \cdot \frac{2}{1} = -\fr
 
 $-0{,}5 + 0{,}2 = -0{,}3$
 
-Wenn eine Rechnung Klammern und mehrere Rechenzeichen hat, musst du die Reihenfolge kennen. Bei Klammern gelten diese Regeln: Zuerst rechnest du, was in Klammern steht. Punkt vor Strich gilt auch mit negativen Zahlen. Ein Minus vor einer Klammer mit einer negativen Zahl wird zu Plus.
+Wenn in einer Rechnung Klammern und negative Zahlen zusammenkommen, brauchst du zwei Regeln. Punkt vor Strich gilt auch mit negativen Zahlen. Ein Minus vor einer Klammer mit einer negativen Zahl wird zu Plus.
 
 **Beispiel: Punkt vor Strich mit Klammer**
 
@@ -71,7 +71,7 @@ Wenn eine Rechnung Klammern und mehrere Rechenzeichen hat, musst du die Reihenfo
 
 **Merke: Reihenfolge und Vorzeichen**
 
-Erst Klammern, dann Punkt vor Strich. Minus vor einer negativen Zahl wird zu Plus: 5 − (−6) = 5 + 6.
+Wenn du eine Rechnung mit Vorzeichen und Klammern ordnest, gilt: Erst Klammern, dann Punkt vor Strich. Minus vor einer negativen Zahl wird zu Plus: 5 − (−6) = 5 + 6.
 
 ### Aufgaben
 
@@ -241,32 +241,28 @@ Nr. | b | n | Lösung | F1 | F2
 1 | 2 | 3 | −1,5 | 1,5 | −0,666667
 2 | 10 | 6 | −0,6 | 0,6 | −1,666667
 3 | 4 | 3 | −0,75 | 0,75 | −1,333333
-4 | 2 | 6 | −3 | 3 | −0,333333
+4 | 5 | 9 | −1,8 | 1,8 | −0,555556
 5 | 10 | 7 | −0,7 | 0,7 | −1,428571
 6 | 2 | 5 | −2,5 | 2,5 | −0,4
 7 | 5 | 3 | −0,6 | 0,6 | −1,666667
 8 | 4 | 9 | −2,25 | 2,25 | −0,444444
 9 | 4 | 2 | −0,5 | 0,5 | −2
 10 | 5 | 4 | −0,8 | 0,8 | −1,25
-11 | 10 | 2 | −0,2 | 0,2 | −5
-12 | 5 | 6 | −1,2 | 1,2 | −0,833333
-13 | 2 | 7 | −3,5 | 3,5 | −0,285714
-14 | 5 | 7 | −1,4 | 1,4 | −0,714286
-15 | 4 | 7 | −1,75 | 1,75 | −0,571429
-16 | 2 | 4 | −2 | 2 | −0,5
+11 | 5 | 2 | −0,4 | 0,4 | −2,5
+12 | 10 | 2 | −0,2 | 0,2 | −5
+13 | 5 | 6 | −1,2 | 1,2 | −0,833333
+14 | 2 | 7 | −3,5 | 3,5 | −0,285714
+15 | 5 | 7 | −1,4 | 1,4 | −0,714286
+16 | 4 | 7 | −1,75 | 1,75 | −0,571429
 17 | 4 | 5 | −1,25 | 1,25 | −0,8
 18 | 10 | 5 | −0,5 | 0,5 | −2
-19 | 5 | 9 | −1,8 | 1,8 | −0,555556
-20 | 2 | 9 | −4,5 | 4,5 | −0,222222
-21 | 5 | 2 | −0,4 | 0,4 | −2,5
-22 | 5 | 8 | −1,6 | 1,6 | −0,625
-23 | 4 | 8 | −2 | 2 | −0,5
-24 | 10 | 9 | −0,9 | 0,9 | −1,111111
-25 | 2 | 8 | −4 | 4 | −0,25
-26 | 10 | 4 | −0,4 | 0,4 | −2,5
-27 | 10 | 8 | −0,8 | 0,8 | −1,25
-28 | 10 | 3 | −0,3 | 0,3 | −3,333333
-29 | 4 | 6 | −1,5 | 1,5 | −0,666667
+19 | 2 | 9 | −4,5 | 4,5 | −0,222222
+20 | 5 | 8 | −1,6 | 1,6 | −0,625
+21 | 10 | 9 | −0,9 | 0,9 | −1,111111
+22 | 10 | 4 | −0,4 | 0,4 | −2,5
+23 | 10 | 8 | −0,8 | 0,8 | −1,25
+24 | 10 | 3 | −0,3 | 0,3 | −3,333333
+25 | 4 | 6 | −1,5 | 1,5 | −0,666667
 ```
 
 ### Aufgabe punkt-vor-strich

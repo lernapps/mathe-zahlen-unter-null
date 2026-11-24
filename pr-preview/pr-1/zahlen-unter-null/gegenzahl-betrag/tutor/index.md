@@ -63,7 +63,7 @@ Wenn du wissen willst, wie weit eine Zahl von der Null entfernt ist und wo ihr G
 
 **Merke: Betrag und Gegenzahl**
 
-Zu einer Zahl und ihrer Gegenzahl gehört derselbe Betrag. Der Betrag einer negativen Zahl ist ihre Gegenzahl: |−4| = 4. Der Betrag einer positiven Zahl bleibt gleich. Der Betrag von 0 ist 0.
+Wenn du Betrag und Gegenzahl auseinanderhalten willst, merke dir: Zu einer Zahl und ihrer Gegenzahl gehört derselbe Betrag. Der Betrag einer negativen Zahl ist ihre Gegenzahl: |−4| = 4. Der Betrag einer positiven Zahl bleibt gleich. Der Betrag von 0 ist 0.
 
 ### Aufgaben
 
