@@ -100,6 +100,11 @@ Lernende der Klassen 7-8 verstehen, dass die Zahlengerade über die Null nach li
 - Lernenden-Prüfer (Klasse 7) auf den inhaltlich geänderten Seiten: keine Rechenfehler, keine Verweise auf Unsichtbares, Vorgänge erkennbar. Umgesetzt danach: Zehntausender/Hunderttausender und „1000“ in den Begriffen, schwerer Bruch-Kurztest, Name „Gerade“ erklärt, Abstand vor der ersten Aufgabe erklärt, Tabellen-Wortlaut („nach unten“), Warum beim Subtrahieren/Multiplizieren, Faktoren vorab, `0 : Zahl`. Diese letzten Wortlaut-Änderungen sind nicht erneut geprüft.
 - Offen: Recap enthält die Kartenseiten des Bausteins als Links (regeln.md §7.3, nicht an Aufgaben).
 
+**Neue Runde (Update und Regeln §7.6, §9 Punkte 7 bis 9):**
+- `lernapps update`: app-templates ^0.14.0 → ^0.19.0, tooling ^0.18.5 → ^0.18.6, Skills und Workflows ersetzt. `.claude/skills/*` wurden dabei von Kopien zu Symlinks; der Pre-commit-Hook scheiterte am Typwechsel (lint-staged „Failed to back up original state“), darum zwei Commits (alte Kopien entfernen, dann Update). `lernapps check`, Build und Tests grün.
+- (a) Recap: fünf Kurztests → zwei Übungen (`stellenwert-pruefen` als `number`, `bruch-dividieren` als `single-choice` mit gesetzten Brüchen); Komponente `Kurztest` gelöscht (kein `src/components` mehr). Inhaltsseiten wiederholen nichts Früheres. (b) Wozu zuerst: Anlass-Sätze am Anfang des Recap-Abschnitts und der Abschnitte „beispiel“ auf allen Seiten, vor Multiplizieren, Dividieren, Gegenzahl und Betrag. (c) Keine eigene Komponente mehr, also keine Buttons zu prüfen.
+- Danach ein Lernenden-Prüfer (siehe unten), Ergebnisse stehen im Plan.
+
 ## Explore
 
 <!--

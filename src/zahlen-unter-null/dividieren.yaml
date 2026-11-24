@@ -35,7 +35,7 @@ blocks:
         explanation: "Bei 12 : 4 = 3 ist 12 der Dividend, 4 der Divisor und 3 der Quotient."
       - type: text
         text: |
-          Dividieren kehrt das Multiplizieren um. Die Probe zeigt dir jedes Mal, ob das Ergebnis stimmt: Quotient mal Divisor ergibt wieder die erste Zahl.
+          Wenn du wissen willst, ob ein Quotient mit Vorzeichen stimmt, machst du die Probe. Dividieren kehrt das Multiplizieren um. Die Probe zeigt dir jedes Mal, ob das Ergebnis stimmt: Quotient mal Divisor ergibt wieder die erste Zahl.
       - type: table
         caption: Drei Divisionen mit Probe
         header: ["Aufgabe", "Ergebnis", "Probe"]

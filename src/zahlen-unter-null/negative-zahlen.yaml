@@ -42,7 +42,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Den **Zahlenstrahl** kennst du: Er beginnt bei der Null und geht nach rechts immer weiter. Auf ihm stehen nur Zahlen ab 0.
+          Wenn du Temperaturen unter null aufschreiben willst, reicht der Zahlenstrahl nicht aus. Den **Zahlenstrahl** kennst du: Er beginnt bei der Null und geht nach rechts immer weiter. Auf ihm stehen nur Zahlen ab 0.
       - type: figure
         image: images/zahlenstrahl.svg
         alt: Zahlenstrahl mit gleichen Abschnitten von 0 bis 6. Er beginnt links bei der Null, nach rechts geht er mit einem Pfeil weiter.
@@ -51,7 +51,7 @@ blocks:
         licence: CC0-1.0
       - type: text
         text: |
-          Jetzt wird der Zahlenstrahl links über die Null hinaus verlängert. Im Bild unten ist der neue Teil gestrichelt, der Pfeil zeigt die Richtung. Rechts bleibt alles gleich, links kommen neue Zahlen dazu, und die Abschnitte zwischen zwei Strichen bleiben gleich lang. Das Ganze heißt ab jetzt **Zahlengerade**: eine Gerade hat in beide Richtungen kein Ende. Links der Null stehen die **negativen Zahlen**, rechts die positiven.
+          Damit auch Zahlen unter null einen Platz haben, wird der Zahlenstrahl jetzt links über die Null hinaus verlängert. Im Bild unten ist der neue Teil gestrichelt, der Pfeil zeigt die Richtung. Rechts bleibt alles gleich, links kommen neue Zahlen dazu, und die Abschnitte zwischen zwei Strichen bleiben gleich lang. Das Ganze heißt ab jetzt **Zahlengerade**: eine Gerade hat in beide Richtungen kein Ende. Links der Null stehen die **negativen Zahlen**, rechts die positiven.
       - type: figure
         image: images/zahlengerade-neu.svg
         alt: Eine Linie mit gleichen Abschnitten. Von 0 bis 6 ist sie durchgezogen. Links der Null ist sie gestrichelt mit den Zahlen minus 1 bis minus 6 verlängert, ein Pfeil zeigt nach links.

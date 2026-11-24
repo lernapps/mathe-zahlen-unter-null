@@ -35,13 +35,13 @@ blocks:
         licence: CC0-1.0
       - type: text
         text: |
-          Auf der Zahlengerade steht von zwei Zahlen die **kleinere** weiter links. −5 liegt links von −2, also gilt −5 < −2. Gelesen: „minus 5 ist kleiner als minus 2“.
+          Wenn du wissen willst, welche von zwei Zahlen kleiner ist, schaust du auf die Zahlengerade. Dort steht von zwei Zahlen die **kleinere** weiter links. −5 liegt links von −2, also gilt −5 < −2. Gelesen: „minus 5 ist kleiner als minus 2“.
       - type: example
         title: Drei Zahlen ordnen
         blocks:
           - type: text
             text: |
-              Ordne −1, 3 und −4 von klein nach groß. Von links nach rechts auf der Zahlengerade stehen: −4, −1, 3. Also gilt −4 < −1 < 3.
+              Wenn du mehrere Zahlen ordnen musst, legst du sie auf die Zahlengerade. Ordne −1, 3 und −4 von klein nach groß. Von links nach rechts auf der Zahlengerade stehen: −4, −1, 3. Also gilt −4 < −1 < 3.
   - type: section
     id: merke
     title: Merke

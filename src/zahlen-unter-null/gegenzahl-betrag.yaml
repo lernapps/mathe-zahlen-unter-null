@@ -38,7 +38,7 @@ blocks:
         licence: CC0-1.0
       - type: text
         text: |
-          Im Bild oben wird 4 an der Null gespiegelt. Spiegelst du eine Zahl an der Null, bekommst du ihre Gegenzahl. Die Gegenzahl von 4 ist −4, die von −4 ist 4. Beide haben den gleichen Abstand von der Null: 4 Abschnitte.
+          Wenn du wissen willst, wie weit eine Zahl von der Null entfernt ist und wo ihr Gegenstück liegt, hilft dir die Spiegelung an der Null. Im Bild oben wird 4 an der Null gespiegelt. Spiegelst du eine Zahl an der Null, bekommst du ihre Gegenzahl. Die Gegenzahl von 4 ist −4, die von −4 ist 4. Beide haben den gleichen Abstand von der Null: 4 Abschnitte.
       - type: definition
         term: Gegenzahl
         explanation: Die Gegenzahl einer Zahl liegt auf der anderen Seite der Null mit demselben Abstand. Außer bei 0 hat sie das andere Vorzeichen. Die Gegenzahl von 7 ist −7, die von −2 ist 2, die von 0 ist 0.
