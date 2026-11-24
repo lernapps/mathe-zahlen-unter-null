@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Zahlen unter null
+summary: Negative Zahlen auf der Zahlengerade ordnen, ihren Betrag angeben und mit ihnen rechnen.
+pages:
+  [recap, negative-zahlen, ordnen, gegenzahl-betrag, addieren-subtrahieren, multiplizieren, dividieren, bruch-dezimal]
+selfAssessment:
+  pages:
+    - exercises:
+        - /zahlen-unter-null/negative-zahlen/#kontostand
+        - /zahlen-unter-null/negative-zahlen/#zahl-zum-text
+        - /zahlen-unter-null/negative-zahlen/#zahl-zum-text
+    - exercises:
+        - /zahlen-unter-null/ordnen/#zahlen-ordnen
+        - /zahlen-unter-null/ordnen/#kleinere-zahl
+        - /zahlen-unter-null/ordnen/#kleinere-zahl
+    - exercises:
+        - /zahlen-unter-null/gegenzahl-betrag/#gegenzahl-von-zwanzig
+        - /zahlen-unter-null/gegenzahl-betrag/#gegenzahl-negativ
+        - /zahlen-unter-null/gegenzahl-betrag/#betrag-ueben
+    - exercises:
+        - /zahlen-unter-null/addieren-subtrahieren/#minus-vier-plus-sieben
+        - /zahlen-unter-null/addieren-subtrahieren/#plus-negativ
+    - exercises:
+        - /zahlen-unter-null/multiplizieren/#minus-sechs-mal-vier
+        - /zahlen-unter-null/multiplizieren/#negativ-mal-negativ
+    - exercises:
+        - /zahlen-unter-null/dividieren/#minus-zwanzig-durch-vier
+        - /zahlen-unter-null/dividieren/#negativ-durch-negativ
+    - exercises:
+        - /zahlen-unter-null/bruch-dezimal/#dezimal-produkt
+        - /zahlen-unter-null/bruch-dezimal/#punkt-vor-strich

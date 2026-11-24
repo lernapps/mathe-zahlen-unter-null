@@ -1,0 +1,129 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Gegenzahl und Betrag
+description: Die Gegenzahl liegt spiegelbildlich zur Null, der Betrag ist der Abstand von der Null.
+competencies: [rationale-zahlen]
+blocks:
+  - type: section
+    id: einstieg
+    title: Wie weit von der Null entfernt?
+    blocks:
+      - type: text
+        text: |
+          **Jule:** Auf der Karte liegt der Schulhof 3 m über dem Meeresspiegel, der Pegel im Hafen auf −3 m.
+
+          **Karim:** Und wie weit ist der Hafenpegel vom Meeresspiegel entfernt? Der Abstand zählt, wie viele Meter es bis zum Meeresspiegel sind, egal in welche Richtung.
+      - type: single-choice
+        id: abstand
+        text: Wie viele Meter sind es vom Meeresspiegel (0 m) bis zum Pegel bei −3 m?
+        options:
+          - text: 3 m
+            correct: true
+            info: Von 0 bis −3 sind es 3 m. Ein Abstand ist nie negativ.
+          - text: −3 m
+            correct: false
+            info: −3 m ist die Lage des Pegels. Gefragt war, wie weit sie entfernt ist, und ein Abstand ist nie negativ.
+          - text: 0 m
+            correct: false
+            info: 0 m ist der Meeresspiegel selbst, nicht der Abstand zum Pegel.
+        explanation: Der Abstand von der Null wird in Abschnitten gezählt und ist darum nie negativ.
+  - type: section
+    id: beispiel
+    title: Spiegelbild und Abstand
+    blocks:
+      - type: figure
+        image: images/gegenzahl-spiegel.svg
+        alt: Zahlengerade von minus 6 bis 6. Bei 0 steht eine gestrichelte senkrechte Linie, der Spiegel. Die Punkte bei 4 und bei minus 4 liegen gleich weit von der Null entfernt, ein gestrichelter Bogen mit Pfeil führt von 4 nach minus 4.
+        caption: Die gestrichelte Linie bei 0 ist der Spiegel. Der Bogen zeigt, wie 4 auf −4 gespiegelt wird.
+        source: eigene Zeichnung
+        licence: CC0-1.0
+      - type: text
+        text: |
+          Wenn du wissen willst, wie weit eine Zahl von der Null entfernt ist und wo ihr Gegenstück liegt, hilft dir die Spiegelung an der Null. Im Bild oben wird 4 an der Null gespiegelt. Spiegelst du eine Zahl an der Null, bekommst du ihre Gegenzahl. Die Gegenzahl von 4 ist −4, die von −4 ist 4. Beide haben den gleichen Abstand von der Null: 4 Abschnitte.
+      - type: definition
+        term: Gegenzahl
+        explanation: Die Gegenzahl einer Zahl liegt auf der anderen Seite der Null mit demselben Abstand. Außer bei 0 hat sie das andere Vorzeichen. Die Gegenzahl von 7 ist −7, die von −2 ist 2, die von 0 ist 0.
+      - type: definition
+        term: Betrag
+        explanation: Der Betrag einer Zahl ist ihr Abstand von der Null. Er ist nie negativ. Man schreibt |−4| = 4 und |4| = 4.
+  - type: section
+    id: merke
+    title: Merke
+    blocks:
+      - type: note
+        title: Betrag und Gegenzahl
+        blocks:
+          - type: text
+            text: |
+              Wenn du Betrag und Gegenzahl auseinanderhalten willst, merke dir: Zu einer Zahl und ihrer Gegenzahl gehört derselbe Betrag. Der Betrag einer negativen Zahl ist ihre Gegenzahl: |−4| = 4. Der Betrag einer positiven Zahl bleibt gleich. Der Betrag von 0 ist 0.
+  - type: section
+    id: uebung
+    title: Aufgaben
+    blocks:
+      - type: number
+        id: gegenzahl-von-zwanzig
+        text: Wie heißt die Gegenzahl von 20?
+        answer: -20
+        tolerance: 0
+        mistakes:
+          - answer: 20
+            message: Das ist die Zahl selbst. Die Gegenzahl liegt auf der anderen Seite der Null.
+        explanation: 20 liegt 20 Abschnitte rechts der Null, die Gegenzahl 20 Abschnitte links, bei −20.
+      - type: true-false
+        id: betrag-negativ
+        text: Der Betrag einer Zahl kann negativ sein.
+        answer: false
+        explanation: Der Betrag ist ein Abstand und damit nie negativ. |−6| ist 6, nicht −6.
+      - type: matching
+        id: zahl-betrag
+        text: Ordne jeder Zahl ihren Betrag zu.
+        pairs:
+          - { left: "Betrag von −8", right: "8" }
+          - { left: "Betrag von 5", right: "5" }
+          - { left: "Betrag von −1", right: "1" }
+          - { left: "Betrag von 0", right: "0" }
+        explanation: Der Betrag ist der Abstand von der Null. Er hat nie ein Minus.
+      - type: generated
+        id: gegenzahl-ueben
+        given:
+          z: { pick: 1, from: { data: zahlen } }
+        where: ["z.wert > 0"]
+        task:
+          text: "Wie heißt die Gegenzahl von {{z.wert}}?"
+        answer: { value: "z.gegen", compare: { number: { format: integer } } }
+        mistakes:
+          - value: "z.wert"
+            message: "Das ist die Zahl selbst. Die Gegenzahl hat das andere Vorzeichen."
+        hint: "Spiegle die Zahl an der Null."
+        steps:
+          - "{{z.wert}} liegt {{z.wert}} Abschnitte rechts der Null."
+          - "Die Gegenzahl liegt ebenso weit links: {{answer}}."
+      - type: generated
+        id: gegenzahl-negativ
+        given:
+          z: { pick: 1, from: { data: zahlen } }
+        where: ["z.wert < 0"]
+        task:
+          text: "Wie heißt die Gegenzahl von −{{z.betrag}}?"
+        answer: { value: "z.gegen", compare: { number: { format: integer } } }
+        mistakes:
+          - value: "z.wert"
+            message: "Das ist die Zahl selbst. Die Gegenzahl einer negativen Zahl liegt rechts der Null."
+        hint: "Spiegle die Zahl an der Null."
+        steps:
+          - "−{{z.betrag}} liegt {{z.betrag}} Abschnitte links der Null."
+          - "Die Gegenzahl liegt ebenso weit rechts: {{answer}}."
+      - type: generated
+        id: betrag-ueben
+        given:
+          z: { pick: 1, from: { data: zahlen } }
+        where: ["z.wert < 0"]
+        task:
+          text: "Wie groß ist der Betrag von −{{z.betrag}}?"
+        answer: { value: "z.betrag", compare: { number: { format: integer } } }
+        mistakes:
+          - value: "z.wert"
+            message: "Ein Betrag ist ein Abstand und nie negativ. Lass das Minus weg."
+        hint: "Wie viele Abschnitte sind es von der Null bis zur Zahl?"
+        steps:
+          - "−{{z.betrag}} liegt {{z.betrag}} Abschnitte links der Null."
+          - "Der Betrag ist {{answer}}."

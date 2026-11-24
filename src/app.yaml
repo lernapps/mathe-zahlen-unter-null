@@ -1,0 +1,7 @@
+# yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+format: 2
+strand: mathematik/arithmetik
+title: Zahlen unter null
+intro: Die Zahlengerade wächst über die Null nach links weiter. Du ordnest negative Zahlen, gibst ihren Betrag an und rechnest mit ihnen.
+languages: [de]
+chapters: [zahlen-unter-null]
