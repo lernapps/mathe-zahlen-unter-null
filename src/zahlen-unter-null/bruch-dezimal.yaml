@@ -44,7 +44,7 @@ blocks:
             formula: "-0{,}5 + 0{,}2 = -0{,}3"
       - type: text
         text: |
-          Wenn eine Rechnung Klammern und mehrere Rechenzeichen hat, musst du die Reihenfolge kennen. Bei Klammern gelten diese Regeln: Zuerst rechnest du, was in Klammern steht. Punkt vor Strich gilt auch mit negativen Zahlen. Ein Minus vor einer Klammer mit einer negativen Zahl wird zu Plus.
+          Wenn in einer Rechnung Klammern und negative Zahlen zusammenkommen, brauchst du zwei Regeln. Punkt vor Strich gilt auch mit negativen Zahlen. Ein Minus vor einer Klammer mit einer negativen Zahl wird zu Plus.
       - type: example
         title: Punkt vor Strich mit Klammer
         blocks:
@@ -60,7 +60,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Erst Klammern, dann Punkt vor Strich. Minus vor einer negativen Zahl wird zu Plus: 5 − (−6) = 5 + 6.
+              Wenn du eine Rechnung mit Vorzeichen und Klammern ordnest, gilt: Erst Klammern, dann Punkt vor Strich. Minus vor einer negativen Zahl wird zu Plus: 5 − (−6) = 5 + 6.
   - type: section
     id: uebung
     title: Aufgaben
@@ -124,7 +124,7 @@ blocks:
         given:
           b: { oneOf: [2, 4, 5, 10] }
           n: { int: [2, 9] }
-        where: ["n != b", "decimals(n / b) <= 2"]
+        where: ["n != b", "decimals(n / b) <= 2", "n / b != round(n / b, 0)"]
         task:
           text: "Berechne $\\left(-\\frac{1}{{{b}}}\\right) \\cdot {{n}}$. Gib das Ergebnis als Dezimalzahl an, auf zwei Stellen genau."
         answer: { value: "0 - n / b", compare: { number: { format: decimal, decimals: 2 } } }

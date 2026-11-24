@@ -8,7 +8,7 @@ phase: commit
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: {}
+failedChecks: { checks-pass: 1 }
 ---
 
 # Plan: mathe-zahlen-unter-null, first version
@@ -104,6 +104,12 @@ Lernende der Klassen 7-8 verstehen, dass die Zahlengerade über die Null nach li
 - `lernapps update`: app-templates ^0.14.0 → ^0.19.0, tooling ^0.18.5 → ^0.18.6, Skills und Workflows ersetzt. `.claude/skills/*` wurden dabei von Kopien zu Symlinks; der Pre-commit-Hook scheiterte am Typwechsel (lint-staged „Failed to back up original state“), darum zwei Commits (alte Kopien entfernen, dann Update). `lernapps check`, Build und Tests grün.
 - (a) Recap: fünf Kurztests → zwei Übungen (`stellenwert-pruefen` als `number`, `bruch-dividieren` als `single-choice` mit gesetzten Brüchen); Komponente `Kurztest` gelöscht (kein `src/components` mehr). Inhaltsseiten wiederholen nichts Früheres. (b) Wozu zuerst: Anlass-Sätze am Anfang des Recap-Abschnitts und der Abschnitte „beispiel“ auf allen Seiten, vor Multiplizieren, Dividieren, Gegenzahl und Betrag. (c) Keine eigene Komponente mehr, also keine Buttons zu prüfen.
 - Danach ein Lernenden-Prüfer (siehe unten), Ergebnisse stehen im Plan.
+
+**Lernenden-Prüfer (Klasse 7), Recap und Anlass-Sätze (neue Runde):**
+- Recap: genau 2 Übungen, Brüche gesetzt, Tastatur ok; keine Rechenfehler; keine Wiederholungen oder Buttons ohne Wirkung auf den Inhaltsseiten. Kritik: zwei Übungen prüfen nicht alle Voraussetzungen (Zahlenstrahl, Kürzen, Dezimalzahl, „gleichnamig machen“ wird im Kapitel nicht gebraucht): bewusst so (Limit zwei Übungen, Begriffe stehen als Definition, Checkliste nennt sie).
+- Umgesetzt danach: Anlass-Sätze am Anfang der Merke-Kästen aller Seiten; Doppelung „Vorzeichen“ (Merke, Definition) und „Faktor/Produkt“ aufgelöst; Absatz zu Klammern auf der Seite `bruch-dezimal` gekürzt (nur das Neue: Minus vor Klammer, Punkt vor Strich mit negativen Zahlen), `bruch-mal-zahl` zieht keine ganzzahligen Ergebnisse mehr (kein „−2,00“); „Durch 0“ mit Begründung; holpriger Satz bei Jule.
+- Bewusst belassen: Definitionen (Glossar-Einträge) beginnen mit der Definition, nicht mit einem Anlass.
+- Diese letzten Änderungen sind nicht erneut geprüft.
 
 ## Explore
 
